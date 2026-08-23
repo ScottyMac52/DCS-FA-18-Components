@@ -1,12 +1,5 @@
--- WINCTRL CarrierAce PTO 2 - F/A-18C Hornet DEFAULT functions
--- This panel is purpose-built for the F/A-18C carrier variant.
--- All default carrier-ops switches are mapped here.
--- Do NOT repeat bindings from this file on other devices.
 local diff = {
 	["keyDiffs"] = {
-		-- =========================================================
-		-- REFUELING PROBE
-		-- =========================================================
 		["d3002pnilunilcd6vd-1vpnilvunil"] = {
 			["added"] = {
 				[1] = {
@@ -31,9 +24,6 @@ local diff = {
 			},
 			["name"] = "Probe Control Switch - EXTEND",
 		},
-		-- =========================================================
-		-- ANTI-SKID
-		-- =========================================================
 		["d3004pnilunilcd5vd0vpnilvunil"] = {
 			["added"] = {
 				[1] = {
@@ -50,9 +40,6 @@ local diff = {
 			},
 			["name"] = "Anti Skid Switch - ON",
 		},
-		-- =========================================================
-		-- LDG / TAXI LIGHT
-		-- =========================================================
 		["d3004pnilunilcd8vd0vpnilvunil"] = {
 			["added"] = {
 				[1] = {
@@ -69,9 +56,6 @@ local diff = {
 			},
 			["name"] = "LDG/TAXI LIGHT Switch - ON",
 		},
-		-- =========================================================
-		-- EMERGENCY / PARKING BRAKE
-		-- =========================================================
 		["d3005pnilunilcd5vd-1vpnilvunil"] = {
 			["added"] = {
 				[1] = {
@@ -96,17 +80,6 @@ local diff = {
 			},
 			["name"] = "Emergency/Parking Brake Handle - CCW",
 		},
-		["d3007pnilunilcd5vd-1vpnilvunil"] = {
-			["added"] = {
-				[1] = {
-					["key"] = "JOY_BTN41",
-				},
-			},
-			["name"] = "Emergency/Parking Brake Handle - CW",
-		},
-		-- =========================================================
-		-- FLAP SWITCH
-		-- =========================================================
 		["d3007pnilunilcd2vd0vpnilvunil"] = {
 			["added"] = {
 				[1] = {
@@ -123,9 +96,14 @@ local diff = {
 			},
 			["name"] = "FLAP Switch - AUTO",
 		},
-		-- =========================================================
-		-- MASTER CAUTION RESET
-		-- =========================================================
+		["d3007pnilunilcd5vd-1vpnilvunil"] = {
+			["added"] = {
+				[1] = {
+					["key"] = "JOY_BTN41",
+				},
+			},
+			["name"] = "Emergency/Parking Brake Handle - CW",
+		},
 		["d3008pnilu3008cd9vd1vpnilvu0"] = {
 			["added"] = {
 				[1] = {
@@ -134,16 +112,13 @@ local diff = {
 			},
 			["name"] = "MASTER CAUTION Reset Button",
 		},
-		-- =========================================================
-		-- ARRESTING HOOK
-		-- =========================================================
 		["d3009pnilunilcd5vd0vpnilvunil"] = {
 			["added"] = {
 				[1] = {
 					["key"] = "JOY_BTN34",
 				},
 			},
-			["name"] = "Arresting Hook Handle - DOWN",
+			["name"] = "Arresting Hook Handle - DOWN ",
 		},
 		["d3009pnilunilcd5vd1vpnilvunil"] = {
 			["added"] = {
@@ -153,9 +128,6 @@ local diff = {
 			},
 			["name"] = "Arresting Hook Handle - UP",
 		},
-		-- =========================================================
-		-- SELECTIVE JETTISON
-		-- =========================================================
 		["d3010pnilu3010cd23vd1vpnilvu0"] = {
 			["added"] = {
 				[1] = {
@@ -204,9 +176,6 @@ local diff = {
 			},
 			["name"] = "Selective Jettison Knob - SAFE",
 		},
-		-- =========================================================
-		-- WING FOLD
-		-- =========================================================
 		["d3011pnilunilcd2vd-1vpnilvunil"] = {
 			["added"] = {
 				[1] = {
@@ -231,9 +200,6 @@ local diff = {
 			},
 			["name"] = "Wing Fold Control Handle - SPREAD",
 		},
-		-- =========================================================
-		-- LAUNCH BAR
-		-- =========================================================
 		["d3014pnilu3014cd5vd1vpnilvu0"] = {
 			["added"] = {
 				[1] = {
@@ -250,20 +216,14 @@ local diff = {
 			},
 			["name"] = "Launch Bar Control Switch - RETRACT",
 		},
-		-- =========================================================
-		-- FLAP - FULL DOWN
-		-- =========================================================
 		["d3017pnilunilcd2vd-1vpnilvunil"] = {
 			["added"] = {
 				[1] = {
 					["key"] = "JOY_BTN7",
 				},
 			},
-			["name"] = "FLAP Switch - FULL",
+			["name"] = "FLAP Switch - Down",
 		},
-		-- =========================================================
-		-- STATION JETTISON SELECT
-		-- =========================================================
 		["d3018pnilunilcd23vd0vpnilvunil"] = {
 			["added"] = {
 				[1] = {
@@ -312,9 +272,6 @@ local diff = {
 			},
 			["name"] = "Station Jettison Select Button RIGHT OUT - ON/OFF",
 		},
-		-- =========================================================
-		-- HOOK BYPASS
-		-- =========================================================
 		["d3025pnilu3025cd9vd1vpnilvu0"] = {
 			["added"] = {
 				[1] = {
@@ -331,9 +288,6 @@ local diff = {
 			},
 			["name"] = "HOOK BYPASS Switch - CARRIER",
 		},
-		-- =========================================================
-		-- LANDING GEAR
-		-- =========================================================
 		["d430pnilunilcdnilvdnilvpnilvunil"] = {
 			["added"] = {
 				[1] = {

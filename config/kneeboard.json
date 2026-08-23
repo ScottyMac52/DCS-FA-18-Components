@@ -24,7 +24,7 @@
       "kicker": "SCAFFOLD DRAFT",
       "_comment": "labels default to the imported DCS command name and remain editable; deviceLabel contains the canonical DCS-Common hardware label. keep callout IDs in sync with controls. You can also set \"label\" on a controls entry.",
       "labels": {
-        "hornet-grip-paddle": "AP/NWS"
+        "hornet-grip-paddle": "Autopilot/Nosewheel Steering Disengage (Paddle) Switch"
       },
       "modifierCallouts": {},
       "layers": [
@@ -35,11 +35,11 @@
               "profile": "ava-base-f18c",
               "key": "JOY_BTN4",
               "command": "d3018pnilu3018cd13vd1vpnilvu0",
-              "label": "AP/NWS"
+              "label": "Autopilot/Nosewheel Steering Disengage (Paddle) Switch"
             }
           },
           "labels": {
-            "hornet-grip-paddle": "AP/NWS"
+            "hornet-grip-paddle": "Autopilot/Nosewheel Steering Disengage (Paddle) Switch"
           }
         },
         {
@@ -54,14 +54,14 @@
               "profile": "ava-base-f18c",
               "key": "JOY_BTN4",
               "command": "d3004pnilu3004cd13vd1vpnilvu0",
-              "label": "NWS / Undesignate",
+              "label": "Nose Wheel Steering (NWS) / Undesignate",
               "modifiers": [
                 "MOZA_F16_F18_BTN3"
               ]
             }
           },
           "labels": {
-            "hornet-grip-paddle": "NWS / Undesignate"
+            "hornet-grip-paddle": "Nose Wheel Steering (NWS) / Undesignate"
           }
         }
       ]
@@ -75,206 +75,238 @@
       "kicker": "INSTANCE 1",
       "_comment": "labels default to the imported DCS command name and remain editable; deviceLabel contains the canonical DCS-Common hardware label. keep callout IDs in sync with controls. You can also set \"label\" on a controls entry.",
       "labels": {
-        "mfd-osb-t1": "OSB01",
-        "mfd-osb-t2": "OSB02",
-        "mfd-osb-t3": "OSB03",
-        "mfd-osb-t4": "OSB04",
-        "mfd-osb-t5": "OSB05",
-        "mfd-osb-r1": "OSB06",
-        "mfd-osb-r2": "OSB07",
-        "mfd-osb-r3": "OSB08",
-        "mfd-osb-r4": "OSB09",
-        "mfd-osb-r5": "OSB10",
-        "mfd-osb-b5": "OSB11",
-        "mfd-osb-b4": "OSB12",
-        "mfd-osb-b3": "OSB13",
-        "mfd-osb-b2": "OSB14",
-        "mfd-osb-b1": "OSB15",
-        "mfd-osb-l5": "OSB16",
-        "mfd-osb-l4": "OSB17",
-        "mfd-osb-l3": "OSB18",
-        "mfd-osb-l2": "OSB19",
-        "mfd-osb-l1": "OSB20",
-        "mfd-rocker-gain": "BRT/CONT Bright",
-        "mfd-rocker-lvl": "BRT/CONT Dim",
-        "mfd-rocker-con-up": "Brightness INC",
-        "mfd-rocker-con-down": "Brightness DEC"
+        "mfd-rocker-con-up": "Left MDI Brightness Selector Knob: DAY<>NIGHT",
+        "mfd-rocker-con-down": "Left MDI Brightness Selector Knob: OFF<>NIGHT",
+        "mfd-rocker-brt-up": "Left MDI Brightness Selector Knob - DAY",
+        "mfd-rocker-brt-down": "Left MDI Brightness Selector Knob - OFF",
+        "mfd-osb-l5": "Left MDI PB 1",
+        "mfd-osb-l4": "Left MDI PB 2",
+        "mfd-osb-l3": "Left MDI PB 3",
+        "mfd-osb-l2": "Left MDI PB 4",
+        "mfd-osb-l1": "Left MDI PB 5",
+        "mfd-osb-t1": "Left MDI PB 6",
+        "mfd-osb-t2": "Left MDI PB 7",
+        "mfd-osb-t3": "Left MDI PB 8",
+        "mfd-osb-t4": "Left MDI PB 9",
+        "mfd-osb-t5": "Left MDI PB 10",
+        "mfd-osb-r1": "Left MDI PB 11",
+        "mfd-osb-r2": "Left MDI PB 12",
+        "mfd-osb-r3": "Left MDI PB 13",
+        "mfd-osb-r4": "Left MDI PB 14",
+        "mfd-osb-r5": "Left MDI PB 15",
+        "mfd-osb-b5": "Left MDI PB 16",
+        "mfd-osb-b4": "Left MDI PB 17",
+        "mfd-osb-b3": "Left MDI PB 18",
+        "mfd-osb-b2": "Left MDI PB 19",
+        "mfd-osb-b1": "Left MDI PB 20",
+        "mfd-rocker-gain": "Left MDI Brightness Selector Knob - CCW/Left",
+        "mfd-rocker-lvl": "Left MDI Brightness Selector Knob - CW/Right",
+        "mfd-rocker-int": "Left MDI Brightness Control Knob - CCW/Decrease",
+        "mfd-rocker-sym": "Left MDI Brightness Control Knob - CW/Increase"
       },
       "modifierCallouts": {},
       "layers": [
         {
           "id": "base",
           "controls": {
-            "mfd-osb-t1": {
-              "profile": "tm-mfd-1",
-              "key": "JOY_BTN1",
-              "command": "d3011pnilu3011cd35vd1vpnilvu0",
-              "label": "OSB01"
-            },
-            "mfd-osb-t2": {
-              "profile": "tm-mfd-1",
-              "key": "JOY_BTN2",
-              "command": "d3012pnilu3012cd35vd1vpnilvu0",
-              "label": "OSB02"
-            },
-            "mfd-osb-t3": {
-              "profile": "tm-mfd-1",
-              "key": "JOY_BTN3",
-              "command": "d3013pnilu3013cd35vd1vpnilvu0",
-              "label": "OSB03"
-            },
-            "mfd-osb-t4": {
-              "profile": "tm-mfd-1",
-              "key": "JOY_BTN4",
-              "command": "d3014pnilu3014cd35vd1vpnilvu0",
-              "label": "OSB04"
-            },
-            "mfd-osb-t5": {
-              "profile": "tm-mfd-1",
-              "key": "JOY_BTN5",
-              "command": "d3015pnilu3015cd35vd1vpnilvu0",
-              "label": "OSB05"
-            },
-            "mfd-osb-r1": {
-              "profile": "tm-mfd-1",
-              "key": "JOY_BTN6",
-              "command": "d3016pnilu3016cd35vd1vpnilvu0",
-              "label": "OSB06"
-            },
-            "mfd-osb-r2": {
-              "profile": "tm-mfd-1",
-              "key": "JOY_BTN7",
-              "command": "d3017pnilu3017cd35vd1vpnilvu0",
-              "label": "OSB07"
-            },
-            "mfd-osb-r3": {
-              "profile": "tm-mfd-1",
-              "key": "JOY_BTN8",
-              "command": "d3018pnilu3018cd35vd1vpnilvu0",
-              "label": "OSB08"
-            },
-            "mfd-osb-r4": {
-              "profile": "tm-mfd-1",
-              "key": "JOY_BTN9",
-              "command": "d3019pnilu3019cd35vd1vpnilvu0",
-              "label": "OSB09"
-            },
-            "mfd-osb-r5": {
-              "profile": "tm-mfd-1",
-              "key": "JOY_BTN10",
-              "command": "d3020pnilu3020cd35vd1vpnilvu0",
-              "label": "OSB10"
-            },
-            "mfd-osb-b5": {
-              "profile": "tm-mfd-1",
-              "key": "JOY_BTN11",
-              "command": "d3021pnilu3021cd35vd1vpnilvu0",
-              "label": "OSB11"
-            },
-            "mfd-osb-b4": {
-              "profile": "tm-mfd-1",
-              "key": "JOY_BTN12",
-              "command": "d3022pnilu3022cd35vd1vpnilvu0",
-              "label": "OSB12"
-            },
-            "mfd-osb-b3": {
-              "profile": "tm-mfd-1",
-              "key": "JOY_BTN13",
-              "command": "d3023pnilu3023cd35vd1vpnilvu0",
-              "label": "OSB13"
-            },
-            "mfd-osb-b2": {
-              "profile": "tm-mfd-1",
-              "key": "JOY_BTN14",
-              "command": "d3024pnilu3024cd35vd1vpnilvu0",
-              "label": "OSB14"
-            },
-            "mfd-osb-b1": {
-              "profile": "tm-mfd-1",
-              "key": "JOY_BTN15",
-              "command": "d3025pnilu3025cd35vd1vpnilvu0",
-              "label": "OSB15"
-            },
-            "mfd-osb-l5": {
-              "profile": "tm-mfd-1",
-              "key": "JOY_BTN16",
-              "command": "d3026pnilu3026cd35vd1vpnilvu0",
-              "label": "OSB16"
-            },
-            "mfd-osb-l4": {
-              "profile": "tm-mfd-1",
-              "key": "JOY_BTN17",
-              "command": "d3027pnilu3027cd35vd1vpnilvu0",
-              "label": "OSB17"
-            },
-            "mfd-osb-l3": {
-              "profile": "tm-mfd-1",
-              "key": "JOY_BTN18",
-              "command": "d3028pnilu3028cd35vd1vpnilvu0",
-              "label": "OSB18"
-            },
-            "mfd-osb-l2": {
-              "profile": "tm-mfd-1",
-              "key": "JOY_BTN19",
-              "command": "d3029pnilu3029cd35vd1vpnilvu0",
-              "label": "OSB19"
-            },
-            "mfd-osb-l1": {
-              "profile": "tm-mfd-1",
-              "key": "JOY_BTN20",
-              "command": "d3030pnilu3030cd35vd1vpnilvu0",
-              "label": "OSB20"
-            },
-            "mfd-rocker-gain": {
-              "profile": "tm-mfd-1",
-              "key": "JOY_BTN21",
-              "command": "d3041pnilu3041cd35vd1vpnilvu0",
-              "label": "BRT/CONT Bright"
-            },
-            "mfd-rocker-lvl": {
-              "profile": "tm-mfd-1",
-              "key": "JOY_BTN22",
-              "command": "d3041pnilunilcd35vd-1vpnilvunil",
-              "label": "BRT/CONT Dim"
-            },
             "mfd-rocker-con-up": {
               "profile": "tm-mfd-1",
               "key": "JOY_BTN23",
-              "command": "dnilp3042u3042cd35vdnilvp1vu0",
-              "label": "Brightness INC"
+              "command": "d3001pnilu3001cd35vd0.2vpnilvu0.1",
+              "label": "Left MDI Brightness Selector Knob: DAY<>NIGHT"
             },
             "mfd-rocker-con-down": {
               "profile": "tm-mfd-1",
               "key": "JOY_BTN24",
-              "command": "dnilp3042u3042cd35vdnilvp-1vu0",
-              "label": "Brightness DEC"
+              "command": "d3001pnilu3001cd35vd0vpnilvu0.1",
+              "label": "Left MDI Brightness Selector Knob: OFF<>NIGHT"
+            },
+            "mfd-rocker-brt-up": {
+              "profile": "tm-mfd-1",
+              "key": "JOY_BTN25",
+              "command": "d3001pnilunilcd35vd0.2vpnilvunil",
+              "label": "Left MDI Brightness Selector Knob - DAY"
+            },
+            "mfd-rocker-brt-down": {
+              "profile": "tm-mfd-1",
+              "key": "JOY_BTN26",
+              "command": "d3001pnilunilcd35vd0vpnilvunil",
+              "label": "Left MDI Brightness Selector Knob - OFF"
+            },
+            "mfd-osb-l5": {
+              "profile": "tm-mfd-1",
+              "key": "JOY_BTN16",
+              "command": "d3011pnilu3011cd35vd1vpnilvu0",
+              "label": "Left MDI PB 1"
+            },
+            "mfd-osb-l4": {
+              "profile": "tm-mfd-1",
+              "key": "JOY_BTN17",
+              "command": "d3012pnilu3012cd35vd1vpnilvu0",
+              "label": "Left MDI PB 2"
+            },
+            "mfd-osb-l3": {
+              "profile": "tm-mfd-1",
+              "key": "JOY_BTN18",
+              "command": "d3013pnilu3013cd35vd1vpnilvu0",
+              "label": "Left MDI PB 3"
+            },
+            "mfd-osb-l2": {
+              "profile": "tm-mfd-1",
+              "key": "JOY_BTN19",
+              "command": "d3014pnilu3014cd35vd1vpnilvu0",
+              "label": "Left MDI PB 4"
+            },
+            "mfd-osb-l1": {
+              "profile": "tm-mfd-1",
+              "key": "JOY_BTN20",
+              "command": "d3015pnilu3015cd35vd1vpnilvu0",
+              "label": "Left MDI PB 5"
+            },
+            "mfd-osb-t1": {
+              "profile": "tm-mfd-1",
+              "key": "JOY_BTN1",
+              "command": "d3016pnilu3016cd35vd1vpnilvu0",
+              "label": "Left MDI PB 6"
+            },
+            "mfd-osb-t2": {
+              "profile": "tm-mfd-1",
+              "key": "JOY_BTN2",
+              "command": "d3017pnilu3017cd35vd1vpnilvu0",
+              "label": "Left MDI PB 7"
+            },
+            "mfd-osb-t3": {
+              "profile": "tm-mfd-1",
+              "key": "JOY_BTN3",
+              "command": "d3018pnilu3018cd35vd1vpnilvu0",
+              "label": "Left MDI PB 8"
+            },
+            "mfd-osb-t4": {
+              "profile": "tm-mfd-1",
+              "key": "JOY_BTN4",
+              "command": "d3019pnilu3019cd35vd1vpnilvu0",
+              "label": "Left MDI PB 9"
+            },
+            "mfd-osb-t5": {
+              "profile": "tm-mfd-1",
+              "key": "JOY_BTN5",
+              "command": "d3020pnilu3020cd35vd1vpnilvu0",
+              "label": "Left MDI PB 10"
+            },
+            "mfd-osb-r1": {
+              "profile": "tm-mfd-1",
+              "key": "JOY_BTN6",
+              "command": "d3021pnilu3021cd35vd1vpnilvu0",
+              "label": "Left MDI PB 11"
+            },
+            "mfd-osb-r2": {
+              "profile": "tm-mfd-1",
+              "key": "JOY_BTN7",
+              "command": "d3022pnilu3022cd35vd1vpnilvu0",
+              "label": "Left MDI PB 12"
+            },
+            "mfd-osb-r3": {
+              "profile": "tm-mfd-1",
+              "key": "JOY_BTN8",
+              "command": "d3023pnilu3023cd35vd1vpnilvu0",
+              "label": "Left MDI PB 13"
+            },
+            "mfd-osb-r4": {
+              "profile": "tm-mfd-1",
+              "key": "JOY_BTN9",
+              "command": "d3024pnilu3024cd35vd1vpnilvu0",
+              "label": "Left MDI PB 14"
+            },
+            "mfd-osb-r5": {
+              "profile": "tm-mfd-1",
+              "key": "JOY_BTN10",
+              "command": "d3025pnilu3025cd35vd1vpnilvu0",
+              "label": "Left MDI PB 15"
+            },
+            "mfd-osb-b5": {
+              "profile": "tm-mfd-1",
+              "key": "JOY_BTN11",
+              "command": "d3026pnilu3026cd35vd1vpnilvu0",
+              "label": "Left MDI PB 16"
+            },
+            "mfd-osb-b4": {
+              "profile": "tm-mfd-1",
+              "key": "JOY_BTN12",
+              "command": "d3027pnilu3027cd35vd1vpnilvu0",
+              "label": "Left MDI PB 17"
+            },
+            "mfd-osb-b3": {
+              "profile": "tm-mfd-1",
+              "key": "JOY_BTN13",
+              "command": "d3028pnilu3028cd35vd1vpnilvu0",
+              "label": "Left MDI PB 18"
+            },
+            "mfd-osb-b2": {
+              "profile": "tm-mfd-1",
+              "key": "JOY_BTN14",
+              "command": "d3029pnilu3029cd35vd1vpnilvu0",
+              "label": "Left MDI PB 19"
+            },
+            "mfd-osb-b1": {
+              "profile": "tm-mfd-1",
+              "key": "JOY_BTN15",
+              "command": "d3030pnilu3030cd35vd1vpnilvu0",
+              "label": "Left MDI PB 20"
+            },
+            "mfd-rocker-gain": {
+              "profile": "tm-mfd-1",
+              "key": "JOY_BTN21",
+              "command": "d3041pnilunilcd35vd-1vpnilvunil",
+              "label": "Left MDI Brightness Selector Knob - CCW/Left"
+            },
+            "mfd-rocker-lvl": {
+              "profile": "tm-mfd-1",
+              "key": "JOY_BTN22",
+              "command": "d3041pnilunilcd35vd1vpnilvunil",
+              "label": "Left MDI Brightness Selector Knob - CW/Right"
+            },
+            "mfd-rocker-int": {
+              "profile": "tm-mfd-1",
+              "key": "JOY_BTN28",
+              "command": "dnilp3042unilcd35vdnilvp-0.5vunil",
+              "label": "Left MDI Brightness Control Knob - CCW/Decrease"
+            },
+            "mfd-rocker-sym": {
+              "profile": "tm-mfd-1",
+              "key": "JOY_BTN27",
+              "command": "dnilp3042unilcd35vdnilvp0.5vunil",
+              "label": "Left MDI Brightness Control Knob - CW/Increase"
             }
           },
           "labels": {
-            "mfd-osb-t1": "OSB01",
-            "mfd-osb-t2": "OSB02",
-            "mfd-osb-t3": "OSB03",
-            "mfd-osb-t4": "OSB04",
-            "mfd-osb-t5": "OSB05",
-            "mfd-osb-r1": "OSB06",
-            "mfd-osb-r2": "OSB07",
-            "mfd-osb-r3": "OSB08",
-            "mfd-osb-r4": "OSB09",
-            "mfd-osb-r5": "OSB10",
-            "mfd-osb-b5": "OSB11",
-            "mfd-osb-b4": "OSB12",
-            "mfd-osb-b3": "OSB13",
-            "mfd-osb-b2": "OSB14",
-            "mfd-osb-b1": "OSB15",
-            "mfd-osb-l5": "OSB16",
-            "mfd-osb-l4": "OSB17",
-            "mfd-osb-l3": "OSB18",
-            "mfd-osb-l2": "OSB19",
-            "mfd-osb-l1": "OSB20",
-            "mfd-rocker-gain": "BRT/CONT Bright",
-            "mfd-rocker-lvl": "BRT/CONT Dim",
-            "mfd-rocker-con-up": "Brightness INC",
-            "mfd-rocker-con-down": "Brightness DEC"
+            "mfd-rocker-con-up": "Left MDI Brightness Selector Knob: DAY<>NIGHT",
+            "mfd-rocker-con-down": "Left MDI Brightness Selector Knob: OFF<>NIGHT",
+            "mfd-rocker-brt-up": "Left MDI Brightness Selector Knob - DAY",
+            "mfd-rocker-brt-down": "Left MDI Brightness Selector Knob - OFF",
+            "mfd-osb-l5": "Left MDI PB 1",
+            "mfd-osb-l4": "Left MDI PB 2",
+            "mfd-osb-l3": "Left MDI PB 3",
+            "mfd-osb-l2": "Left MDI PB 4",
+            "mfd-osb-l1": "Left MDI PB 5",
+            "mfd-osb-t1": "Left MDI PB 6",
+            "mfd-osb-t2": "Left MDI PB 7",
+            "mfd-osb-t3": "Left MDI PB 8",
+            "mfd-osb-t4": "Left MDI PB 9",
+            "mfd-osb-t5": "Left MDI PB 10",
+            "mfd-osb-r1": "Left MDI PB 11",
+            "mfd-osb-r2": "Left MDI PB 12",
+            "mfd-osb-r3": "Left MDI PB 13",
+            "mfd-osb-r4": "Left MDI PB 14",
+            "mfd-osb-r5": "Left MDI PB 15",
+            "mfd-osb-b5": "Left MDI PB 16",
+            "mfd-osb-b4": "Left MDI PB 17",
+            "mfd-osb-b3": "Left MDI PB 18",
+            "mfd-osb-b2": "Left MDI PB 19",
+            "mfd-osb-b1": "Left MDI PB 20",
+            "mfd-rocker-gain": "Left MDI Brightness Selector Knob - CCW/Left",
+            "mfd-rocker-lvl": "Left MDI Brightness Selector Knob - CW/Right",
+            "mfd-rocker-int": "Left MDI Brightness Control Knob - CCW/Decrease",
+            "mfd-rocker-sym": "Left MDI Brightness Control Knob - CW/Increase"
           }
         },
         {
@@ -285,58 +317,58 @@
             "MOZA_F16_F18_BTN3"
           ],
           "controls": {
-            "mfd-osb-t1-shifted": {
+            "mfd-rocker-brt-down": {
               "profile": "tm-mfd-1",
-              "key": "JOY_BTN1",
-              "command": "d3011pnilu3011cd35vd1vpnilvu0MOZA_F16_F18_BTN3",
-              "label": "NAV/HSI",
+              "key": "JOY_BTN26",
+              "command": "d3001pnilunilcd35vd0.1vpnilvunil",
+              "label": "Left MDI Brightness Selector Knob - NIGHT",
               "modifiers": [
                 "MOZA_F16_F18_BTN3"
               ]
             },
-            "mfd-osb-t2-shifted": {
+            "mfd-rocker-int": {
               "profile": "tm-mfd-1",
-              "key": "JOY_BTN2",
-              "command": "d3012pnilu3012cd35vd1vpnilvu0MOZA_F16_F18_BTN3",
-              "label": "FLIR",
+              "key": "JOY_BTN28",
+              "command": "d3004pnilunilcd54vd-1vpnilvunil",
+              "label": "DISPENSER Switch - Down",
               "modifiers": [
                 "MOZA_F16_F18_BTN3"
               ]
             },
-            "mfd-osb-t3-shifted": {
+            "mfd-rocker-sym": {
               "profile": "tm-mfd-1",
-              "key": "JOY_BTN3",
-              "command": "d3013pnilu3013cd35vd1vpnilvu0MOZA_F16_F18_BTN3",
-              "label": "RADAR",
+              "key": "JOY_BTN27",
+              "command": "d3004pnilunilcd54vd1vpnilvunil",
+              "label": "DISPENSER Switch - Up",
               "modifiers": [
                 "MOZA_F16_F18_BTN3"
               ]
             },
-            "mfd-osb-t4-shifted": {
+            "mfd-rocker-con-down": {
               "profile": "tm-mfd-1",
-              "key": "JOY_BTN4",
-              "command": "d3014pnilu3014cd35vd1vpnilvu0MOZA_F16_F18_BTN3",
-              "label": "EW/RWR",
+              "key": "JOY_BTN24",
+              "command": "dnilp3044unilcd35vdnilvp-0.5vunil",
+              "label": "Left MDI Contrast Control Knob - CCW/Decrease",
               "modifiers": [
                 "MOZA_F16_F18_BTN3"
               ]
             },
-            "mfd-osb-t5-shifted": {
+            "mfd-rocker-con-up": {
               "profile": "tm-mfd-1",
-              "key": "JOY_BTN5",
-              "command": "d3015pnilu3015cd35vd1vpnilvu0MOZA_F16_F18_BTN3",
-              "label": "SMS",
+              "key": "JOY_BTN23",
+              "command": "dnilp3044unilcd35vdnilvp0.5vunil",
+              "label": "Left MDI Contrast Control Knob - CW/Increase",
               "modifiers": [
                 "MOZA_F16_F18_BTN3"
               ]
             }
           },
           "labels": {
-            "mfd-osb-t1-shifted": "NAV/HSI",
-            "mfd-osb-t2-shifted": "FLIR",
-            "mfd-osb-t3-shifted": "RADAR",
-            "mfd-osb-t4-shifted": "EW/RWR",
-            "mfd-osb-t5-shifted": "SMS"
+            "mfd-rocker-brt-down": "Left MDI Brightness Selector Knob - NIGHT",
+            "mfd-rocker-int": "DISPENSER Switch - Down",
+            "mfd-rocker-sym": "DISPENSER Switch - Up",
+            "mfd-rocker-con-down": "Left MDI Contrast Control Knob - CCW/Decrease",
+            "mfd-rocker-con-up": "Left MDI Contrast Control Knob - CW/Increase"
           }
         }
       ]
@@ -350,206 +382,238 @@
       "kicker": "INSTANCE 2",
       "_comment": "labels default to the imported DCS command name and remain editable; deviceLabel contains the canonical DCS-Common hardware label. keep callout IDs in sync with controls. You can also set \"label\" on a controls entry.",
       "labels": {
-        "mfd-osb-t1": "OSB01",
-        "mfd-osb-t2": "OSB02",
-        "mfd-osb-t3": "OSB03",
-        "mfd-osb-t4": "OSB04",
-        "mfd-osb-t5": "OSB05",
-        "mfd-osb-r1": "OSB06",
-        "mfd-osb-r2": "OSB07",
-        "mfd-osb-r3": "OSB08",
-        "mfd-osb-r4": "OSB09",
-        "mfd-osb-r5": "OSB10",
-        "mfd-osb-b5": "OSB11",
-        "mfd-osb-b4": "OSB12",
-        "mfd-osb-b3": "OSB13",
-        "mfd-osb-b2": "OSB14",
-        "mfd-osb-b1": "OSB15",
-        "mfd-osb-l5": "OSB16",
-        "mfd-osb-l4": "OSB17",
-        "mfd-osb-l3": "OSB18",
-        "mfd-osb-l2": "OSB19",
-        "mfd-osb-l1": "OSB20",
-        "mfd-rocker-gain": "BRT/CONT Bright",
-        "mfd-rocker-lvl": "BRT/CONT Dim",
-        "mfd-rocker-con-up": "Brightness INC",
-        "mfd-rocker-con-down": "Brightness DEC"
+        "mfd-rocker-con-up": "Right MDI Brightness Selector Knob: DAY<>NIGHT",
+        "mfd-rocker-con-down": "Right MDI Brightness Selector Knob: OFF<>NIGHT",
+        "mfd-rocker-brt-up": "Right MDI Brightness Selector Knob - DAY",
+        "mfd-rocker-brt-down": "Right MDI Brightness Selector Knob - OFF",
+        "mfd-osb-l5": "Right MDI PB 1",
+        "mfd-osb-l4": "Right MDI PB 2",
+        "mfd-osb-l3": "Right MDI PB 3",
+        "mfd-osb-l2": "Right MDI PB 4",
+        "mfd-osb-l1": "Right MDI PB 5",
+        "mfd-osb-t1": "Right MDI PB 6",
+        "mfd-osb-t2": "Right MDI PB 7",
+        "mfd-osb-t3": "Right MDI PB 8",
+        "mfd-osb-t4": "Right MDI PB 9",
+        "mfd-osb-t5": "Right MDI PB 10",
+        "mfd-osb-r1": "Right MDI PB 11",
+        "mfd-osb-r2": "Right MDI PB 12",
+        "mfd-osb-r3": "Right MDI PB 13",
+        "mfd-osb-r4": "Right MDI PB 14",
+        "mfd-osb-r5": "Right MDI PB 15",
+        "mfd-osb-b5": "Right MDI PB 16",
+        "mfd-osb-b4": "Right MDI PB 17",
+        "mfd-osb-b3": "Right MDI PB 18",
+        "mfd-osb-b2": "Right MDI PB 19",
+        "mfd-osb-b1": "Right MDI PB 20",
+        "mfd-rocker-gain": "Right MDI Brightness Selector Knob - CCW/Left",
+        "mfd-rocker-lvl": "Right MDI Brightness Selector Knob - CW/Right",
+        "mfd-rocker-int": "Right MDI Brightness Control Knob - CCW/Decrease",
+        "mfd-rocker-sym": "Right MDI Brightness Control Knob - CW/Increase"
       },
       "modifierCallouts": {},
       "layers": [
         {
           "id": "base",
           "controls": {
-            "mfd-osb-t1": {
-              "profile": "tm-mfd-2",
-              "key": "JOY_BTN1",
-              "command": "d3011pnilu3011cd36vd1vpnilvu0",
-              "label": "OSB01"
-            },
-            "mfd-osb-t2": {
-              "profile": "tm-mfd-2",
-              "key": "JOY_BTN2",
-              "command": "d3012pnilu3012cd36vd1vpnilvu0",
-              "label": "OSB02"
-            },
-            "mfd-osb-t3": {
-              "profile": "tm-mfd-2",
-              "key": "JOY_BTN3",
-              "command": "d3013pnilu3013cd36vd1vpnilvu0",
-              "label": "OSB03"
-            },
-            "mfd-osb-t4": {
-              "profile": "tm-mfd-2",
-              "key": "JOY_BTN4",
-              "command": "d3014pnilu3014cd36vd1vpnilvu0",
-              "label": "OSB04"
-            },
-            "mfd-osb-t5": {
-              "profile": "tm-mfd-2",
-              "key": "JOY_BTN5",
-              "command": "d3015pnilu3015cd36vd1vpnilvu0",
-              "label": "OSB05"
-            },
-            "mfd-osb-r1": {
-              "profile": "tm-mfd-2",
-              "key": "JOY_BTN6",
-              "command": "d3016pnilu3016cd36vd1vpnilvu0",
-              "label": "OSB06"
-            },
-            "mfd-osb-r2": {
-              "profile": "tm-mfd-2",
-              "key": "JOY_BTN7",
-              "command": "d3017pnilu3017cd36vd1vpnilvu0",
-              "label": "OSB07"
-            },
-            "mfd-osb-r3": {
-              "profile": "tm-mfd-2",
-              "key": "JOY_BTN8",
-              "command": "d3018pnilu3018cd36vd1vpnilvu0",
-              "label": "OSB08"
-            },
-            "mfd-osb-r4": {
-              "profile": "tm-mfd-2",
-              "key": "JOY_BTN9",
-              "command": "d3019pnilu3019cd36vd1vpnilvu0",
-              "label": "OSB09"
-            },
-            "mfd-osb-r5": {
-              "profile": "tm-mfd-2",
-              "key": "JOY_BTN10",
-              "command": "d3020pnilu3020cd36vd1vpnilvu0",
-              "label": "OSB10"
-            },
-            "mfd-osb-b5": {
-              "profile": "tm-mfd-2",
-              "key": "JOY_BTN11",
-              "command": "d3021pnilu3021cd36vd1vpnilvu0",
-              "label": "OSB11"
-            },
-            "mfd-osb-b4": {
-              "profile": "tm-mfd-2",
-              "key": "JOY_BTN12",
-              "command": "d3022pnilu3022cd36vd1vpnilvu0",
-              "label": "OSB12"
-            },
-            "mfd-osb-b3": {
-              "profile": "tm-mfd-2",
-              "key": "JOY_BTN13",
-              "command": "d3023pnilu3023cd36vd1vpnilvu0",
-              "label": "OSB13"
-            },
-            "mfd-osb-b2": {
-              "profile": "tm-mfd-2",
-              "key": "JOY_BTN14",
-              "command": "d3024pnilu3024cd36vd1vpnilvu0",
-              "label": "OSB14"
-            },
-            "mfd-osb-b1": {
-              "profile": "tm-mfd-2",
-              "key": "JOY_BTN15",
-              "command": "d3025pnilu3025cd36vd1vpnilvu0",
-              "label": "OSB15"
-            },
-            "mfd-osb-l5": {
-              "profile": "tm-mfd-2",
-              "key": "JOY_BTN16",
-              "command": "d3026pnilu3026cd36vd1vpnilvu0",
-              "label": "OSB16"
-            },
-            "mfd-osb-l4": {
-              "profile": "tm-mfd-2",
-              "key": "JOY_BTN17",
-              "command": "d3027pnilu3027cd36vd1vpnilvu0",
-              "label": "OSB17"
-            },
-            "mfd-osb-l3": {
-              "profile": "tm-mfd-2",
-              "key": "JOY_BTN18",
-              "command": "d3028pnilu3028cd36vd1vpnilvu0",
-              "label": "OSB18"
-            },
-            "mfd-osb-l2": {
-              "profile": "tm-mfd-2",
-              "key": "JOY_BTN19",
-              "command": "d3029pnilu3029cd36vd1vpnilvu0",
-              "label": "OSB19"
-            },
-            "mfd-osb-l1": {
-              "profile": "tm-mfd-2",
-              "key": "JOY_BTN20",
-              "command": "d3030pnilu3030cd36vd1vpnilvu0",
-              "label": "OSB20"
-            },
-            "mfd-rocker-gain": {
-              "profile": "tm-mfd-2",
-              "key": "JOY_BTN21",
-              "command": "d3041pnilu3041cd36vd1vpnilvu0",
-              "label": "BRT/CONT Bright"
-            },
-            "mfd-rocker-lvl": {
-              "profile": "tm-mfd-2",
-              "key": "JOY_BTN22",
-              "command": "d3041pnilunilcd36vd-1vpnilvunil",
-              "label": "BRT/CONT Dim"
-            },
             "mfd-rocker-con-up": {
               "profile": "tm-mfd-2",
               "key": "JOY_BTN23",
-              "command": "dnilp3042u3042cd36vdnilvp1vu0",
-              "label": "Brightness INC"
+              "command": "d3001pnilu3001cd36vd0.2vpnilvu0.1",
+              "label": "Right MDI Brightness Selector Knob: DAY<>NIGHT"
             },
             "mfd-rocker-con-down": {
               "profile": "tm-mfd-2",
               "key": "JOY_BTN24",
-              "command": "dnilp3042u3042cd36vdnilvp-1vu0",
-              "label": "Brightness DEC"
+              "command": "d3001pnilu3001cd36vd0vpnilvu0.1",
+              "label": "Right MDI Brightness Selector Knob: OFF<>NIGHT"
+            },
+            "mfd-rocker-brt-up": {
+              "profile": "tm-mfd-2",
+              "key": "JOY_BTN25",
+              "command": "d3001pnilunilcd36vd0.2vpnilvunil",
+              "label": "Right MDI Brightness Selector Knob - DAY"
+            },
+            "mfd-rocker-brt-down": {
+              "profile": "tm-mfd-2",
+              "key": "JOY_BTN26",
+              "command": "d3001pnilunilcd36vd0vpnilvunil",
+              "label": "Right MDI Brightness Selector Knob - OFF"
+            },
+            "mfd-osb-l5": {
+              "profile": "tm-mfd-2",
+              "key": "JOY_BTN16",
+              "command": "d3011pnilu3011cd36vd1vpnilvu0",
+              "label": "Right MDI PB 1"
+            },
+            "mfd-osb-l4": {
+              "profile": "tm-mfd-2",
+              "key": "JOY_BTN17",
+              "command": "d3012pnilu3012cd36vd1vpnilvu0",
+              "label": "Right MDI PB 2"
+            },
+            "mfd-osb-l3": {
+              "profile": "tm-mfd-2",
+              "key": "JOY_BTN18",
+              "command": "d3013pnilu3013cd36vd1vpnilvu0",
+              "label": "Right MDI PB 3"
+            },
+            "mfd-osb-l2": {
+              "profile": "tm-mfd-2",
+              "key": "JOY_BTN19",
+              "command": "d3014pnilu3014cd36vd1vpnilvu0",
+              "label": "Right MDI PB 4"
+            },
+            "mfd-osb-l1": {
+              "profile": "tm-mfd-2",
+              "key": "JOY_BTN20",
+              "command": "d3015pnilu3015cd36vd1vpnilvu0",
+              "label": "Right MDI PB 5"
+            },
+            "mfd-osb-t1": {
+              "profile": "tm-mfd-2",
+              "key": "JOY_BTN1",
+              "command": "d3016pnilu3016cd36vd1vpnilvu0",
+              "label": "Right MDI PB 6"
+            },
+            "mfd-osb-t2": {
+              "profile": "tm-mfd-2",
+              "key": "JOY_BTN2",
+              "command": "d3017pnilu3017cd36vd1vpnilvu0",
+              "label": "Right MDI PB 7"
+            },
+            "mfd-osb-t3": {
+              "profile": "tm-mfd-2",
+              "key": "JOY_BTN3",
+              "command": "d3018pnilu3018cd36vd1vpnilvu0",
+              "label": "Right MDI PB 8"
+            },
+            "mfd-osb-t4": {
+              "profile": "tm-mfd-2",
+              "key": "JOY_BTN4",
+              "command": "d3019pnilu3019cd36vd1vpnilvu0",
+              "label": "Right MDI PB 9"
+            },
+            "mfd-osb-t5": {
+              "profile": "tm-mfd-2",
+              "key": "JOY_BTN5",
+              "command": "d3020pnilu3020cd36vd1vpnilvu0",
+              "label": "Right MDI PB 10"
+            },
+            "mfd-osb-r1": {
+              "profile": "tm-mfd-2",
+              "key": "JOY_BTN6",
+              "command": "d3021pnilu3021cd36vd1vpnilvu0",
+              "label": "Right MDI PB 11"
+            },
+            "mfd-osb-r2": {
+              "profile": "tm-mfd-2",
+              "key": "JOY_BTN7",
+              "command": "d3022pnilu3022cd36vd1vpnilvu0",
+              "label": "Right MDI PB 12"
+            },
+            "mfd-osb-r3": {
+              "profile": "tm-mfd-2",
+              "key": "JOY_BTN8",
+              "command": "d3023pnilu3023cd36vd1vpnilvu0",
+              "label": "Right MDI PB 13"
+            },
+            "mfd-osb-r4": {
+              "profile": "tm-mfd-2",
+              "key": "JOY_BTN9",
+              "command": "d3024pnilu3024cd36vd1vpnilvu0",
+              "label": "Right MDI PB 14"
+            },
+            "mfd-osb-r5": {
+              "profile": "tm-mfd-2",
+              "key": "JOY_BTN10",
+              "command": "d3025pnilu3025cd36vd1vpnilvu0",
+              "label": "Right MDI PB 15"
+            },
+            "mfd-osb-b5": {
+              "profile": "tm-mfd-2",
+              "key": "JOY_BTN11",
+              "command": "d3026pnilu3026cd36vd1vpnilvu0",
+              "label": "Right MDI PB 16"
+            },
+            "mfd-osb-b4": {
+              "profile": "tm-mfd-2",
+              "key": "JOY_BTN12",
+              "command": "d3027pnilu3027cd36vd1vpnilvu0",
+              "label": "Right MDI PB 17"
+            },
+            "mfd-osb-b3": {
+              "profile": "tm-mfd-2",
+              "key": "JOY_BTN13",
+              "command": "d3028pnilu3028cd36vd1vpnilvu0",
+              "label": "Right MDI PB 18"
+            },
+            "mfd-osb-b2": {
+              "profile": "tm-mfd-2",
+              "key": "JOY_BTN14",
+              "command": "d3029pnilu3029cd36vd1vpnilvu0",
+              "label": "Right MDI PB 19"
+            },
+            "mfd-osb-b1": {
+              "profile": "tm-mfd-2",
+              "key": "JOY_BTN15",
+              "command": "d3030pnilu3030cd36vd1vpnilvu0",
+              "label": "Right MDI PB 20"
+            },
+            "mfd-rocker-gain": {
+              "profile": "tm-mfd-2",
+              "key": "JOY_BTN21",
+              "command": "d3041pnilunilcd36vd-1vpnilvunil",
+              "label": "Right MDI Brightness Selector Knob - CCW/Left"
+            },
+            "mfd-rocker-lvl": {
+              "profile": "tm-mfd-2",
+              "key": "JOY_BTN22",
+              "command": "d3041pnilunilcd36vd1vpnilvunil",
+              "label": "Right MDI Brightness Selector Knob - CW/Right"
+            },
+            "mfd-rocker-int": {
+              "profile": "tm-mfd-2",
+              "key": "JOY_BTN28",
+              "command": "dnilp3042unilcd36vdnilvp-0.5vunil",
+              "label": "Right MDI Brightness Control Knob - CCW/Decrease"
+            },
+            "mfd-rocker-sym": {
+              "profile": "tm-mfd-2",
+              "key": "JOY_BTN27",
+              "command": "dnilp3042unilcd36vdnilvp0.5vunil",
+              "label": "Right MDI Brightness Control Knob - CW/Increase"
             }
           },
           "labels": {
-            "mfd-osb-t1": "OSB01",
-            "mfd-osb-t2": "OSB02",
-            "mfd-osb-t3": "OSB03",
-            "mfd-osb-t4": "OSB04",
-            "mfd-osb-t5": "OSB05",
-            "mfd-osb-r1": "OSB06",
-            "mfd-osb-r2": "OSB07",
-            "mfd-osb-r3": "OSB08",
-            "mfd-osb-r4": "OSB09",
-            "mfd-osb-r5": "OSB10",
-            "mfd-osb-b5": "OSB11",
-            "mfd-osb-b4": "OSB12",
-            "mfd-osb-b3": "OSB13",
-            "mfd-osb-b2": "OSB14",
-            "mfd-osb-b1": "OSB15",
-            "mfd-osb-l5": "OSB16",
-            "mfd-osb-l4": "OSB17",
-            "mfd-osb-l3": "OSB18",
-            "mfd-osb-l2": "OSB19",
-            "mfd-osb-l1": "OSB20",
-            "mfd-rocker-gain": "BRT/CONT Bright",
-            "mfd-rocker-lvl": "BRT/CONT Dim",
-            "mfd-rocker-con-up": "Brightness INC",
-            "mfd-rocker-con-down": "Brightness DEC"
+            "mfd-rocker-con-up": "Right MDI Brightness Selector Knob: DAY<>NIGHT",
+            "mfd-rocker-con-down": "Right MDI Brightness Selector Knob: OFF<>NIGHT",
+            "mfd-rocker-brt-up": "Right MDI Brightness Selector Knob - DAY",
+            "mfd-rocker-brt-down": "Right MDI Brightness Selector Knob - OFF",
+            "mfd-osb-l5": "Right MDI PB 1",
+            "mfd-osb-l4": "Right MDI PB 2",
+            "mfd-osb-l3": "Right MDI PB 3",
+            "mfd-osb-l2": "Right MDI PB 4",
+            "mfd-osb-l1": "Right MDI PB 5",
+            "mfd-osb-t1": "Right MDI PB 6",
+            "mfd-osb-t2": "Right MDI PB 7",
+            "mfd-osb-t3": "Right MDI PB 8",
+            "mfd-osb-t4": "Right MDI PB 9",
+            "mfd-osb-t5": "Right MDI PB 10",
+            "mfd-osb-r1": "Right MDI PB 11",
+            "mfd-osb-r2": "Right MDI PB 12",
+            "mfd-osb-r3": "Right MDI PB 13",
+            "mfd-osb-r4": "Right MDI PB 14",
+            "mfd-osb-r5": "Right MDI PB 15",
+            "mfd-osb-b5": "Right MDI PB 16",
+            "mfd-osb-b4": "Right MDI PB 17",
+            "mfd-osb-b3": "Right MDI PB 18",
+            "mfd-osb-b2": "Right MDI PB 19",
+            "mfd-osb-b1": "Right MDI PB 20",
+            "mfd-rocker-gain": "Right MDI Brightness Selector Knob - CCW/Left",
+            "mfd-rocker-lvl": "Right MDI Brightness Selector Knob - CW/Right",
+            "mfd-rocker-int": "Right MDI Brightness Control Knob - CCW/Decrease",
+            "mfd-rocker-sym": "Right MDI Brightness Control Knob - CW/Increase"
           }
         },
         {
@@ -560,58 +624,38 @@
             "MOZA_F16_F18_BTN3"
           ],
           "controls": {
-            "mfd-osb-t1-shifted": {
+            "mfd-rocker-brt-down": {
               "profile": "tm-mfd-2",
-              "key": "JOY_BTN1",
-              "command": "d3011pnilu3011cd36vd1vpnilvu0MOZA_F16_F18_BTN3",
-              "label": "SA/TSD",
+              "key": "JOY_BTN26",
+              "command": "d3001pnilunilcd36vd0.1vpnilvunil",
+              "label": "Right MDI Brightness Selector Knob - NIGHT",
               "modifiers": [
                 "MOZA_F16_F18_BTN3"
               ]
             },
-            "mfd-osb-t2-shifted": {
+            "mfd-rocker-con-up": {
               "profile": "tm-mfd-2",
-              "key": "JOY_BTN2",
-              "command": "d3012pnilu3012cd36vd1vpnilvu0MOZA_F16_F18_BTN3",
-              "label": "HARM",
+              "key": "JOY_BTN23",
+              "command": "dnilp3044unilcd36vdnilvp-0.5vunil",
+              "label": "Right MDI Contrast Control Knob - CCW/Decrease",
               "modifiers": [
                 "MOZA_F16_F18_BTN3"
               ]
             },
-            "mfd-osb-t3-shifted": {
+            "mfd-rocker-con-down": {
               "profile": "tm-mfd-2",
-              "key": "JOY_BTN3",
-              "command": "d3013pnilu3013cd36vd1vpnilvu0MOZA_F16_F18_BTN3",
-              "label": "ATFLIR/FLIR",
-              "modifiers": [
-                "MOZA_F16_F18_BTN3"
-              ]
-            },
-            "mfd-osb-t4-shifted": {
-              "profile": "tm-mfd-2",
-              "key": "JOY_BTN4",
-              "command": "d3014pnilu3014cd36vd1vpnilvu0MOZA_F16_F18_BTN3",
-              "label": "Weapons",
-              "modifiers": [
-                "MOZA_F16_F18_BTN3"
-              ]
-            },
-            "mfd-osb-t5-shifted": {
-              "profile": "tm-mfd-2",
-              "key": "JOY_BTN5",
-              "command": "d3015pnilu3015cd36vd1vpnilvu0MOZA_F16_F18_BTN3",
-              "label": "ENG",
+              "key": "JOY_BTN24",
+              "command": "dnilp3044unilcd36vdnilvp0.5vunil",
+              "label": "Right MDI Contrast Control Knob - CW/Increase",
               "modifiers": [
                 "MOZA_F16_F18_BTN3"
               ]
             }
           },
           "labels": {
-            "mfd-osb-t1-shifted": "SA/TSD",
-            "mfd-osb-t2-shifted": "HARM",
-            "mfd-osb-t3-shifted": "ATFLIR/FLIR",
-            "mfd-osb-t4-shifted": "Weapons",
-            "mfd-osb-t5-shifted": "ENG"
+            "mfd-rocker-brt-down": "Right MDI Brightness Selector Knob - NIGHT",
+            "mfd-rocker-con-up": "Right MDI Contrast Control Knob - CCW/Decrease",
+            "mfd-rocker-con-down": "Right MDI Contrast Control Knob - CW/Increase"
           }
         }
       ]
@@ -625,271 +669,206 @@
       "kicker": "INSTANCE 3",
       "_comment": "labels default to the imported DCS command name and remain editable; deviceLabel contains the canonical DCS-Common hardware label. keep callout IDs in sync with controls. You can also set \"label\" on a controls entry.",
       "labels": {
-        "mfd-osb-t1": "OSB01",
-        "mfd-osb-t2": "OSB02",
-        "mfd-osb-t3": "OSB03",
-        "mfd-osb-t4": "OSB04",
-        "mfd-osb-t5": "OSB05",
-        "mfd-osb-r1": "OSB06",
-        "mfd-osb-r2": "OSB07",
-        "mfd-osb-r3": "OSB08",
-        "mfd-osb-r4": "OSB09",
-        "mfd-osb-r5": "OSB10",
-        "mfd-osb-b5": "OSB11",
-        "mfd-osb-b4": "OSB12",
-        "mfd-osb-b3": "OSB13",
-        "mfd-osb-b2": "OSB14",
-        "mfd-osb-b1": "OSB15",
-        "mfd-osb-l5": "OSB16",
-        "mfd-osb-l4": "OSB17",
-        "mfd-osb-l3": "OSB18",
-        "mfd-osb-l2": "OSB19",
-        "mfd-osb-l1": "OSB20",
-        "mfd-rocker-gain": "Day Mode",
-        "mfd-rocker-lvl": "Night Mode",
-        "mfd-rocker-con-up": "Brightness INC",
-        "mfd-rocker-con-down": "Brightness DEC"
+        "mfd-rocker-brt-up": "AMPCD Night/Day Brightness Selector - DAY",
+        "mfd-rocker-brt-down": "AMPCD Night/Day Brightness Selector - NGT",
+        "mfd-rocker-con-up": "AMPCD Contrast Control Switch - UP",
+        "mfd-rocker-con-down": "AMPCD Contrast Control Switch - DOWN",
+        "mfd-rocker-sym": "AMPCD Gain Control Switch - UP",
+        "mfd-rocker-int": "AMPCD Gain Control Switch - DOWN",
+        "mfd-osb-l5": "AMPCD PB 1",
+        "mfd-osb-l4": "AMPCD PB 2",
+        "mfd-osb-l3": "AMPCD PB 3",
+        "mfd-osb-l2": "AMPCD PB 4",
+        "mfd-osb-l1": "AMPCD PB 5",
+        "mfd-osb-t1": "AMPCD PB 6",
+        "mfd-osb-t2": "AMPCD PB 7",
+        "mfd-osb-t3": "AMPCD PB 8",
+        "mfd-osb-t4": "AMPCD PB 9",
+        "mfd-osb-t5": "AMPCD PB 10",
+        "mfd-osb-r1": "AMPCD PB 11",
+        "mfd-osb-r2": "AMPCD PB 12",
+        "mfd-osb-r3": "AMPCD PB 13",
+        "mfd-osb-r4": "AMPCD PB 14",
+        "mfd-osb-r5": "AMPCD PB 15",
+        "mfd-osb-b5": "AMPCD PB 16",
+        "mfd-osb-b4": "AMPCD PB 17",
+        "mfd-osb-b3": "AMPCD PB 18",
+        "mfd-osb-b2": "AMPCD PB 19",
+        "mfd-osb-b1": "AMPCD PB 20",
+        "mfd-rocker-lvl": "AMPCD Off/Brightness Control Knob - CCW/Decrease",
+        "mfd-rocker-gain": "AMPCD Off/Brightness Control Knob - CW/Increase"
       },
       "modifierCallouts": {},
-      "layers": [
-        {
-          "id": "base",
-          "controls": {
-            "mfd-osb-t1": {
-              "profile": "tm-mfd-3",
-              "key": "JOY_BTN1",
-              "command": "d3011pnilu3011cd37vd1vpnilvu0",
-              "label": "OSB01"
-            },
-            "mfd-osb-t2": {
-              "profile": "tm-mfd-3",
-              "key": "JOY_BTN2",
-              "command": "d3012pnilu3012cd37vd1vpnilvu0",
-              "label": "OSB02"
-            },
-            "mfd-osb-t3": {
-              "profile": "tm-mfd-3",
-              "key": "JOY_BTN3",
-              "command": "d3013pnilu3013cd37vd1vpnilvu0",
-              "label": "OSB03"
-            },
-            "mfd-osb-t4": {
-              "profile": "tm-mfd-3",
-              "key": "JOY_BTN4",
-              "command": "d3014pnilu3014cd37vd1vpnilvu0",
-              "label": "OSB04"
-            },
-            "mfd-osb-t5": {
-              "profile": "tm-mfd-3",
-              "key": "JOY_BTN5",
-              "command": "d3015pnilu3015cd37vd1vpnilvu0",
-              "label": "OSB05"
-            },
-            "mfd-osb-r1": {
-              "profile": "tm-mfd-3",
-              "key": "JOY_BTN6",
-              "command": "d3016pnilu3016cd37vd1vpnilvu0",
-              "label": "OSB06"
-            },
-            "mfd-osb-r2": {
-              "profile": "tm-mfd-3",
-              "key": "JOY_BTN7",
-              "command": "d3017pnilu3017cd37vd1vpnilvu0",
-              "label": "OSB07"
-            },
-            "mfd-osb-r3": {
-              "profile": "tm-mfd-3",
-              "key": "JOY_BTN8",
-              "command": "d3018pnilu3018cd37vd1vpnilvu0",
-              "label": "OSB08"
-            },
-            "mfd-osb-r4": {
-              "profile": "tm-mfd-3",
-              "key": "JOY_BTN9",
-              "command": "d3019pnilu3019cd37vd1vpnilvu0",
-              "label": "OSB09"
-            },
-            "mfd-osb-r5": {
-              "profile": "tm-mfd-3",
-              "key": "JOY_BTN10",
-              "command": "d3020pnilu3020cd37vd1vpnilvu0",
-              "label": "OSB10"
-            },
-            "mfd-osb-b5": {
-              "profile": "tm-mfd-3",
-              "key": "JOY_BTN11",
-              "command": "d3021pnilu3021cd37vd1vpnilvu0",
-              "label": "OSB11"
-            },
-            "mfd-osb-b4": {
-              "profile": "tm-mfd-3",
-              "key": "JOY_BTN12",
-              "command": "d3022pnilu3022cd37vd1vpnilvu0",
-              "label": "OSB12"
-            },
-            "mfd-osb-b3": {
-              "profile": "tm-mfd-3",
-              "key": "JOY_BTN13",
-              "command": "d3023pnilu3023cd37vd1vpnilvu0",
-              "label": "OSB13"
-            },
-            "mfd-osb-b2": {
-              "profile": "tm-mfd-3",
-              "key": "JOY_BTN14",
-              "command": "d3024pnilu3024cd37vd1vpnilvu0",
-              "label": "OSB14"
-            },
-            "mfd-osb-b1": {
-              "profile": "tm-mfd-3",
-              "key": "JOY_BTN15",
-              "command": "d3025pnilu3025cd37vd1vpnilvu0",
-              "label": "OSB15"
-            },
-            "mfd-osb-l5": {
-              "profile": "tm-mfd-3",
-              "key": "JOY_BTN16",
-              "command": "d3026pnilu3026cd37vd1vpnilvu0",
-              "label": "OSB16"
-            },
-            "mfd-osb-l4": {
-              "profile": "tm-mfd-3",
-              "key": "JOY_BTN17",
-              "command": "d3027pnilu3027cd37vd1vpnilvu0",
-              "label": "OSB17"
-            },
-            "mfd-osb-l3": {
-              "profile": "tm-mfd-3",
-              "key": "JOY_BTN18",
-              "command": "d3028pnilu3028cd37vd1vpnilvu0",
-              "label": "OSB18"
-            },
-            "mfd-osb-l2": {
-              "profile": "tm-mfd-3",
-              "key": "JOY_BTN19",
-              "command": "d3029pnilu3029cd37vd1vpnilvu0",
-              "label": "OSB19"
-            },
-            "mfd-osb-l1": {
-              "profile": "tm-mfd-3",
-              "key": "JOY_BTN20",
-              "command": "d3030pnilu3030cd37vd1vpnilvu0",
-              "label": "OSB20"
-            },
-            "mfd-rocker-gain": {
-              "profile": "tm-mfd-3",
-              "key": "JOY_BTN21",
-              "command": "d3002pnilu3002cd37vd1vpnilvu0",
-              "label": "Day Mode"
-            },
-            "mfd-rocker-lvl": {
-              "profile": "tm-mfd-3",
-              "key": "JOY_BTN22",
-              "command": "d3003pnilu3003cd37vd1vpnilvu0",
-              "label": "Night Mode"
-            },
-            "mfd-rocker-con-up": {
-              "profile": "tm-mfd-3",
-              "key": "JOY_BTN23",
-              "command": "dnilp3041u3041cd37vdnilvp1vu0",
-              "label": "Brightness INC"
-            },
-            "mfd-rocker-con-down": {
-              "profile": "tm-mfd-3",
-              "key": "JOY_BTN24",
-              "command": "dnilp3041u3041cd37vdnilvp-1vu0",
-              "label": "Brightness DEC"
-            }
-          },
-          "labels": {
-            "mfd-osb-t1": "OSB01",
-            "mfd-osb-t2": "OSB02",
-            "mfd-osb-t3": "OSB03",
-            "mfd-osb-t4": "OSB04",
-            "mfd-osb-t5": "OSB05",
-            "mfd-osb-r1": "OSB06",
-            "mfd-osb-r2": "OSB07",
-            "mfd-osb-r3": "OSB08",
-            "mfd-osb-r4": "OSB09",
-            "mfd-osb-r5": "OSB10",
-            "mfd-osb-b5": "OSB11",
-            "mfd-osb-b4": "OSB12",
-            "mfd-osb-b3": "OSB13",
-            "mfd-osb-b2": "OSB14",
-            "mfd-osb-b1": "OSB15",
-            "mfd-osb-l5": "OSB16",
-            "mfd-osb-l4": "OSB17",
-            "mfd-osb-l3": "OSB18",
-            "mfd-osb-l2": "OSB19",
-            "mfd-osb-l1": "OSB20",
-            "mfd-rocker-gain": "Day Mode",
-            "mfd-rocker-lvl": "Night Mode",
-            "mfd-rocker-con-up": "Brightness INC",
-            "mfd-rocker-con-down": "Brightness DEC"
-          }
+      "controls": {
+        "mfd-rocker-brt-up": {
+          "profile": "tm-mfd-3",
+          "key": "JOY_BTN25",
+          "command": "d3002pnilu3002cd37vd1vpnilvu0",
+          "label": "AMPCD Night/Day Brightness Selector - DAY"
         },
-        {
-          "id": "MOZA_F16_F18_BTN3",
-          "file": "04-TM-MFD-3-MOZA-F16-F18-BTN3",
-          "title": "F16 MFD 3 • MOZA_F16_F18_BTN3",
-          "activators": [
-            "MOZA_F16_F18_BTN3"
-          ],
-          "controls": {
-            "mfd-osb-t1-shifted": {
-              "profile": "tm-mfd-3",
-              "key": "JOY_BTN1",
-              "command": "d3011pnilu3011cd37vd1vpnilvu0MOZA_F16_F18_BTN3",
-              "label": "CHECKLIST",
-              "modifiers": [
-                "MOZA_F16_F18_BTN3"
-              ]
-            },
-            "mfd-osb-t2-shifted": {
-              "profile": "tm-mfd-3",
-              "key": "JOY_BTN2",
-              "command": "d3012pnilu3012cd37vd1vpnilvu0MOZA_F16_F18_BTN3",
-              "label": "FCS",
-              "modifiers": [
-                "MOZA_F16_F18_BTN3"
-              ]
-            },
-            "mfd-osb-t3-shifted": {
-              "profile": "tm-mfd-3",
-              "key": "JOY_BTN3",
-              "command": "d3013pnilu3013cd37vd1vpnilvu0MOZA_F16_F18_BTN3",
-              "label": "FUEL",
-              "modifiers": [
-                "MOZA_F16_F18_BTN3"
-              ]
-            },
-            "mfd-osb-t4-shifted": {
-              "profile": "tm-mfd-3",
-              "key": "JOY_BTN4",
-              "command": "d3014pnilu3014cd37vd1vpnilvu0MOZA_F16_F18_BTN3",
-              "label": "SMS",
-              "modifiers": [
-                "MOZA_F16_F18_BTN3"
-              ]
-            },
-            "mfd-osb-t5-shifted": {
-              "profile": "tm-mfd-3",
-              "key": "JOY_BTN5",
-              "command": "d3015pnilu3015cd37vd1vpnilvu0MOZA_F16_F18_BTN3",
-              "label": "MENU",
-              "modifiers": [
-                "MOZA_F16_F18_BTN3"
-              ]
-            }
-          },
-          "labels": {
-            "mfd-osb-t1-shifted": "CHECKLIST",
-            "mfd-osb-t2-shifted": "FCS",
-            "mfd-osb-t3-shifted": "FUEL",
-            "mfd-osb-t4-shifted": "SMS",
-            "mfd-osb-t5-shifted": "MENU"
-          }
+        "mfd-rocker-brt-down": {
+          "profile": "tm-mfd-3",
+          "key": "JOY_BTN26",
+          "command": "d3003pnilu3003cd37vd-1vpnilvu0",
+          "label": "AMPCD Night/Day Brightness Selector - NGT"
+        },
+        "mfd-rocker-con-up": {
+          "profile": "tm-mfd-3",
+          "key": "JOY_BTN23",
+          "command": "d3006pnilu3006cd37vd1vpnilvu0",
+          "label": "AMPCD Contrast Control Switch - UP"
+        },
+        "mfd-rocker-con-down": {
+          "profile": "tm-mfd-3",
+          "key": "JOY_BTN24",
+          "command": "d3007pnilu3007cd37vd-1vpnilvu0",
+          "label": "AMPCD Contrast Control Switch - DOWN"
+        },
+        "mfd-rocker-sym": {
+          "profile": "tm-mfd-3",
+          "key": "JOY_BTN27",
+          "command": "d3008pnilu3008cd37vd1vpnilvu0",
+          "label": "AMPCD Gain Control Switch - UP"
+        },
+        "mfd-rocker-int": {
+          "profile": "tm-mfd-3",
+          "key": "JOY_BTN28",
+          "command": "d3009pnilu3009cd37vd-1vpnilvu0",
+          "label": "AMPCD Gain Control Switch - DOWN"
+        },
+        "mfd-osb-l5": {
+          "profile": "tm-mfd-3",
+          "key": "JOY_BTN16",
+          "command": "d3011pnilu3011cd37vd1vpnilvu0",
+          "label": "AMPCD PB 1"
+        },
+        "mfd-osb-l4": {
+          "profile": "tm-mfd-3",
+          "key": "JOY_BTN17",
+          "command": "d3012pnilu3012cd37vd1vpnilvu0",
+          "label": "AMPCD PB 2"
+        },
+        "mfd-osb-l3": {
+          "profile": "tm-mfd-3",
+          "key": "JOY_BTN18",
+          "command": "d3013pnilu3013cd37vd1vpnilvu0",
+          "label": "AMPCD PB 3"
+        },
+        "mfd-osb-l2": {
+          "profile": "tm-mfd-3",
+          "key": "JOY_BTN19",
+          "command": "d3014pnilu3014cd37vd1vpnilvu0",
+          "label": "AMPCD PB 4"
+        },
+        "mfd-osb-l1": {
+          "profile": "tm-mfd-3",
+          "key": "JOY_BTN20",
+          "command": "d3015pnilu3015cd37vd1vpnilvu0",
+          "label": "AMPCD PB 5"
+        },
+        "mfd-osb-t1": {
+          "profile": "tm-mfd-3",
+          "key": "JOY_BTN1",
+          "command": "d3016pnilu3016cd37vd1vpnilvu0",
+          "label": "AMPCD PB 6"
+        },
+        "mfd-osb-t2": {
+          "profile": "tm-mfd-3",
+          "key": "JOY_BTN2",
+          "command": "d3017pnilu3017cd37vd1vpnilvu0",
+          "label": "AMPCD PB 7"
+        },
+        "mfd-osb-t3": {
+          "profile": "tm-mfd-3",
+          "key": "JOY_BTN3",
+          "command": "d3018pnilu3018cd37vd1vpnilvu0",
+          "label": "AMPCD PB 8"
+        },
+        "mfd-osb-t4": {
+          "profile": "tm-mfd-3",
+          "key": "JOY_BTN4",
+          "command": "d3019pnilu3019cd37vd1vpnilvu0",
+          "label": "AMPCD PB 9"
+        },
+        "mfd-osb-t5": {
+          "profile": "tm-mfd-3",
+          "key": "JOY_BTN5",
+          "command": "d3020pnilu3020cd37vd1vpnilvu0",
+          "label": "AMPCD PB 10"
+        },
+        "mfd-osb-r1": {
+          "profile": "tm-mfd-3",
+          "key": "JOY_BTN6",
+          "command": "d3021pnilu3021cd37vd1vpnilvu0",
+          "label": "AMPCD PB 11"
+        },
+        "mfd-osb-r2": {
+          "profile": "tm-mfd-3",
+          "key": "JOY_BTN7",
+          "command": "d3022pnilu3022cd37vd1vpnilvu0",
+          "label": "AMPCD PB 12"
+        },
+        "mfd-osb-r3": {
+          "profile": "tm-mfd-3",
+          "key": "JOY_BTN8",
+          "command": "d3023pnilu3023cd37vd1vpnilvu0",
+          "label": "AMPCD PB 13"
+        },
+        "mfd-osb-r4": {
+          "profile": "tm-mfd-3",
+          "key": "JOY_BTN9",
+          "command": "d3024pnilu3024cd37vd1vpnilvu0",
+          "label": "AMPCD PB 14"
+        },
+        "mfd-osb-r5": {
+          "profile": "tm-mfd-3",
+          "key": "JOY_BTN10",
+          "command": "d3025pnilu3025cd37vd1vpnilvu0",
+          "label": "AMPCD PB 15"
+        },
+        "mfd-osb-b5": {
+          "profile": "tm-mfd-3",
+          "key": "JOY_BTN11",
+          "command": "d3026pnilu3026cd37vd1vpnilvu0",
+          "label": "AMPCD PB 16"
+        },
+        "mfd-osb-b4": {
+          "profile": "tm-mfd-3",
+          "key": "JOY_BTN12",
+          "command": "d3027pnilu3027cd37vd1vpnilvu0",
+          "label": "AMPCD PB 17"
+        },
+        "mfd-osb-b3": {
+          "profile": "tm-mfd-3",
+          "key": "JOY_BTN13",
+          "command": "d3028pnilu3028cd37vd1vpnilvu0",
+          "label": "AMPCD PB 18"
+        },
+        "mfd-osb-b2": {
+          "profile": "tm-mfd-3",
+          "key": "JOY_BTN14",
+          "command": "d3029pnilu3029cd37vd1vpnilvu0",
+          "label": "AMPCD PB 19"
+        },
+        "mfd-osb-b1": {
+          "profile": "tm-mfd-3",
+          "key": "JOY_BTN15",
+          "command": "d3030pnilu3030cd37vd1vpnilvu0",
+          "label": "AMPCD PB 20"
+        },
+        "mfd-rocker-lvl": {
+          "profile": "tm-mfd-3",
+          "key": "JOY_BTN22",
+          "command": "dnilp3041unilcd37vdnilvp-0.5vunil",
+          "label": "AMPCD Off/Brightness Control Knob - CCW/Decrease"
+        },
+        "mfd-rocker-gain": {
+          "profile": "tm-mfd-3",
+          "key": "JOY_BTN21",
+          "command": "dnilp3041unilcd37vdnilvp0.5vunil",
+          "label": "AMPCD Off/Brightness Control Knob - CW/Increase"
         }
-      ]
+      }
     },
     {
       "file": "05-MOZA-AB9-HORNET-GRIP",
@@ -900,26 +879,23 @@
       "kicker": "SCAFFOLD DRAFT",
       "_comment": "labels default to the imported DCS command name and remain editable; deviceLabel contains the canonical DCS-Common hardware label. keep callout IDs in sync with controls. You can also set \"label\" on a controls entry.",
       "labels": {
-        "hornet-grip-trigger-stage1": "Gun Camera",
-        "hornet-grip-trigger-stage2": "Shoot",
-        "hornet-grip-weapon-release": "Pickle",
-        "hornet-grip-sensor-up": "SC Up",
-        "hornet-grip-sensor-down": "SC Down",
-        "hornet-grip-sensor-right": "SC Right",
-        "hornet-grip-sensor-left": "SC Left",
-        "hornet-grip-sensor-push": "SC Push",
-        "hornet-grip-weapon-select-forward": "WS Forward",
-        "hornet-grip-weapon-select-right": "WS Right",
-        "hornet-grip-weapon-select-aft": "WS Aft",
-        "hornet-grip-weapon-select-left": "WS Left",
-        "hornet-grip-weapon-select-push": "WS Push",
-        "hornet-grip-recce-event": "Recce event",
-        "hornet-grip-paddle": "AP/NWS",
-        "hornet-grip-trim-down": "Trim down",
-        "hornet-grip-trim-up": "Trim up",
-        "hornet-grip-trim-left": "Trim left",
-        "hornet-grip-trim-right": "Trim right",
-        "hornet-grip-nws-undesignate": "SHIFT/MODIFIER"
+        "hornet-grip-trigger-stage2": "Gun Trigger - SECOND DETENT (Press to shoot)",
+        "hornet-grip-weapon-release": "Weapon Release Button",
+        "hornet-grip-sensor-up": "Sensor Control Switch - Fwd",
+        "hornet-grip-sensor-down": "Sensor Control Switch - Aft",
+        "hornet-grip-sensor-right": "Sensor Control Switch - Left",
+        "hornet-grip-sensor-left": "Sensor Control Switch - Right",
+        "hornet-grip-sensor-push": "Select Sparrow",
+        "hornet-grip-weapon-select-forward": "Select Gun",
+        "hornet-grip-weapon-select-right": "Select AMRAAM",
+        "hornet-grip-weapon-select-aft": "Select Sidewinder",
+        "hornet-grip-weapon-select-left": "Undesignate/Nose Wheel Steer Switch",
+        "hornet-grip-paddle": "Autopilot/Nosewheel Steering Disengage (Paddle) Switch",
+        "hornet-grip-trim-down": "Trimmer Switch - PULL(CLIMB)",
+        "hornet-grip-trim-up": "Trimmer Switch - PUSH(DESCEND)",
+        "hornet-grip-trim-left": "Trimmer Switch - LEFT WING DOWN",
+        "hornet-grip-trim-right": "Trimmer Switch - RIGHT WING DOWN",
+        "hornet-grip-nws-undesignate": "SHIFT / MODIFIER"
       },
       "modifierCallouts": {
         "hornet-grip-nws-undesignate": "MOZA_F16_F18_BTN3"
@@ -928,141 +904,120 @@
         {
           "id": "base",
           "controls": {
-            "hornet-grip-trigger-stage1": {
-              "profile": "moza-ab9-hornet-grip",
-              "key": "JOY_BTN1",
-              "command": "d3001pnilu3001cd13vd1vpnilvu0",
-              "label": "Gun Camera"
-            },
             "hornet-grip-trigger-stage2": {
               "profile": "moza-ab9-hornet-grip",
               "key": "JOY_BTN6",
               "command": "d3002pnilu3002cd13vd1vpnilvu0",
-              "label": "Shoot"
+              "label": "Gun Trigger - SECOND DETENT (Press to shoot)"
             },
             "hornet-grip-weapon-release": {
               "profile": "moza-ab9-hornet-grip",
               "key": "JOY_BTN2",
               "command": "d3003pnilu3003cd13vd1vpnilvu0",
-              "label": "Pickle"
+              "label": "Weapon Release Button"
             },
             "hornet-grip-sensor-up": {
               "profile": "moza-ab9-hornet-grip",
               "key": "JOY_BTN7",
               "command": "d3005pnilu3005cd13vd1vpnilvu0",
-              "label": "SC Up"
+              "label": "Sensor Control Switch - Fwd"
             },
             "hornet-grip-sensor-down": {
               "profile": "moza-ab9-hornet-grip",
               "key": "JOY_BTN9",
               "command": "d3006pnilu3006cd13vd1vpnilvu0",
-              "label": "SC Down"
+              "label": "Sensor Control Switch - Aft"
             },
             "hornet-grip-sensor-right": {
               "profile": "moza-ab9-hornet-grip",
               "key": "JOY_BTN8",
               "command": "d3007pnilu3007cd13vd1vpnilvu0",
-              "label": "SC Right"
+              "label": "Sensor Control Switch - Left"
             },
             "hornet-grip-sensor-left": {
               "profile": "moza-ab9-hornet-grip",
               "key": "JOY_BTN10",
               "command": "d3008pnilu3008cd13vd1vpnilvu0",
-              "label": "SC Left"
+              "label": "Sensor Control Switch - Right"
             },
             "hornet-grip-sensor-push": {
               "profile": "moza-ab9-hornet-grip",
               "key": "JOY_BTN14",
               "command": "d3009pnilu3009cd13vd1vpnilvu0",
-              "label": "SC Push"
+              "label": "Select Sparrow"
             },
             "hornet-grip-weapon-select-forward": {
               "profile": "moza-ab9-hornet-grip",
               "key": "JOY_BTN15",
               "command": "d3010pnilu3010cd13vd1vpnilvu0",
-              "label": "WS Forward"
+              "label": "Select Gun"
             },
             "hornet-grip-weapon-select-right": {
               "profile": "moza-ab9-hornet-grip",
               "key": "JOY_BTN16",
               "command": "d3011pnilu3011cd13vd1vpnilvu0",
-              "label": "WS Right"
+              "label": "Select AMRAAM"
             },
             "hornet-grip-weapon-select-aft": {
               "profile": "moza-ab9-hornet-grip",
               "key": "JOY_BTN17",
               "command": "d3012pnilu3012cd13vd1vpnilvu0",
-              "label": "WS Aft"
+              "label": "Select Sidewinder"
             },
             "hornet-grip-weapon-select-left": {
               "profile": "moza-ab9-hornet-grip",
               "key": "JOY_BTN18",
               "command": "d3013pnilu3013cd13vd1vpnilvu0",
-              "label": "WS Left"
-            },
-            "hornet-grip-weapon-select-push": {
-              "profile": "moza-ab9-hornet-grip",
-              "key": "JOY_BTN19",
-              "command": "d3014pnilu3014cd13vd1vpnilvu0",
-              "label": "WS Push"
-            },
-            "hornet-grip-recce-event": {
-              "profile": "moza-ab9-hornet-grip",
-              "key": "JOY_BTN5",
-              "command": "d3015pnilu3015cd13vd1vpnilvu0",
-              "label": "Recce event"
+              "label": "Undesignate/Nose Wheel Steer Switch"
             },
             "hornet-grip-paddle": {
               "profile": "moza-ab9-hornet-grip",
               "key": "JOY_BTN4",
               "command": "d3018pnilu3018cd13vd1vpnilvu0",
-              "label": "AP/NWS"
+              "label": "Autopilot/Nosewheel Steering Disengage (Paddle) Switch"
             },
             "hornet-grip-trim-down": {
               "profile": "moza-ab9-hornet-grip",
               "key": "JOY_BTN_POV1_D",
-              "command": "dnilp3016u3016cd13vdnilvp1vu0",
-              "label": "Trim down"
+              "command": "dnilp3014u3014cd13vdnilvp1vu0",
+              "label": "Trimmer Switch - PULL(CLIMB)"
             },
             "hornet-grip-trim-up": {
               "profile": "moza-ab9-hornet-grip",
               "key": "JOY_BTN_POV1_U",
-              "command": "dnilp3017u3017cd13vdnilvp1vu0",
-              "label": "Trim up"
+              "command": "dnilp3015u3015cd13vdnilvp1vu0",
+              "label": "Trimmer Switch - PUSH(DESCEND)"
             },
             "hornet-grip-trim-left": {
               "profile": "moza-ab9-hornet-grip",
               "key": "JOY_BTN_POV1_L",
-              "command": "dnilp3018u3018cd13vdnilvp1vu0",
-              "label": "Trim left"
+              "command": "dnilp3016u3016cd13vdnilvp1vu0",
+              "label": "Trimmer Switch - LEFT WING DOWN"
             },
             "hornet-grip-trim-right": {
               "profile": "moza-ab9-hornet-grip",
               "key": "JOY_BTN_POV1_R",
-              "command": "dnilp3019u3019cd13vdnilvp1vu0",
-              "label": "Trim right"
+              "command": "dnilp3017u3017cd13vdnilvp1vu0",
+              "label": "Trimmer Switch - RIGHT WING DOWN"
             }
           },
           "labels": {
-            "hornet-grip-trigger-stage1": "Gun Camera",
-            "hornet-grip-trigger-stage2": "Shoot",
-            "hornet-grip-weapon-release": "Pickle",
-            "hornet-grip-sensor-up": "SC Up",
-            "hornet-grip-sensor-down": "SC Down",
-            "hornet-grip-sensor-right": "SC Right",
-            "hornet-grip-sensor-left": "SC Left",
-            "hornet-grip-sensor-push": "SC Push",
-            "hornet-grip-weapon-select-forward": "WS Forward",
-            "hornet-grip-weapon-select-right": "WS Right",
-            "hornet-grip-weapon-select-aft": "WS Aft",
-            "hornet-grip-weapon-select-left": "WS Left",
-            "hornet-grip-weapon-select-push": "WS Push",
-            "hornet-grip-recce-event": "Recce event",
-            "hornet-grip-paddle": "AP/NWS",
-            "hornet-grip-trim-down": "Trim down",
-            "hornet-grip-trim-up": "Trim up",
-            "hornet-grip-trim-left": "Trim left",
-            "hornet-grip-trim-right": "Trim right",
+            "hornet-grip-trigger-stage2": "Gun Trigger - SECOND DETENT (Press to shoot)",
+            "hornet-grip-weapon-release": "Weapon Release Button",
+            "hornet-grip-sensor-up": "Sensor Control Switch - Fwd",
+            "hornet-grip-sensor-down": "Sensor Control Switch - Aft",
+            "hornet-grip-sensor-right": "Sensor Control Switch - Left",
+            "hornet-grip-sensor-left": "Sensor Control Switch - Right",
+            "hornet-grip-sensor-push": "Select Sparrow",
+            "hornet-grip-weapon-select-forward": "Select Gun",
+            "hornet-grip-weapon-select-right": "Select AMRAAM",
+            "hornet-grip-weapon-select-aft": "Select Sidewinder",
+            "hornet-grip-weapon-select-left": "Undesignate/Nose Wheel Steer Switch",
+            "hornet-grip-paddle": "Autopilot/Nosewheel Steering Disengage (Paddle) Switch",
+            "hornet-grip-trim-down": "Trimmer Switch - PULL(CLIMB)",
+            "hornet-grip-trim-up": "Trimmer Switch - PUSH(DESCEND)",
+            "hornet-grip-trim-left": "Trimmer Switch - LEFT WING DOWN",
+            "hornet-grip-trim-right": "Trimmer Switch - RIGHT WING DOWN",
             "hornet-grip-nws-undesignate": "SHIFT / MODIFIER"
           }
         },
@@ -1074,18 +1029,48 @@
             "MOZA_F16_F18_BTN3"
           ],
           "controls": {
+            "hornet-grip-recce-event": {
+              "profile": "moza-ab9-hornet-grip",
+              "key": "JOY_BTN5",
+              "command": "d3002pnilu3002cd2vd1vpnilvu0",
+              "label": "T/O TRIM Button",
+              "modifiers": [
+                "MOZA_F16_F18_BTN3"
+              ]
+            },
             "hornet-grip-trigger-stage1": {
               "profile": "moza-ab9-hornet-grip",
               "key": "JOY_BTN1",
               "command": "d3004pnilu3004cd13vd1vpnilvu0",
-              "label": "NWS / Undesignate",
+              "label": "RECCE Event Mark Switch",
+              "modifiers": [
+                "MOZA_F16_F18_BTN3"
+              ]
+            },
+            "hornet-grip-weapon-select-left": {
+              "profile": "moza-ab9-hornet-grip",
+              "key": "JOY_BTN18",
+              "command": "dnilp3013unilcd2vdnilvp-1vunil",
+              "label": "RUD TRIM Control - CCW/Left",
+              "modifiers": [
+                "MOZA_F16_F18_BTN3"
+              ]
+            },
+            "hornet-grip-weapon-select-right": {
+              "profile": "moza-ab9-hornet-grip",
+              "key": "JOY_BTN16",
+              "command": "dnilp3013unilcd2vdnilvp1vunil",
+              "label": "RUD TRIM Control - CW/Right",
               "modifiers": [
                 "MOZA_F16_F18_BTN3"
               ]
             }
           },
           "labels": {
-            "hornet-grip-trigger-stage1": "NWS / Undesignate"
+            "hornet-grip-recce-event": "T/O TRIM Button",
+            "hornet-grip-trigger-stage1": "RECCE Event Mark Switch",
+            "hornet-grip-weapon-select-left": "RUD TRIM Control - CCW/Left",
+            "hornet-grip-weapon-select-right": "RUD TRIM Control - CW/Right"
           }
         }
       ]
@@ -1099,22 +1084,16 @@
       "kicker": "SCAFFOLD DRAFT",
       "_comment": "labels default to the imported DCS command name and remain editable; deviceLabel contains the canonical DCS-Common hardware label. keep callout IDs in sync with controls. You can also set \"label\" on a controls entry.",
       "labels": {
-        "pdcp-to": "ALR-67 Power",
-        "pdcp-cruise": "ALR-67 Display Type",
-        "pdcp-aa": "ALR-67 Limit",
-        "pdcp-ag": "ALR-67 Mode",
-        "pdcp-ldg": "ALR-67 Offset",
-        "pdcp-vdi-awl": "ALR-67 Enable",
-        "pdcp-steer-dest": "ALR-67 Special",
-        "pdcp-steer-awl-pcd": "ALR-67 Overhead",
-        "pdcp-steer-vec": "ALR-67 Test",
-        "pdcp-steer-man": "ALR-67 BIT",
-        "pdcp-hud-dec": "ALQ-165 Power",
-        "pdcp-hud-analog": "ALQ-165 Standby",
-        "pdcp-hud-awl": "ALQ-165 Active",
-        "pdcp-hud-alt-baro": "ALQ-165 Transmit",
-        "pdcp-vdi-mode": "ALQ-165 Test",
-        "pdcp-vdi-tv": "Salute"
+        "pdcp-to": "ALR-67 POWER Pushbutton: ON<>OFF",
+        "pdcp-cruise": "ALR-67 DISPLAY Pushbutton",
+        "pdcp-vdi-awl": "ALQ-165 ECM Mode Switch - CCW",
+        "pdcp-steer-man": "ALQ-165 ECM Mode Switch - CW",
+        "pdcp-aa": "ALR-67 SPECIAL Pushbutton",
+        "pdcp-ag": "ALR-67 OFFSET Pushbutton",
+        "pdcp-ldg": "ALR-67 BIT Pushbutton",
+        "pdcp-steer-awl-pcd": "ALR-67 POWER Pushbutton - ON/OFF",
+        "pdcp-steer-dest": "ALR-67 DMR Control Knob - CCW/Decrease",
+        "pdcp-steer-vec": "ALR-67 DMR Control Knob - CW/Increase"
       },
       "modifierCallouts": {},
       "controls": {
@@ -1122,97 +1101,61 @@
           "profile": "onyourtwelve-pdcp",
           "key": "JOY_BTN1",
           "command": "d3001pnilu3001cd53vd1vpnilvu0",
-          "label": "ALR-67 Power"
+          "label": "ALR-67 POWER Pushbutton: ON<>OFF"
         },
         "pdcp-cruise": {
           "profile": "onyourtwelve-pdcp",
           "key": "JOY_BTN2",
           "command": "d3002pnilu3002cd53vd1vpnilvu0",
-          "label": "ALR-67 Display Type"
+          "label": "ALR-67 DISPLAY Pushbutton"
+        },
+        "pdcp-vdi-awl": {
+          "profile": "onyourtwelve-pdcp",
+          "key": "JOY_BTN6",
+          "command": "d3002pnilunilcd66vd-1vpnilvunil",
+          "label": "ALQ-165 ECM Mode Switch - CCW"
+        },
+        "pdcp-steer-man": {
+          "profile": "onyourtwelve-pdcp",
+          "key": "JOY_BTN10",
+          "command": "d3002pnilunilcd66vd1vpnilvunil",
+          "label": "ALQ-165 ECM Mode Switch - CW"
         },
         "pdcp-aa": {
           "profile": "onyourtwelve-pdcp",
           "key": "JOY_BTN3",
           "command": "d3003pnilu3003cd53vd1vpnilvu0",
-          "label": "ALR-67 Limit"
+          "label": "ALR-67 SPECIAL Pushbutton"
         },
         "pdcp-ag": {
           "profile": "onyourtwelve-pdcp",
           "key": "JOY_BTN4",
           "command": "d3004pnilu3004cd53vd1vpnilvu0",
-          "label": "ALR-67 Mode"
+          "label": "ALR-67 OFFSET Pushbutton"
         },
         "pdcp-ldg": {
           "profile": "onyourtwelve-pdcp",
           "key": "JOY_BTN5",
           "command": "d3005pnilu3005cd53vd1vpnilvu0",
-          "label": "ALR-67 Offset"
-        },
-        "pdcp-vdi-awl": {
-          "profile": "onyourtwelve-pdcp",
-          "key": "JOY_BTN6",
-          "command": "d3006pnilu3006cd53vd1vpnilvu0",
-          "label": "ALR-67 Enable"
-        },
-        "pdcp-steer-dest": {
-          "profile": "onyourtwelve-pdcp",
-          "key": "JOY_BTN7",
-          "command": "d3007pnilu3007cd53vd1vpnilvu0",
-          "label": "ALR-67 Special"
+          "label": "ALR-67 BIT Pushbutton"
         },
         "pdcp-steer-awl-pcd": {
           "profile": "onyourtwelve-pdcp",
           "key": "JOY_BTN8",
-          "command": "d3008pnilu3008cd53vd1vpnilvu0",
-          "label": "ALR-67 Overhead"
+          "command": "d3014pnilunilcd53vd1vpnilvunil",
+          "label": "ALR-67 POWER Pushbutton - ON/OFF"
+        },
+        "pdcp-steer-dest": {
+          "profile": "onyourtwelve-pdcp",
+          "key": "JOY_BTN7",
+          "command": "dnilp3009unilcd53vdnilvp-0.5vunil",
+          "label": "ALR-67 DMR Control Knob - CCW/Decrease"
         },
         "pdcp-steer-vec": {
           "profile": "onyourtwelve-pdcp",
           "key": "JOY_BTN9",
-          "command": "d3009pnilu3009cd53vd1vpnilvu0",
-          "label": "ALR-67 Test"
-        },
-        "pdcp-steer-man": {
-          "profile": "onyourtwelve-pdcp",
-          "key": "JOY_BTN10",
-          "command": "d3010pnilu3010cd53vd1vpnilvu0",
-          "label": "ALR-67 BIT"
-        },
-        "pdcp-hud-dec": {
-          "profile": "onyourtwelve-pdcp",
-          "key": "JOY_BTN11",
-          "command": "d3001pnilu3001cd66vd1vpnilvu0",
-          "label": "ALQ-165 Power"
-        },
-        "pdcp-hud-analog": {
-          "profile": "onyourtwelve-pdcp",
-          "key": "JOY_BTN12",
-          "command": "d3002pnilu3002cd66vd1vpnilvu0",
-          "label": "ALQ-165 Standby"
-        },
-        "pdcp-hud-awl": {
-          "profile": "onyourtwelve-pdcp",
-          "key": "JOY_BTN13",
-          "command": "d3003pnilu3003cd66vd1vpnilvu0",
-          "label": "ALQ-165 Active"
-        },
-        "pdcp-hud-alt-baro": {
-          "profile": "onyourtwelve-pdcp",
-          "key": "JOY_BTN14",
-          "command": "d3004pnilu3004cd66vd1vpnilvu0",
-          "label": "ALQ-165 Transmit"
-        },
-        "pdcp-vdi-mode": {
-          "profile": "onyourtwelve-pdcp",
-          "key": "JOY_BTN15",
-          "command": "d3005pnilu3005cd66vd1vpnilvu0",
-          "label": "ALQ-165 Test"
-        },
-        "pdcp-vdi-tv": {
-          "profile": "onyourtwelve-pdcp",
-          "key": "JOY_BTN16",
-          "command": "d238pnilu238cdnilvd1vpnilvu0",
-          "label": "Salute"
+          "command": "dnilp3009unilcd53vdnilvp0.5vunil",
+          "label": "ALR-67 DMR Control Knob - CW/Increase"
         }
       }
     },
@@ -1260,136 +1203,283 @@
       "kicker": "SCAFFOLD DRAFT",
       "_comment": "labels default to the imported DCS command name and remain editable; deviceLabel contains the canonical DCS-Common hardware label. keep callout IDs in sync with controls. You can also set \"label\" on a controls entry.",
       "labels": {
-        "warthog-thr-apu-start": "APU ",
-        "warthog-thr-flaps-down": "FLAP FULL<>HALF",
-        "warthog-thr-flaps-up": "FLAP AUTO<>HALF",
-        "warthog-thr-landing-horn-silence": "MASTER CAUTION",
-        "warthog-thr-ap-engage": "AP/NWS",
-        "warthog-thr-slew-push": "TDC DEPRESS",
-        "warthog-thr-mic-right": "COMM 1",
-        "warthog-thr-mic-left": "COMM 2",
+        "warthog-thr-eac-on": "Master Arm Switch: ARM<>SAFE",
+        "warthog-thr-flaps-down": "FLAP 3-pos Switch: FULL<>HALF",
+        "warthog-thr-flaps-up": "FLAP 3-pos Switch: AUTO<>HALF",
+        "warthog-thr-rdr-alt-normal": "Altitude 2-pos Switch: BARO<>RDR",
+        "warthog-thr-landing-horn-silence": "MASTER CAUTION Reset Button",
+        "warthog-thr-ap-select-down": "Attitude Selector 3-pos Switch: STBY<>AUTO",
+        "warthog-thr-ap-select-up": "Attitude Selector 3-pos Switch: INS<>AUTO",
+        "warthog-thr-engine-operate-left-up": "Engine Crank Switch - LEFT",
+        "warthog-thr-engine-operate-right-up": "Engine Crank Switch - RIGHT",
+        "warthog-thr-engine-operate-left-down": "Engine Crank Switch - OFF",
+        "warthog-thr-engine-operate-right-down": "Engine Crank Switch - OFF",
+        "warthog-thr-ap-engage": "Autopilot/Nosewheel Steering Disengage (Paddle) Switch",
+        "warthog-thr-apu-start": "APU Control 2-pos Switch: ON<>OFF",
+        "warthog-thr-slew-push": "Throttle Designator Controller - DEPRESS",
+        "warthog-thr-mic-right": "COMM Switch - COMM 1 (call radio menu)",
+        "warthog-thr-mic-left": "COMM Switch - COMM 2 (call radio menu)",
         "warthog-thr-china-back": "Cage/Uncage Button",
-        "warthog-thr-boat-forward": "Dispense Forward (CHAFF)",
-        "warthog-thr-boat-back": "Dispense|Aft (FLARE)",
-        "warthog-thr-china-forward": "RAID/FLIR FOV",
-        "warthog-thr-speedbrake-back": "Speed EXTEND",
-        "warthog-thr-speedbrake-forward": "Speed RETRACT",
-        "warthog-thr-left-throttle-button": "ATC Engage/Disengage",
-        "warthog-thr-pinky-back": "Ext Lights OFF",
-        "warthog-thr-pinky-forward": "Ext Lights ON",
-        "warthog-thr-mic-up": "Hornet Ball"
+        "warthog-thr-boat-forward": "Dispense Switch - Forward(CHAFF)/Center(OFF)",
+        "warthog-thr-boat-back": "Dispense Switch - Aft(FLARE)/Center(OFF)",
+        "warthog-thr-china-forward": "RAID/FLIR FOV Select Button",
+        "warthog-thr-speedbrake-back": "Speed Brake Switch - EXTEND",
+        "warthog-thr-speedbrake-forward": "Speed Brake Switch - RETRACT",
+        "warthog-thr-left-throttle-button": "ATC Engage/Disengage Switch",
+        "warthog-thr-pinky-back": "Exterior Lights Switch - OFF",
+        "warthog-thr-pinky-forward": "Exterior Lights Switch - ON",
+        "warthog-thr-mic-up": "Hornet Ball",
+        "warthog-thr-axis-slew-y": "Throttle Designator Controller - VERTICAL AXIS",
+        "warthog-thr-axis-slew-x": "Throttle Designator Controller - HORIZONTAL AXIS"
       },
       "modifierCallouts": {},
-      "controls": {
-        "warthog-thr-apu-start": {
-          "profile": "tm-warthog-throttle",
-          "key": "JOY_BTN20",
-          "command": "d3001pnilu3001cd12vd1vpnilvu0",
-          "label": "APU"
+      "layers": [
+        {
+          "id": "base",
+          "controls": {
+            "warthog-thr-eac-on": {
+              "profile": "tm-warthog-throttle",
+              "key": "JOY_BTN24",
+              "command": "d3003pnilu3003cd23vd1vpnilvu0",
+              "label": "Master Arm Switch: ARM<>SAFE"
+            },
+            "warthog-thr-flaps-down": {
+              "profile": "tm-warthog-throttle",
+              "key": "JOY_BTN23",
+              "command": "d3007pnilu3007cd2vd-1vpnilvu0",
+              "label": "FLAP 3-pos Switch: FULL<>HALF"
+            },
+            "warthog-thr-flaps-up": {
+              "profile": "tm-warthog-throttle",
+              "key": "JOY_BTN22",
+              "command": "d3007pnilu3007cd2vd1vpnilvu0",
+              "label": "FLAP 3-pos Switch: AUTO<>HALF"
+            },
+            "warthog-thr-rdr-alt-normal": {
+              "profile": "tm-warthog-throttle",
+              "key": "JOY_BTN25",
+              "command": "d3008pnilu3008cd34vd1vpnilvu0",
+              "label": "Altitude 2-pos Switch: BARO<>RDR"
+            },
+            "warthog-thr-landing-horn-silence": {
+              "profile": "tm-warthog-throttle",
+              "key": "JOY_BTN21",
+              "command": "d3008pnilu3008cd9vd1vpnilvu0",
+              "label": "MASTER CAUTION Reset Button"
+            },
+            "warthog-thr-ap-select-down": {
+              "profile": "tm-warthog-throttle",
+              "key": "JOY_BTN28",
+              "command": "d3009pnilu3009cd34vd-1vpnilvu0",
+              "label": "Attitude Selector 3-pos Switch: STBY<>AUTO"
+            },
+            "warthog-thr-ap-select-up": {
+              "profile": "tm-warthog-throttle",
+              "key": "JOY_BTN27",
+              "command": "d3009pnilu3009cd34vd1vpnilvu0",
+              "label": "Attitude Selector 3-pos Switch: INS<>AUTO"
+            },
+            "warthog-thr-engine-operate-left-up": {
+              "profile": "tm-warthog-throttle",
+              "key": "JOY_BTN31",
+              "command": "d3015pnilu3015cd12vd-1vpnilvu0",
+              "label": "Engine Crank Switch - LEFT"
+            },
+            "warthog-thr-engine-operate-right-up": {
+              "profile": "tm-warthog-throttle",
+              "key": "JOY_BTN32",
+              "command": "d3016pnilu3016cd12vd1vpnilvu0",
+              "label": "Engine Crank Switch - RIGHT"
+            },
+            "warthog-thr-engine-operate-left-down": {
+              "profile": "tm-warthog-throttle",
+              "key": "JOY_BTN18",
+              "command": "d3016pnilunilcd12vd-1vpnilvunil",
+              "label": "Engine Crank Switch - OFF"
+            },
+            "warthog-thr-engine-operate-right-down": {
+              "profile": "tm-warthog-throttle",
+              "key": "JOY_BTN19",
+              "command": "d3016pnilunilcd12vd-1vpnilvunil",
+              "label": "Engine Crank Switch - OFF"
+            },
+            "warthog-thr-ap-engage": {
+              "profile": "tm-warthog-throttle",
+              "key": "JOY_BTN26",
+              "command": "d3018pnilu3018cd13vd1vpnilvu0",
+              "label": "Autopilot/Nosewheel Steering Disengage (Paddle) Switch"
+            },
+            "warthog-thr-apu-start": {
+              "profile": "tm-warthog-throttle",
+              "key": "JOY_BTN20",
+              "command": "d3023pnilu3023cd12vd1vpnilvu0",
+              "label": "APU Control 2-pos Switch: ON<>OFF"
+            },
+            "warthog-thr-slew-push": {
+              "profile": "tm-warthog-throttle",
+              "key": "JOY_BTN1",
+              "command": "d3023pnilu3023cd13vd1vpnilvu0",
+              "label": "Throttle Designator Controller - DEPRESS"
+            },
+            "warthog-thr-mic-right": {
+              "profile": "tm-warthog-throttle",
+              "key": "JOY_BTN3",
+              "command": "d3027pnilu3027cd13vd0.2vpnilvu0",
+              "label": "COMM Switch - COMM 1 (call radio menu)"
+            },
+            "warthog-thr-mic-left": {
+              "profile": "tm-warthog-throttle",
+              "key": "JOY_BTN5",
+              "command": "d3028pnilu3028cd13vd0.4vpnilvu0",
+              "label": "COMM Switch - COMM 2 (call radio menu)"
+            },
+            "warthog-thr-china-back": {
+              "profile": "tm-warthog-throttle",
+              "key": "JOY_BTN12",
+              "command": "d3031pnilu3031cd13vd1vpnilvu0",
+              "label": "Cage/Uncage Button"
+            },
+            "warthog-thr-boat-forward": {
+              "profile": "tm-warthog-throttle",
+              "key": "JOY_BTN9",
+              "command": "d3032pnilu3032cd13vd1vpnilvu0",
+              "label": "Dispense Switch - Forward(CHAFF)/Center(OFF)"
+            },
+            "warthog-thr-boat-back": {
+              "profile": "tm-warthog-throttle",
+              "key": "JOY_BTN10",
+              "command": "d3033pnilu3033cd13vd-1vpnilvu0",
+              "label": "Dispense Switch - Aft(FLARE)/Center(OFF)"
+            },
+            "warthog-thr-china-forward": {
+              "profile": "tm-warthog-throttle",
+              "key": "JOY_BTN11",
+              "command": "d3034pnilu3034cd13vd1vpnilvu0",
+              "label": "RAID/FLIR FOV Select Button"
+            },
+            "warthog-thr-speedbrake-back": {
+              "profile": "tm-warthog-throttle",
+              "key": "JOY_BTN8",
+              "command": "d3035pnilu3035cd13vd-1vpnilvu0",
+              "label": "Speed Brake Switch - EXTEND"
+            },
+            "warthog-thr-speedbrake-forward": {
+              "profile": "tm-warthog-throttle",
+              "key": "JOY_BTN7",
+              "command": "d3035pnilunilcd13vd1vpnilvunil",
+              "label": "Speed Brake Switch - RETRACT"
+            },
+            "warthog-thr-left-throttle-button": {
+              "profile": "tm-warthog-throttle",
+              "key": "JOY_BTN15",
+              "command": "d3037pnilu3037cd13vd1vpnilvu0",
+              "label": "ATC Engage/Disengage Switch"
+            },
+            "warthog-thr-pinky-back": {
+              "profile": "tm-warthog-throttle",
+              "key": "JOY_BTN14",
+              "command": "d3041pnilunilcd13vd0vpnilvunil",
+              "label": "Exterior Lights Switch - OFF"
+            },
+            "warthog-thr-pinky-forward": {
+              "profile": "tm-warthog-throttle",
+              "key": "JOY_BTN13",
+              "command": "d3041pnilunilcd13vd1vpnilvunil",
+              "label": "Exterior Lights Switch - ON"
+            },
+            "warthog-thr-mic-up": {
+              "profile": "tm-warthog-throttle",
+              "key": "JOY_BTN2",
+              "command": "d3041pnilunilcd40vd1vpnilvunil",
+              "label": "Hornet Ball"
+            },
+            "warthog-thr-axis-slew-y": {
+              "profile": "tm-warthog-throttle",
+              "key": "JOY_Y",
+              "command": "a3043cd13",
+              "label": "Throttle Designator Controller - VERTICAL AXIS"
+            },
+            "warthog-thr-axis-slew-x": {
+              "profile": "tm-warthog-throttle",
+              "key": "JOY_X",
+              "command": "a3044cd13",
+              "label": "Throttle Designator Controller - HORIZONTAL AXIS"
+            }
+          },
+          "labels": {
+            "warthog-thr-eac-on": "Master Arm Switch: ARM<>SAFE",
+            "warthog-thr-flaps-down": "FLAP 3-pos Switch: FULL<>HALF",
+            "warthog-thr-flaps-up": "FLAP 3-pos Switch: AUTO<>HALF",
+            "warthog-thr-rdr-alt-normal": "Altitude 2-pos Switch: BARO<>RDR",
+            "warthog-thr-landing-horn-silence": "MASTER CAUTION Reset Button",
+            "warthog-thr-ap-select-down": "Attitude Selector 3-pos Switch: STBY<>AUTO",
+            "warthog-thr-ap-select-up": "Attitude Selector 3-pos Switch: INS<>AUTO",
+            "warthog-thr-engine-operate-left-up": "Engine Crank Switch - LEFT",
+            "warthog-thr-engine-operate-right-up": "Engine Crank Switch - RIGHT",
+            "warthog-thr-engine-operate-left-down": "Engine Crank Switch - OFF",
+            "warthog-thr-engine-operate-right-down": "Engine Crank Switch - OFF",
+            "warthog-thr-ap-engage": "Autopilot/Nosewheel Steering Disengage (Paddle) Switch",
+            "warthog-thr-apu-start": "APU Control 2-pos Switch: ON<>OFF",
+            "warthog-thr-slew-push": "Throttle Designator Controller - DEPRESS",
+            "warthog-thr-mic-right": "COMM Switch - COMM 1 (call radio menu)",
+            "warthog-thr-mic-left": "COMM Switch - COMM 2 (call radio menu)",
+            "warthog-thr-china-back": "Cage/Uncage Button",
+            "warthog-thr-boat-forward": "Dispense Switch - Forward(CHAFF)/Center(OFF)",
+            "warthog-thr-boat-back": "Dispense Switch - Aft(FLARE)/Center(OFF)",
+            "warthog-thr-china-forward": "RAID/FLIR FOV Select Button",
+            "warthog-thr-speedbrake-back": "Speed Brake Switch - EXTEND",
+            "warthog-thr-speedbrake-forward": "Speed Brake Switch - RETRACT",
+            "warthog-thr-left-throttle-button": "ATC Engage/Disengage Switch",
+            "warthog-thr-pinky-back": "Exterior Lights Switch - OFF",
+            "warthog-thr-pinky-forward": "Exterior Lights Switch - ON",
+            "warthog-thr-mic-up": "Hornet Ball",
+            "warthog-thr-axis-slew-y": "Throttle Designator Controller - VERTICAL AXIS",
+            "warthog-thr-axis-slew-x": "Throttle Designator Controller - HORIZONTAL AXIS"
+          }
         },
-        "warthog-thr-flaps-down": {
-          "profile": "tm-warthog-throttle",
-          "key": "JOY_BTN23",
-          "command": "d3007pnilu3007cd2vd-1vpnilvu0",
-          "label": "FLAP FULL<>HALF"
-        },
-        "warthog-thr-flaps-up": {
-          "profile": "tm-warthog-throttle",
-          "key": "JOY_BTN22",
-          "command": "d3007pnilu3007cd2vd1vpnilvu0",
-          "label": "FLAP AUTO<>HALF"
-        },
-        "warthog-thr-landing-horn-silence": {
-          "profile": "tm-warthog-throttle",
-          "key": "JOY_BTN21",
-          "command": "d3008pnilu3008cd9vd1vpnilvu0",
-          "label": "MASTER CAUTION"
-        },
-        "warthog-thr-ap-engage": {
-          "profile": "tm-warthog-throttle",
-          "key": "JOY_BTN26",
-          "command": "d3018pnilu3018cd13vd1vpnilvu0",
-          "label": "AP/NWS"
-        },
-        "warthog-thr-slew-push": {
-          "profile": "tm-warthog-throttle",
-          "key": "JOY_BTN1",
-          "command": "d3023pnilu3023cd13vd1vpnilvu0",
-          "label": "TDC DEPRESS"
-        },
-        "warthog-thr-mic-right": {
-          "profile": "tm-warthog-throttle",
-          "key": "JOY_BTN3",
-          "command": "d3027pnilu3027cd13vd0.2vpnilvu0",
-          "label": "COMM 1"
-        },
-        "warthog-thr-mic-left": {
-          "profile": "tm-warthog-throttle",
-          "key": "JOY_BTN5",
-          "command": "d3028pnilu3028cd13vd0.4vpnilvu0",
-          "label": "COMM 2"
-        },
-        "warthog-thr-china-back": {
-          "profile": "tm-warthog-throttle",
-          "key": "JOY_BTN12",
-          "command": "d3031pnilu3031cd13vd1vpnilvu0",
-          "label": "Cage/Uncage Button"
-        },
-        "warthog-thr-boat-forward": {
-          "profile": "tm-warthog-throttle",
-          "key": "JOY_BTN9",
-          "command": "d3032pnilu3032cd13vd1vpnilvu0",
-          "label": "Dispense Forward (CHAFF)"
-        },
-        "warthog-thr-boat-back": {
-          "profile": "tm-warthog-throttle",
-          "key": "JOY_BTN10",
-          "command": "d3033pnilu3033cd13vd-1vpnilvu0",
-          "label": "Dispense Aft (FLARE)"
-        },
-        "warthog-thr-china-forward": {
-          "profile": "tm-warthog-throttle",
-          "key": "JOY_BTN11",
-          "command": "d3034pnilu3034cd13vd1vpnilvu0",
-          "label": "RAID/FLIR FOV"
-        },
-        "warthog-thr-speedbrake-back": {
-          "profile": "tm-warthog-throttle",
-          "key": "JOY_BTN8",
-          "command": "d3035pnilu3035cd13vd-1vpnilvu0",
-          "label": "Speed EXTEND"
-        },
-        "warthog-thr-speedbrake-forward": {
-          "profile": "tm-warthog-throttle",
-          "key": "JOY_BTN7",
-          "command": "d3035pnilunilcd13vd1vpnilvunil",
-          "label": "Speed RETRACT"
-        },
-        "warthog-thr-left-throttle-button": {
-          "profile": "tm-warthog-throttle",
-          "key": "JOY_BTN15",
-          "command": "d3037pnilu3037cd13vd1vpnilvu0",
-          "label": "ATC Engage/Disengage"
-        },
-        "warthog-thr-pinky-back": {
-          "profile": "tm-warthog-throttle",
-          "key": "JOY_BTN14",
-          "command": "d3041pnilunilcd13vd0vpnilvunil",
-          "label": "Ext Lights OFF"
-        },
-        "warthog-thr-pinky-forward": {
-          "profile": "tm-warthog-throttle",
-          "key": "JOY_BTN13",
-          "command": "d3041pnilunilcd13vd1vpnilvunil",
-          "label": "Ext Lights ON"
-        },
-        "warthog-thr-mic-up": {
-          "profile": "tm-warthog-throttle",
-          "key": "JOY_BTN2",
-          "command": "d3041pnilunilcd40vd1vpnilvunil",
-          "label": "Hornet Ball"
+        {
+          "id": "MOZA_F16_F18_BTN3",
+          "file": "08-TM-WARTHOG-THROTTLE-MOZA-F16-F18-BTN3",
+          "title": "Throttle - HOTAS Warthog • MOZA_F16_F18_BTN3",
+          "activators": [
+            "MOZA_F16_F18_BTN3"
+          ],
+          "controls": {
+            "warthog-thr-apu-start": {
+              "profile": "tm-warthog-throttle",
+              "key": "JOY_BTN20",
+              "command": "d3001pnilu3001cd3vd1vpnilvu0",
+              "label": "Battery 3-pos Switch: ON<>OFF",
+              "modifiers": [
+                "MOZA_F16_F18_BTN3"
+              ]
+            },
+            "warthog-thr-fuel-flow-left": {
+              "profile": "tm-warthog-throttle",
+              "key": "JOY_BTN16",
+              "command": "d3002pnilu3002cd3vd1vpnilvu0",
+              "label": "Left Generator Control Switch: NORM<>OFF",
+              "modifiers": [
+                "MOZA_F16_F18_BTN3"
+              ]
+            },
+            "warthog-thr-fuel-flow-right": {
+              "profile": "tm-warthog-throttle",
+              "key": "JOY_BTN17",
+              "command": "d3003pnilu3003cd3vd1vpnilvu0",
+              "label": "Right Generator Control Switch: NORM<>OFF",
+              "modifiers": [
+                "MOZA_F16_F18_BTN3"
+              ]
+            }
+          },
+          "labels": {
+            "warthog-thr-apu-start": "Battery 3-pos Switch: ON<>OFF",
+            "warthog-thr-fuel-flow-left": "Left Generator Control Switch: NORM<>OFF",
+            "warthog-thr-fuel-flow-right": "Right Generator Control Switch: NORM<>OFF"
+          }
         }
-      }
+      ]
     },
     {
       "file": "09-WINCTRL-PTO2",
@@ -1400,44 +1490,44 @@
       "kicker": "SCAFFOLD DRAFT",
       "_comment": "labels default to the imported DCS command name and remain editable; deviceLabel contains the canonical DCS-Common hardware label. keep callout IDs in sync with controls. You can also set \"label\" on a controls entry.",
       "labels": {
-        "pto2-button-16": "Probe EMERG EXTD",
-        "pto2-button-15": "Probe RETRACT",
-        "pto2-button-14": "Probe EXTEND",
+        "pto2-button-16": "Probe Control Switch - EMERG EXTD",
+        "pto2-button-15": "Probe Control Switch - RETRACT",
+        "pto2-button-14": "Probe Control Switch - EXTEND",
         "pto2-button-11": "Anti Skid Switch - OFF",
         "pto2-button-10": "Anti Skid Switch - ON",
-        "pto2-button-9": "LDG/TAXI OFF",
-        "pto2-button-8": "LDG/TAXI ON",
-        "pto2-button-39": "EBrake PULL",
-        "pto2-button-38": "EBrake STOW",
-        "pto2-button-40": "EBrake CCW",
-        "pto2-button-41": "EBrake CW",
+        "pto2-button-9": "LDG/TAXI LIGHT Switch - OFF",
+        "pto2-button-8": "LDG/TAXI LIGHT Switch - ON",
+        "pto2-button-39": "Emergency/Parking Brake Handle - PULL",
+        "pto2-button-38": "Emergency/Parking Brake Handle - STOW",
+        "pto2-button-40": "Emergency/Parking Brake Handle - CCW",
         "pto2-button-6": "FLAP Switch - HALF",
         "pto2-button-5": "FLAP Switch - AUTO",
-        "pto2-button-2": "MASTER CAUTION",
-        "pto2-button-34": "Hook DOWN",
-        "pto2-button-32": "Hook UP",
-        "pto2-button-22": "Jet Button",
-        "pto2-button-17": "L FUS / MSL",
-        "pto2-button-19": "R FUS / MSL",
-        "pto2-button-20": "RACK / LCHR",
-        "pto2-button-21": "STORES",
-        "pto2-button-18": "SAFE",
-        "pto2-button-28": "Wings fold",
-        "pto2-button-29": "Wings hold",
-        "pto2-button-30": "Wings spread",
-        "pto2-button-4": "Launch bar extend",
-        "pto2-button-3": "Launch bar retract",
-        "pto2-button-7": "FLAP FULL",
-        "pto2-button-23": "Jet Center",
-        "pto2-button-24": "Jet LI",
-        "pto2-button-26": "Jet LO",
-        "pto2-button-31": "Wings lock/unlock",
-        "pto2-button-25": "Jet RI",
-        "pto2-button-27": "Jet RO",
-        "pto2-button-12": "bypass field",
-        "pto2-button-13": "bypass carrier",
-        "pto2-button-35": "Landing Gear UP",
-        "pto2-button-37": "Landing Gear DOWN"
+        "pto2-button-41": "Emergency/Parking Brake Handle - CW",
+        "pto2-button-2": "MASTER CAUTION Reset Button",
+        "pto2-button-34": "Arresting Hook Handle - DOWN ",
+        "pto2-button-32": "Arresting Hook Handle - UP",
+        "pto2-button-22": "Selective Jettison Pushbutton",
+        "pto2-button-17": "Selective Jettison Knob - L FUS MSL",
+        "pto2-button-19": "Selective Jettison Knob - R FUS MSL",
+        "pto2-button-20": "Selective Jettison Knob - RACK/LCHR",
+        "pto2-button-21": "Selective Jettison Knob - STORES",
+        "pto2-button-18": "Selective Jettison Knob - SAFE",
+        "pto2-button-28": "Wing Fold Control Handle - FOLD",
+        "pto2-button-29": "Wing Fold Control Handle - HOLD",
+        "pto2-button-30": "Wing Fold Control Handle - SPREAD",
+        "pto2-button-4": "Launch Bar Control Switch - EXTEND",
+        "pto2-button-3": "Launch Bar Control Switch - RETRACT",
+        "pto2-button-7": "FLAP Switch - Down",
+        "pto2-button-23": "Station Jettison Select Button CENTER - ON/OFF",
+        "pto2-button-24": "Station Jettison Select Button LEFT IN - ON/OFF",
+        "pto2-button-26": "Station Jettison Select Button LEFT OUT - ON/OFF",
+        "pto2-button-31": "Wing Fold Control Handle - PULL/STOW",
+        "pto2-button-25": "Station Jettison Select Button RIGHT IN - ON/OFF",
+        "pto2-button-27": "Station Jettison Select Button RIGHT OUT - ON/OFF",
+        "pto2-button-12": "HOOK BYPASS Switch - FIELD",
+        "pto2-button-13": "HOOK BYPASS Switch - CARRIER",
+        "pto2-button-35": "Landing Gear Control Handle - UP",
+        "pto2-button-37": "Landing Gear Control Handle - DOWN"
       },
       "modifierCallouts": {},
       "controls": {
@@ -1445,67 +1535,61 @@
           "profile": "winctrl-pto2",
           "key": "JOY_BTN16",
           "command": "d3002pnilunilcd6vd-1vpnilvunil",
-          "label": "Probe EMERG EXTD"
+          "label": "Probe Control Switch - EMERG EXTD"
         },
         "pto2-button-15": {
           "profile": "winctrl-pto2",
           "key": "JOY_BTN15",
           "command": "d3002pnilunilcd6vd0vpnilvunil",
-          "label": "Probe RETRACT"
+          "label": "Probe Control Switch - RETRACT"
         },
         "pto2-button-14": {
           "profile": "winctrl-pto2",
           "key": "JOY_BTN14",
           "command": "d3002pnilunilcd6vd1vpnilvunil",
-          "label": "Probe EXTEND"
+          "label": "Probe Control Switch - EXTEND"
         },
         "pto2-button-11": {
           "profile": "winctrl-pto2",
           "key": "JOY_BTN11",
           "command": "d3004pnilunilcd5vd0vpnilvunil",
-          "label": "Anti Skid OFF"
+          "label": "Anti Skid Switch - OFF"
         },
         "pto2-button-10": {
           "profile": "winctrl-pto2",
           "key": "JOY_BTN10",
           "command": "d3004pnilunilcd5vd1vpnilvunil",
-          "label": "Anti Skid ON"
+          "label": "Anti Skid Switch - ON"
         },
         "pto2-button-9": {
           "profile": "winctrl-pto2",
           "key": "JOY_BTN9",
           "command": "d3004pnilunilcd8vd0vpnilvunil",
-          "label": "LDG/TAXI OFF"
+          "label": "LDG/TAXI LIGHT Switch - OFF"
         },
         "pto2-button-8": {
           "profile": "winctrl-pto2",
           "key": "JOY_BTN8",
           "command": "d3004pnilunilcd8vd1vpnilvunil",
-          "label": "LDG/TAXI ON"
+          "label": "LDG/TAXI LIGHT Switch - ON"
         },
         "pto2-button-39": {
           "profile": "winctrl-pto2",
           "key": "JOY_BTN39",
           "command": "d3005pnilunilcd5vd-1vpnilvunil",
-          "label": "EBrake PULL"
+          "label": "Emergency/Parking Brake Handle - PULL"
         },
         "pto2-button-38": {
           "profile": "winctrl-pto2",
           "key": "JOY_BTN38",
           "command": "d3005pnilunilcd5vd1vpnilvunil",
-          "label": "EBrake STOW"
+          "label": "Emergency/Parking Brake Handle - STOW"
         },
         "pto2-button-40": {
           "profile": "winctrl-pto2",
           "key": "JOY_BTN40",
           "command": "d3006pnilu3006cd5vd1vpnilvu0",
-          "label": "EBrake CCW"
-        },
-        "pto2-button-41": {
-          "profile": "winctrl-pto2",
-          "key": "JOY_BTN41",
-          "command": "d3007pnilunilcd5vd-1vpnilvunil",
-          "label": "EBrake CW"
+          "label": "Emergency/Parking Brake Handle - CCW"
         },
         "pto2-button-6": {
           "profile": "winctrl-pto2",
@@ -1519,155 +1603,161 @@
           "command": "d3007pnilunilcd2vd1vpnilvunil",
           "label": "FLAP Switch - AUTO"
         },
+        "pto2-button-41": {
+          "profile": "winctrl-pto2",
+          "key": "JOY_BTN41",
+          "command": "d3007pnilunilcd5vd-1vpnilvunil",
+          "label": "Emergency/Parking Brake Handle - CW"
+        },
         "pto2-button-2": {
           "profile": "winctrl-pto2",
           "key": "JOY_BTN2",
           "command": "d3008pnilu3008cd9vd1vpnilvu0",
-          "label": "MASTER CAUTION"
+          "label": "MASTER CAUTION Reset Button"
         },
         "pto2-button-34": {
           "profile": "winctrl-pto2",
           "key": "JOY_BTN34",
           "command": "d3009pnilunilcd5vd0vpnilvunil",
-          "label": "Hook DOWN"
+          "label": "Arresting Hook Handle - DOWN "
         },
         "pto2-button-32": {
           "profile": "winctrl-pto2",
           "key": "JOY_BTN32",
           "command": "d3009pnilunilcd5vd1vpnilvunil",
-          "label": "Hook UP"
+          "label": "Arresting Hook Handle - UP"
         },
         "pto2-button-22": {
           "profile": "winctrl-pto2",
           "key": "JOY_BTN22",
           "command": "d3010pnilu3010cd23vd1vpnilvu0",
-          "label": "Jet Button"
+          "label": "Selective Jettison Pushbutton"
         },
         "pto2-button-17": {
           "profile": "winctrl-pto2",
           "key": "JOY_BTN17",
           "command": "d3011pnilunilcd23vd-0.1vpnilvunil",
-          "label": "L FUS / MSL"
+          "label": "Selective Jettison Knob - L FUS MSL"
         },
         "pto2-button-19": {
           "profile": "winctrl-pto2",
           "key": "JOY_BTN19",
           "command": "d3011pnilunilcd23vd0.1vpnilvunil",
-          "label": "R FUS / MSL"
+          "label": "Selective Jettison Knob - R FUS MSL"
         },
         "pto2-button-20": {
           "profile": "winctrl-pto2",
           "key": "JOY_BTN20",
           "command": "d3011pnilunilcd23vd0.2vpnilvunil",
-          "label": "RACK / LCHR"
+          "label": "Selective Jettison Knob - RACK/LCHR"
         },
         "pto2-button-21": {
           "profile": "winctrl-pto2",
           "key": "JOY_BTN21",
           "command": "d3011pnilunilcd23vd0.3vpnilvunil",
-          "label": "STORES"
+          "label": "Selective Jettison Knob - STORES"
         },
         "pto2-button-18": {
           "profile": "winctrl-pto2",
           "key": "JOY_BTN18",
           "command": "d3011pnilunilcd23vd0vpnilvunil",
-          "label": "SAFE"
+          "label": "Selective Jettison Knob - SAFE"
         },
         "pto2-button-28": {
           "profile": "winctrl-pto2",
           "key": "JOY_BTN28",
           "command": "d3011pnilunilcd2vd-1vpnilvunil",
-          "label": "Wings fold"
+          "label": "Wing Fold Control Handle - FOLD"
         },
         "pto2-button-29": {
           "profile": "winctrl-pto2",
           "key": "JOY_BTN29",
           "command": "d3011pnilunilcd2vd0vpnilvunil",
-          "label": "Wings hold"
+          "label": "Wing Fold Control Handle - HOLD"
         },
         "pto2-button-30": {
           "profile": "winctrl-pto2",
           "key": "JOY_BTN30",
           "command": "d3011pnilunilcd2vd1vpnilvunil",
-          "label": "Wings spread"
+          "label": "Wing Fold Control Handle - SPREAD"
         },
         "pto2-button-4": {
           "profile": "winctrl-pto2",
           "key": "JOY_BTN4",
           "command": "d3014pnilu3014cd5vd1vpnilvu0",
-          "label": "Launch bar extend"
+          "label": "Launch Bar Control Switch - EXTEND"
         },
         "pto2-button-3": {
           "profile": "winctrl-pto2",
           "key": "JOY_BTN3",
           "command": "d3014pnilunilcd5vd-1vpnilvunil",
-          "label": "Launch bar retract"
+          "label": "Launch Bar Control Switch - RETRACT"
         },
         "pto2-button-7": {
           "profile": "winctrl-pto2",
           "key": "JOY_BTN7",
           "command": "d3017pnilunilcd2vd-1vpnilvunil",
-          "label": "FLAP FULL"
+          "label": "FLAP Switch - Down"
         },
         "pto2-button-23": {
           "profile": "winctrl-pto2",
           "key": "JOY_BTN23",
           "command": "d3018pnilunilcd23vd0vpnilvunil",
-          "label": "Jet Center"
+          "label": "Station Jettison Select Button CENTER - ON/OFF"
         },
         "pto2-button-24": {
           "profile": "winctrl-pto2",
           "key": "JOY_BTN24",
           "command": "d3019pnilunilcd23vd0vpnilvunil",
-          "label": "Jet LI"
+          "label": "Station Jettison Select Button LEFT IN - ON/OFF"
         },
         "pto2-button-26": {
           "profile": "winctrl-pto2",
           "key": "JOY_BTN26",
           "command": "d3020pnilunilcd23vd0vpnilvunil",
-          "label": "Jet LO"
+          "label": "Station Jettison Select Button LEFT OUT - ON/OFF"
         },
         "pto2-button-31": {
           "profile": "winctrl-pto2",
           "key": "JOY_BTN31",
           "command": "d3020pnilunilcd2vd0vpnilvunil",
-          "label": "Wings lock/unlock"
+          "label": "Wing Fold Control Handle - PULL/STOW"
         },
         "pto2-button-25": {
           "profile": "winctrl-pto2",
           "key": "JOY_BTN25",
           "command": "d3021pnilunilcd23vd0vpnilvunil",
-          "label": "Jet RI"
+          "label": "Station Jettison Select Button RIGHT IN - ON/OFF"
         },
         "pto2-button-27": {
           "profile": "winctrl-pto2",
           "key": "JOY_BTN27",
           "command": "d3022pnilunilcd23vd0vpnilvunil",
-          "label": "Jet RO"
+          "label": "Station Jettison Select Button RIGHT OUT - ON/OFF"
         },
         "pto2-button-12": {
           "profile": "winctrl-pto2",
           "key": "JOY_BTN12",
           "command": "d3025pnilu3025cd9vd1vpnilvu0",
-          "label": "bypass field"
+          "label": "HOOK BYPASS Switch - FIELD"
         },
         "pto2-button-13": {
           "profile": "winctrl-pto2",
           "key": "JOY_BTN13",
           "command": "d3025pnilunilcd9vd-1vpnilvunil",
-          "label": "bypass carrier"
+          "label": "HOOK BYPASS Switch - CARRIER"
         },
         "pto2-button-35": {
           "profile": "winctrl-pto2",
           "key": "JOY_BTN35",
           "command": "d430pnilunilcdnilvdnilvpnilvunil",
-          "label": "Landing Gear UP"
+          "label": "Landing Gear Control Handle - UP"
         },
         "pto2-button-37": {
           "profile": "winctrl-pto2",
           "key": "JOY_BTN37",
           "command": "d431pnilunilcdnilvdnilvpnilvunil",
-          "label": "Landing Gear DOWN"
+          "label": "Landing Gear Control Handle - DOWN"
         }
       }
     },
@@ -1680,136 +1770,337 @@
       "kicker": "SCAFFOLD DRAFT",
       "_comment": "labels default to the imported DCS command name and remain editable; deviceLabel contains the canonical DCS-Common hardware label. keep callout IDs in sync with controls. You can also set \"label\" on a controls entry.",
       "labels": {
-        "winctrl-icp-btn-01": "COMM 1",
-        "winctrl-icp-btn-02": "COMM 2",
-        "winctrl-icp-btn-03": "IFF",
-        "winctrl-icp-btn-04": "LIST",
-        "winctrl-icp-btn-05": "A-A",
-        "winctrl-icp-btn-06": "A-G",
-        "winctrl-icp-btn-07": "Key 1",
-        "winctrl-icp-btn-08": "Key 2",
-        "winctrl-icp-btn-09": "Key 3",
-        "winctrl-icp-btn-10": "Key 4",
-        "winctrl-icp-btn-11": "Key 5",
-        "winctrl-icp-btn-12": "Key 6",
-        "winctrl-icp-btn-13": "Key 7",
-        "winctrl-icp-btn-14": "Key 8",
-        "winctrl-icp-btn-15": "Key 9",
-        "winctrl-icp-btn-16": "Key 0",
-        "winctrl-icp-btn-17": "CLR",
-        "winctrl-icp-btn-18": "ENTR"
+        "winctrl-icp-btn-05": "Master Mode Button - A/A",
+        "winctrl-icp-btn-06": "Master Mode Button - A/G",
+        "winctrl-icp-btn-03": "UFC Function Selector Pushbutton - IFF",
+        "winctrl-icp-btn-04": "UFC Function Selector Pushbutton - BCN",
+        "winctrl-icp-btn-01": "UFC COMM 1 Channel Selector Knob - PULL",
+        "winctrl-icp-btn-34": "Altitude Switch - RDR",
+        "winctrl-icp-btn-32": "Altitude Switch - BARO",
+        "winctrl-icp-btn-02": "UFC COMM 2 Channel Selector Knob - PULL",
+        "winctrl-icp-btn-21": "UFC I/P Pushbutton",
+        "winctrl-icp-btn-18": "UFC Keyboard Pushbutton - 0",
+        "winctrl-icp-btn-07": "UFC Keyboard Pushbutton - 1",
+        "winctrl-icp-btn-08": "UFC Keyboard Pushbutton - 2",
+        "winctrl-icp-btn-09": "UFC Keyboard Pushbutton - 3",
+        "winctrl-icp-btn-33": "Altitude Switch - BARO/RDR",
+        "winctrl-icp-btn-11": "UFC Keyboard Pushbutton - 4",
+        "winctrl-icp-btn-12": "UFC Keyboard Pushbutton - 5",
+        "winctrl-icp-btn-13": "UFC Keyboard Pushbutton - 6",
+        "winctrl-icp-btn-15": "UFC Keyboard Pushbutton - 7",
+        "winctrl-icp-btn-16": "UFC Keyboard Pushbutton - 8",
+        "winctrl-icp-btn-17": "UFC Keyboard Pushbutton - 9",
+        "winctrl-icp-btn-10": "UFC Keyboard Pushbutton - CLR",
+        "winctrl-icp-btn-14": "UFC Keyboard Pushbutton - ENT",
+        "winctrl-icp-axis-y": "HMD OFF/BRT Knob",
+        "winctrl-icp-axis-ry": "ALR-67 DMR Control Knob",
+        "winctrl-icp-axis-x": "HUD Symbology Brightness Control Knob",
+        "winctrl-icp-axis-rx": "RWR Volume Control Knob"
       },
       "modifierCallouts": {},
-      "controls": {
-        "winctrl-icp-btn-01": {
-          "profile": "winctrl-icp",
-          "key": "JOY_BTN1",
-          "command": "d3003pnilu3003cd25vd1vpnilvu0",
-          "label": "COMM 1"
+      "layers": [
+        {
+          "id": "base",
+          "controls": {
+            "winctrl-icp-btn-05": {
+              "profile": "winctrl-icp",
+              "key": "JOY_BTN5",
+              "command": "d3001pnilu3001cd23vd1vpnilvu0",
+              "label": "Master Mode Button - A/A"
+            },
+            "winctrl-icp-btn-06": {
+              "profile": "winctrl-icp",
+              "key": "JOY_BTN6",
+              "command": "d3002pnilu3002cd23vd1vpnilvu0",
+              "label": "Master Mode Button - A/G"
+            },
+            "winctrl-icp-btn-03": {
+              "profile": "winctrl-icp",
+              "key": "JOY_BTN3",
+              "command": "d3002pnilu3002cd25vd1vpnilvu0",
+              "label": "UFC Function Selector Pushbutton - IFF"
+            },
+            "winctrl-icp-btn-04": {
+              "profile": "winctrl-icp",
+              "key": "JOY_BTN4",
+              "command": "d3006pnilu3006cd25vd1vpnilvu0",
+              "label": "UFC Function Selector Pushbutton - BCN"
+            },
+            "winctrl-icp-btn-01": {
+              "profile": "winctrl-icp",
+              "key": "JOY_BTN1",
+              "command": "d3008pnilu3008cd25vd1vpnilvu0",
+              "label": "UFC COMM 1 Channel Selector Knob - PULL"
+            },
+            "winctrl-icp-btn-34": {
+              "profile": "winctrl-icp",
+              "key": "JOY_BTN34",
+              "command": "d3008pnilunilcd34vd0vpnilvunil",
+              "label": "Altitude Switch - RDR"
+            },
+            "winctrl-icp-btn-32": {
+              "profile": "winctrl-icp",
+              "key": "JOY_BTN32",
+              "command": "d3008pnilunilcd34vd1vpnilvunil",
+              "label": "Altitude Switch - BARO"
+            },
+            "winctrl-icp-btn-02": {
+              "profile": "winctrl-icp",
+              "key": "JOY_BTN2",
+              "command": "d3009pnilu3009cd25vd1vpnilvu0",
+              "label": "UFC COMM 2 Channel Selector Knob - PULL"
+            },
+            "winctrl-icp-btn-21": {
+              "profile": "winctrl-icp",
+              "key": "JOY_BTN21",
+              "command": "d3015pnilu3015cd25vd1vpnilvu0",
+              "label": "UFC I/P Pushbutton"
+            },
+            "winctrl-icp-btn-18": {
+              "profile": "winctrl-icp",
+              "key": "JOY_BTN18",
+              "command": "d3018pnilu3018cd25vd1vpnilvu0",
+              "label": "UFC Keyboard Pushbutton - 0"
+            },
+            "winctrl-icp-btn-07": {
+              "profile": "winctrl-icp",
+              "key": "JOY_BTN7",
+              "command": "d3019pnilu3019cd25vd1vpnilvu0",
+              "label": "UFC Keyboard Pushbutton - 1"
+            },
+            "winctrl-icp-btn-08": {
+              "profile": "winctrl-icp",
+              "key": "JOY_BTN8",
+              "command": "d3020pnilu3020cd25vd1vpnilvu0",
+              "label": "UFC Keyboard Pushbutton - 2"
+            },
+            "winctrl-icp-btn-09": {
+              "profile": "winctrl-icp",
+              "key": "JOY_BTN9",
+              "command": "d3021pnilu3021cd25vd1vpnilvu0",
+              "label": "UFC Keyboard Pushbutton - 3"
+            },
+            "winctrl-icp-btn-33": {
+              "profile": "winctrl-icp",
+              "key": "JOY_BTN33",
+              "command": "d3021pnilunilcd34vd0vpnilvunil",
+              "label": "Altitude Switch - BARO/RDR"
+            },
+            "winctrl-icp-btn-11": {
+              "profile": "winctrl-icp",
+              "key": "JOY_BTN11",
+              "command": "d3022pnilu3022cd25vd1vpnilvu0",
+              "label": "UFC Keyboard Pushbutton - 4"
+            },
+            "winctrl-icp-btn-12": {
+              "profile": "winctrl-icp",
+              "key": "JOY_BTN12",
+              "command": "d3023pnilu3023cd25vd1vpnilvu0",
+              "label": "UFC Keyboard Pushbutton - 5"
+            },
+            "winctrl-icp-btn-13": {
+              "profile": "winctrl-icp",
+              "key": "JOY_BTN13",
+              "command": "d3024pnilu3024cd25vd1vpnilvu0",
+              "label": "UFC Keyboard Pushbutton - 6"
+            },
+            "winctrl-icp-btn-15": {
+              "profile": "winctrl-icp",
+              "key": "JOY_BTN15",
+              "command": "d3025pnilu3025cd25vd1vpnilvu0",
+              "label": "UFC Keyboard Pushbutton - 7"
+            },
+            "winctrl-icp-btn-16": {
+              "profile": "winctrl-icp",
+              "key": "JOY_BTN16",
+              "command": "d3026pnilu3026cd25vd1vpnilvu0",
+              "label": "UFC Keyboard Pushbutton - 8"
+            },
+            "winctrl-icp-btn-17": {
+              "profile": "winctrl-icp",
+              "key": "JOY_BTN17",
+              "command": "d3027pnilu3027cd25vd1vpnilvu0",
+              "label": "UFC Keyboard Pushbutton - 9"
+            },
+            "winctrl-icp-btn-10": {
+              "profile": "winctrl-icp",
+              "key": "JOY_BTN10",
+              "command": "d3028pnilu3028cd25vd1vpnilvu0",
+              "label": "UFC Keyboard Pushbutton - CLR"
+            },
+            "winctrl-icp-btn-14": {
+              "profile": "winctrl-icp",
+              "key": "JOY_BTN14",
+              "command": "d3029pnilu3029cd25vd1vpnilvu0",
+              "label": "UFC Keyboard Pushbutton - ENT"
+            },
+            "winctrl-icp-axis-y": {
+              "profile": "winctrl-icp",
+              "key": "JOY_Y",
+              "command": "a3003cd58",
+              "label": "HMD OFF/BRT Knob"
+            },
+            "winctrl-icp-axis-ry": {
+              "profile": "winctrl-icp",
+              "key": "JOY_RY",
+              "command": "a3010cd53",
+              "label": "ALR-67 DMR Control Knob"
+            },
+            "winctrl-icp-axis-x": {
+              "profile": "winctrl-icp",
+              "key": "JOY_X",
+              "command": "a3012cd34",
+              "label": "HUD Symbology Brightness Control Knob"
+            },
+            "winctrl-icp-axis-rx": {
+              "profile": "winctrl-icp",
+              "key": "JOY_RX",
+              "command": "a3024cd40",
+              "label": "RWR Volume Control Knob"
+            }
+          },
+          "labels": {
+            "winctrl-icp-btn-05": "Master Mode Button - A/A",
+            "winctrl-icp-btn-06": "Master Mode Button - A/G",
+            "winctrl-icp-btn-03": "UFC Function Selector Pushbutton - IFF",
+            "winctrl-icp-btn-04": "UFC Function Selector Pushbutton - BCN",
+            "winctrl-icp-btn-01": "UFC COMM 1 Channel Selector Knob - PULL",
+            "winctrl-icp-btn-34": "Altitude Switch - RDR",
+            "winctrl-icp-btn-32": "Altitude Switch - BARO",
+            "winctrl-icp-btn-02": "UFC COMM 2 Channel Selector Knob - PULL",
+            "winctrl-icp-btn-21": "UFC I/P Pushbutton",
+            "winctrl-icp-btn-18": "UFC Keyboard Pushbutton - 0",
+            "winctrl-icp-btn-07": "UFC Keyboard Pushbutton - 1",
+            "winctrl-icp-btn-08": "UFC Keyboard Pushbutton - 2",
+            "winctrl-icp-btn-09": "UFC Keyboard Pushbutton - 3",
+            "winctrl-icp-btn-33": "Altitude Switch - BARO/RDR",
+            "winctrl-icp-btn-11": "UFC Keyboard Pushbutton - 4",
+            "winctrl-icp-btn-12": "UFC Keyboard Pushbutton - 5",
+            "winctrl-icp-btn-13": "UFC Keyboard Pushbutton - 6",
+            "winctrl-icp-btn-15": "UFC Keyboard Pushbutton - 7",
+            "winctrl-icp-btn-16": "UFC Keyboard Pushbutton - 8",
+            "winctrl-icp-btn-17": "UFC Keyboard Pushbutton - 9",
+            "winctrl-icp-btn-10": "UFC Keyboard Pushbutton - CLR",
+            "winctrl-icp-btn-14": "UFC Keyboard Pushbutton - ENT",
+            "winctrl-icp-axis-y": "HMD OFF/BRT Knob",
+            "winctrl-icp-axis-ry": "ALR-67 DMR Control Knob",
+            "winctrl-icp-axis-x": "HUD Symbology Brightness Control Knob",
+            "winctrl-icp-axis-rx": "RWR Volume Control Knob"
+          }
         },
-        "winctrl-icp-btn-02": {
-          "profile": "winctrl-icp",
-          "key": "JOY_BTN2",
-          "command": "d3004pnilu3004cd25vd1vpnilvu0",
-          "label": "COMM 2"
-        },
-        "winctrl-icp-btn-03": {
-          "profile": "winctrl-icp",
-          "key": "JOY_BTN3",
-          "command": "d3005pnilu3005cd25vd1vpnilvu0",
-          "label": "IFF"
-        },
-        "winctrl-icp-btn-04": {
-          "profile": "winctrl-icp",
-          "key": "JOY_BTN4",
-          "command": "d3006pnilu3006cd25vd1vpnilvu0",
-          "label": "LIST"
-        },
-        "winctrl-icp-btn-05": {
-          "profile": "winctrl-icp",
-          "key": "JOY_BTN5",
-          "command": "d3007pnilu3007cd25vd1vpnilvu0",
-          "label": "A-A"
-        },
-        "winctrl-icp-btn-06": {
-          "profile": "winctrl-icp",
-          "key": "JOY_BTN6",
-          "command": "d3008pnilu3008cd25vd1vpnilvu0",
-          "label": "A-G"
-        },
-        "winctrl-icp-btn-07": {
-          "profile": "winctrl-icp",
-          "key": "JOY_BTN7",
-          "command": "d3019pnilu3019cd25vd1vpnilvu0",
-          "label": "Key 1"
-        },
-        "winctrl-icp-btn-08": {
-          "profile": "winctrl-icp",
-          "key": "JOY_BTN8",
-          "command": "d3020pnilu3020cd25vd1vpnilvu0",
-          "label": "Key 2"
-        },
-        "winctrl-icp-btn-09": {
-          "profile": "winctrl-icp",
-          "key": "JOY_BTN9",
-          "command": "d3021pnilu3021cd25vd1vpnilvu0",
-          "label": "Key 3"
-        },
-        "winctrl-icp-btn-10": {
-          "profile": "winctrl-icp",
-          "key": "JOY_BTN10",
-          "command": "d3022pnilu3022cd25vd1vpnilvu0",
-          "label": "Key 4"
-        },
-        "winctrl-icp-btn-11": {
-          "profile": "winctrl-icp",
-          "key": "JOY_BTN11",
-          "command": "d3023pnilu3023cd25vd1vpnilvu0",
-          "label": "Key 5"
-        },
-        "winctrl-icp-btn-12": {
-          "profile": "winctrl-icp",
-          "key": "JOY_BTN12",
-          "command": "d3024pnilu3024cd25vd1vpnilvu0",
-          "label": "Key 6"
-        },
-        "winctrl-icp-btn-13": {
-          "profile": "winctrl-icp",
-          "key": "JOY_BTN13",
-          "command": "d3025pnilu3025cd25vd1vpnilvu0",
-          "label": "Key 7"
-        },
-        "winctrl-icp-btn-14": {
-          "profile": "winctrl-icp",
-          "key": "JOY_BTN14",
-          "command": "d3026pnilu3026cd25vd1vpnilvu0",
-          "label": "Key 8"
-        },
-        "winctrl-icp-btn-15": {
-          "profile": "winctrl-icp",
-          "key": "JOY_BTN15",
-          "command": "d3027pnilu3027cd25vd1vpnilvu0",
-          "label": "Key 9"
-        },
-        "winctrl-icp-btn-16": {
-          "profile": "winctrl-icp",
-          "key": "JOY_BTN16",
-          "command": "d3018pnilu3018cd25vd1vpnilvu0",
-          "label": "Key 0"
-        },
-        "winctrl-icp-btn-17": {
-          "profile": "winctrl-icp",
-          "key": "JOY_BTN17",
-          "command": "d3028pnilu3028cd25vd1vpnilvu0",
-          "label": "CLR"
-        },
-        "winctrl-icp-btn-18": {
-          "profile": "winctrl-icp",
-          "key": "JOY_BTN18",
-          "command": "d3029pnilu3029cd25vd1vpnilvu0",
-          "label": "ENTR"
+        {
+          "id": "MOZA_F16_F18_BTN3",
+          "file": "10-WINCTRL-ICP-MOZA-F16-F18-BTN3",
+          "title": "WINCTRL ViperAce ICP • MOZA_F16_F18_BTN3",
+          "activators": [
+            "MOZA_F16_F18_BTN3"
+          ],
+          "controls": {
+            "winctrl-icp-btn-04": {
+              "profile": "winctrl-icp",
+              "key": "JOY_BTN4",
+              "command": "d3001pnilu3001cd25vd1vpnilvu0",
+              "label": "UFC Function Selector Pushbutton - A/P",
+              "modifiers": [
+                "MOZA_F16_F18_BTN3"
+              ]
+            },
+            "winctrl-icp-btn-02": {
+              "profile": "winctrl-icp",
+              "key": "JOY_BTN2",
+              "command": "d3003pnilu3003cd25vd1vpnilvu0",
+              "label": "UFC Function Selector Pushbutton - TCN",
+              "modifiers": [
+                "MOZA_F16_F18_BTN3"
+              ]
+            },
+            "winctrl-icp-btn-03": {
+              "profile": "winctrl-icp",
+              "key": "JOY_BTN3",
+              "command": "d3004pnilu3004cd25vd1vpnilvu0",
+              "label": "UFC Function Selector Pushbutton - ILS",
+              "modifiers": [
+                "MOZA_F16_F18_BTN3"
+              ]
+            },
+            "winctrl-icp-btn-05": {
+              "profile": "winctrl-icp",
+              "key": "JOY_BTN5",
+              "command": "d3005pnilu3005cd25vd1vpnilvu0",
+              "label": "UFC Function Selector Pushbutton - D/L",
+              "modifiers": [
+                "MOZA_F16_F18_BTN3"
+              ]
+            },
+            "winctrl-icp-btn-01": {
+              "profile": "winctrl-icp",
+              "key": "JOY_BTN1",
+              "command": "d3007pnilu3007cd25vd1vpnilvu0",
+              "label": "UFC Function Selector Pushbutton - ON/OFF",
+              "modifiers": [
+                "MOZA_F16_F18_BTN3"
+              ]
+            },
+            "winctrl-icp-btn-14": {
+              "profile": "winctrl-icp",
+              "key": "JOY_BTN14",
+              "command": "d3017pnilu3017cd25vd1vpnilvu0",
+              "label": "UFC Emission Control Pushbutton",
+              "modifiers": [
+                "MOZA_F16_F18_BTN3"
+              ]
+            },
+            "winctrl-icp-btn-31": {
+              "profile": "winctrl-icp",
+              "key": "JOY_BTN31",
+              "command": "d3035pnilunilcd25vd-1vpnilvunil",
+              "label": "UFC ADF Function Select Switch - Down",
+              "modifiers": [
+                "MOZA_F16_F18_BTN3"
+              ]
+            },
+            "winctrl-icp-btn-30": {
+              "profile": "winctrl-icp",
+              "key": "JOY_BTN30",
+              "command": "d3035pnilunilcd25vd1vpnilvunil",
+              "label": "UFC ADF Function Select Switch - Up",
+              "modifiers": [
+                "MOZA_F16_F18_BTN3"
+              ]
+            },
+            "winctrl-icp-axis-y": {
+              "profile": "winctrl-icp",
+              "key": "JOY_Y",
+              "command": "a3011cd9",
+              "label": "CONSOLES Lights Dimmer Control",
+              "modifiers": [
+                "MOZA_F16_F18_BTN3"
+              ]
+            },
+            "winctrl-icp-axis-x": {
+              "profile": "winctrl-icp",
+              "key": "JOY_X",
+              "command": "a3015cd9",
+              "label": "FLOOD Light Dimmer Control",
+              "modifiers": [
+                "MOZA_F16_F18_BTN3"
+              ]
+            }
+          },
+          "labels": {
+            "winctrl-icp-btn-04": "UFC Function Selector Pushbutton - A/P",
+            "winctrl-icp-btn-02": "UFC Function Selector Pushbutton - TCN",
+            "winctrl-icp-btn-03": "UFC Function Selector Pushbutton - ILS",
+            "winctrl-icp-btn-05": "UFC Function Selector Pushbutton - D/L",
+            "winctrl-icp-btn-01": "UFC Function Selector Pushbutton - ON/OFF",
+            "winctrl-icp-btn-14": "UFC Emission Control Pushbutton",
+            "winctrl-icp-btn-31": "UFC ADF Function Select Switch - Down",
+            "winctrl-icp-btn-30": "UFC ADF Function Select Switch - Up",
+            "winctrl-icp-axis-y": "CONSOLES Lights Dimmer Control",
+            "winctrl-icp-axis-x": "FLOOD Light Dimmer Control"
+          }
         }
-      }
+      ]
     }
   ],
   "semanticModifiers": {
@@ -1888,13 +2179,6 @@
   },
   "modifiersFile": "src/Config/Input/FA-18C_hornet/modifiers.lua",
   "modifiers": {
-    "MOZA_F16_F18_BTN3": {
-      "nativeName": "MOZA_F16_F18_BTN3",
-      "mode": "hold",
-      "semanticModifier": "MOZA_F16_F18_BTN3",
-      "deviceId": "moza-ab9-hornet-grip",
-      "label": "MOZA_F16_F18_BTN3"
-    },
     "LAlt": {
       "nativeName": "LAlt",
       "mode": "hold",
@@ -1918,6 +2202,13 @@
       "mode": "hold",
       "semanticModifier": "LWin",
       "label": "LWin"
+    },
+    "MOZA_F16_F18_BTN3": {
+      "nativeName": "MOZA_F16_F18_BTN3",
+      "mode": "hold",
+      "semanticModifier": "MOZA_F16_F18_BTN3",
+      "deviceId": "moza-ab9-hornet-grip",
+      "label": "MOZA_F16_F18_BTN3"
     },
     "RAlt": {
       "nativeName": "RAlt",

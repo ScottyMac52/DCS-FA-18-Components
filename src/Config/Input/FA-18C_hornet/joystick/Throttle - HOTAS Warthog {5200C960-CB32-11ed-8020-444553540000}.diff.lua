@@ -1,23 +1,64 @@
--- TM Warthog Throttle - F/A-18C Hornet
--- The Warthog Throttle is a specific F/A-18C controller; functions are mapped
--- as closely as possible to the actual Hornet throttle layout.
--- Axis conflicts (JOY_Z/RZ default to thrust/rudder) are removed here.
 local diff = {
+	["axisDiffs"] = {
+		["a3043cd13"] = {
+			["added"] = {
+				[1] = {
+					["key"] = "JOY_Y",
+				},
+			},
+			["name"] = "Throttle Designator Controller - VERTICAL AXIS",
+		},
+		["a3044cd13"] = {
+			["added"] = {
+				[1] = {
+					["key"] = "JOY_X",
+				},
+			},
+			["name"] = "Throttle Designator Controller - HORIZONTAL AXIS",
+		},
+	},
 	["keyDiffs"] = {
-		-- =========================================================
-		-- APU
-		-- =========================================================
-		["d3001pnilu3001cd12vd1vpnilvu0"] = {
+		["d3001pnilu3001cd3vd1vpnilvu0"] = {
 			["added"] = {
 				[1] = {
 					["key"] = "JOY_BTN20",
+					["reformers"] = {
+						[1] = "MOZA_F16_F18_BTN3",
+					},
 				},
 			},
-			["name"] = "APU Control Switch - ON/OFF",
+			["name"] = "Battery 3-pos Switch: ON<>OFF",
 		},
-		-- =========================================================
-		-- FLAP SWITCH (3-position)
-		-- =========================================================
+		["d3002pnilu3002cd3vd1vpnilvu0"] = {
+			["added"] = {
+				[1] = {
+					["key"] = "JOY_BTN16",
+					["reformers"] = {
+						[1] = "MOZA_F16_F18_BTN3",
+					},
+				},
+			},
+			["name"] = "Left Generator Control Switch: NORM<>OFF",
+		},
+		["d3003pnilu3003cd23vd1vpnilvu0"] = {
+			["added"] = {
+				[1] = {
+					["key"] = "JOY_BTN24",
+				},
+			},
+			["name"] = "Master Arm Switch: ARM<>SAFE",
+		},
+		["d3003pnilu3003cd3vd1vpnilvu0"] = {
+			["added"] = {
+				[1] = {
+					["key"] = "JOY_BTN17",
+					["reformers"] = {
+						[1] = "MOZA_F16_F18_BTN3",
+					},
+				},
+			},
+			["name"] = "Right Generator Control Switch: NORM<>OFF",
+		},
 		["d3007pnilu3007cd2vd-1vpnilvu0"] = {
 			["added"] = {
 				[1] = {
@@ -34,9 +75,14 @@ local diff = {
 			},
 			["name"] = "FLAP 3-pos Switch: AUTO<>HALF",
 		},
-		-- =========================================================
-		-- MASTER CAUTION RESET
-		-- =========================================================
+		["d3008pnilu3008cd34vd1vpnilvu0"] = {
+			["added"] = {
+				[1] = {
+					["key"] = "JOY_BTN25",
+				},
+			},
+			["name"] = "Altitude 2-pos Switch: BARO<>RDR",
+		},
 		["d3008pnilu3008cd9vd1vpnilvu0"] = {
 			["added"] = {
 				[1] = {
@@ -45,9 +91,49 @@ local diff = {
 			},
 			["name"] = "MASTER CAUTION Reset Button",
 		},
-		-- =========================================================
-		-- HOTAS PADDLE / AP DISENGAGE (throttle-side)
-		-- =========================================================
+		["d3009pnilu3009cd34vd-1vpnilvu0"] = {
+			["added"] = {
+				[1] = {
+					["key"] = "JOY_BTN28",
+				},
+			},
+			["name"] = "Attitude Selector 3-pos Switch: STBY<>AUTO",
+		},
+		["d3009pnilu3009cd34vd1vpnilvu0"] = {
+			["added"] = {
+				[1] = {
+					["key"] = "JOY_BTN27",
+				},
+			},
+			["name"] = "Attitude Selector 3-pos Switch: INS<>AUTO",
+		},
+		["d3015pnilu3015cd12vd-1vpnilvu0"] = {
+			["added"] = {
+				[1] = {
+					["key"] = "JOY_BTN31",
+				},
+			},
+			["name"] = "Engine Crank Switch - LEFT",
+		},
+		["d3016pnilu3016cd12vd1vpnilvu0"] = {
+			["added"] = {
+				[1] = {
+					["key"] = "JOY_BTN32",
+				},
+			},
+			["name"] = "Engine Crank Switch - RIGHT",
+		},
+		["d3016pnilunilcd12vd-1vpnilvunil"] = {
+			["added"] = {
+				[1] = {
+					["key"] = "JOY_BTN18",
+				},
+				[2] = {
+					["key"] = "JOY_BTN19",
+				},
+			},
+			["name"] = "Engine Crank Switch - OFF",
+		},
 		["d3018pnilu3018cd13vd1vpnilvu0"] = {
 			["added"] = {
 				[1] = {
@@ -56,9 +142,14 @@ local diff = {
 			},
 			["name"] = "Autopilot/Nosewheel Steering Disengage (Paddle) Switch",
 		},
-		-- =========================================================
-		-- TDC (THROTTLE DESIGNATOR CONTROLLER)
-		-- =========================================================
+		["d3023pnilu3023cd12vd1vpnilvu0"] = {
+			["added"] = {
+				[1] = {
+					["key"] = "JOY_BTN20",
+				},
+			},
+			["name"] = "APU Control 2-pos Switch: ON<>OFF",
+		},
 		["d3023pnilu3023cd13vd1vpnilvu0"] = {
 			["added"] = {
 				[1] = {
@@ -67,9 +158,6 @@ local diff = {
 			},
 			["name"] = "Throttle Designator Controller - DEPRESS",
 		},
-		-- =========================================================
-		-- RADAR ELEVATION CONTROL
-		-- =========================================================
 		["d3024pnilu3024cd13vd1vpnilvu0"] = {
 			["added"] = {
 				[1] = {
@@ -86,9 +174,6 @@ local diff = {
 			},
 			["name"] = "Radar Elevation Control - Down",
 		},
-		-- =========================================================
-		-- COMM SWITCH
-		-- =========================================================
 		["d3027pnilu3027cd13vd0.2vpnilvu0"] = {
 			["added"] = {
 				[1] = {
@@ -105,9 +190,6 @@ local diff = {
 			},
 			["name"] = "COMM Switch - COMM 2 (call radio menu)",
 		},
-		-- =========================================================
-		-- CAGE / UNCAGE (FOV)
-		-- =========================================================
 		["d3031pnilu3031cd13vd1vpnilvu0"] = {
 			["added"] = {
 				[1] = {
@@ -116,16 +198,13 @@ local diff = {
 			},
 			["name"] = "Cage/Uncage Button",
 		},
-		-- =========================================================
-		-- DISPENSE (CHAFF / FLARE)
-		-- =========================================================
 		["d3032pnilu3032cd13vd1vpnilvu0"] = {
 			["added"] = {
 				[1] = {
 					["key"] = "JOY_BTN9",
 				},
 			},
-			["name"] = "Dispense Switch - Forward (CHAFF) / Center (OFF)",
+			["name"] = "Dispense Switch - Forward(CHAFF)/Center(OFF)",
 		},
 		["d3033pnilu3033cd13vd-1vpnilvu0"] = {
 			["added"] = {
@@ -133,11 +212,8 @@ local diff = {
 					["key"] = "JOY_BTN10",
 				},
 			},
-			["name"] = "Dispense Switch - Aft (FLARE) / Center (OFF)",
+			["name"] = "Dispense Switch - Aft(FLARE)/Center(OFF)",
 		},
-		-- =========================================================
-		-- RAID / FLIR FOV SELECT
-		-- =========================================================
 		["d3034pnilu3034cd13vd1vpnilvu0"] = {
 			["added"] = {
 				[1] = {
@@ -146,9 +222,6 @@ local diff = {
 			},
 			["name"] = "RAID/FLIR FOV Select Button",
 		},
-		-- =========================================================
-		-- SPEED BRAKE
-		-- =========================================================
 		["d3035pnilu3035cd13vd-1vpnilvu0"] = {
 			["added"] = {
 				[1] = {
@@ -165,9 +238,6 @@ local diff = {
 			},
 			["name"] = "Speed Brake Switch - RETRACT",
 		},
-		-- =========================================================
-		-- ATC ENGAGE / DISENGAGE
-		-- =========================================================
 		["d3037pnilu3037cd13vd1vpnilvu0"] = {
 			["added"] = {
 				[1] = {
@@ -176,9 +246,6 @@ local diff = {
 			},
 			["name"] = "ATC Engage/Disengage Switch",
 		},
-		-- =========================================================
-		-- EXTERIOR LIGHTS
-		-- =========================================================
 		["d3041pnilunilcd13vd0vpnilvunil"] = {
 			["added"] = {
 				[1] = {
@@ -195,9 +262,6 @@ local diff = {
 			},
 			["name"] = "Exterior Lights Switch - ON",
 		},
-		-- =========================================================
-		-- HORNET BALL (carrier approach power system)
-		-- =========================================================
 		["d3041pnilunilcd40vd1vpnilvunil"] = {
 			["added"] = {
 				[1] = {
@@ -206,9 +270,6 @@ local diff = {
 			},
 			["name"] = "Hornet Ball",
 		},
-		-- =========================================================
-		-- Remove default view axis conflicts
-		-- =========================================================
 		["dnilp210u214cdnilvdnilvpnilvunil"] = {
 			["name"] = "View Up Right slow",
 			["removed"] = {
