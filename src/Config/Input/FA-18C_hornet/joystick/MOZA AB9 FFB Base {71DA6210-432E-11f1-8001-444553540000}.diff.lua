@@ -30,11 +30,11 @@ local diff = {
 			},
 			["name"] = "Weapon Release Button",
 		},
-		-- NWS / Undesignate (shifted via MOZA_F16_F18_BTN3)
+		-- NWS / Undesignate (shifted via MOZA_F16_F18_BTN3 — hold BTN3, press Trigger BTN1)
 		["d3004pnilu3004cd13vd1vpnilvu0"] = {
 			["added"] = {
 				[1] = {
-					["key"] = "JOY_BTN2",
+					["key"] = "JOY_BTN1",
 					["reformers"] = {
 						[1] = "MOZA_F16_F18_BTN3",
 					},

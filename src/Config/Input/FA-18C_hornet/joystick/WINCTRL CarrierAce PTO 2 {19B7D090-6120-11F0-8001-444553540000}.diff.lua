@@ -96,6 +96,14 @@ local diff = {
 			},
 			["name"] = "Emergency/Parking Brake Handle - CCW",
 		},
+		["d3007pnilunilcd5vd-1vpnilvunil"] = {
+			["added"] = {
+				[1] = {
+					["key"] = "JOY_BTN41",
+				},
+			},
+			["name"] = "Emergency/Parking Brake Handle - CW",
+		},
 		-- =========================================================
 		-- FLAP SWITCH
 		-- =========================================================
@@ -114,14 +122,6 @@ local diff = {
 				},
 			},
 			["name"] = "FLAP Switch - AUTO",
-		},
-		["d3007pnilunilcd5vd-1vpnilvunil"] = {
-			["added"] = {
-				[1] = {
-					["key"] = "JOY_BTN41",
-				},
-			},
-			["name"] = "Emergency/Parking Brake Handle - CW",
 		},
 		-- =========================================================
 		-- MASTER CAUTION RESET
