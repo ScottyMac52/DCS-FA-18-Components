@@ -1,0 +1,27 @@
+[
+  {
+    "type": "summary",
+    "file": "00-FA18C-CONTROL-OVERVIEW",
+    "title": "F/A-18C HORNET CONTROL OVERVIEW",
+    "kicker": "MOZA AB9 HORNET GRIP • SHARED UI LAYER • MODULE BINDINGS",
+    "items": [
+      { "key": "STICK", "text": "Hornet grip is mounted on the MOZA AB9 FFB Base; no standalone AVA Hornet profile is used.", "accent": "gold" },
+      { "key": "SHIFT", "text": "MOZA_F16_F18_BTN3 is the shared hold modifier for shifted aircraft and UI Layer functions.", "accent": "cyan" },
+      { "key": "MFD", "text": "MFD 1, MFD 2 and MFD 3 retain their module-specific functions and applicable UI Layer overlays.", "accent": "gold" },
+      { "key": "VOICE", "text": "Warthog microphone switch PTT is handled by the bundled AutoHotKey VAICOM bridge.", "accent": "cyan" }
+    ]
+  },
+  {
+    "type": "summary",
+    "file": "01-VAICOM-OVERVIEW",
+    "title": "VAICOM PRO + WARTHOG PTT",
+    "kicker": "AUTOHOTKEY V2 • VOICEATTACK / VAICOM PRO",
+    "items": [
+      { "key": "TX1", "text": "Warthog MIC forward / Joy6 -> Left Ctrl + Left Alt + Left Shift + 1", "accent": "gold" },
+      { "key": "TX2", "text": "Warthog MIC right / Joy3 -> Left Ctrl + Left Alt + Left Shift + 2", "accent": "cyan" },
+      { "key": "TX3", "text": "Warthog MIC down / Joy4 -> Left Ctrl + Left Alt + Left Shift + 3", "accent": "gold" },
+      { "key": "TX4", "text": "Warthog MIC left / Joy5 -> Left Ctrl + Left Alt + Left Shift + 4", "accent": "cyan" },
+      { "key": "TX5", "text": "Warthog MIC push / Joy2 -> Left Ctrl + Left Alt + Left Shift + 5", "accent": "gold" }
+    ]
+  }
+]
