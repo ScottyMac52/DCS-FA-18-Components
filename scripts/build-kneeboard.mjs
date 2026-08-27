@@ -17,8 +17,24 @@ const { renderKneeboard } = await import(
   pathToFileURL(join(commonRoot, 'scripts/kneeboard-renderer.mjs'))
 );
 
-const rawConfig = JSON.parse(readFileSync(join(root, 'config/kneeboard.json'), 'utf8'));
-const config = loadProfileDrivenConfig('config/kneeboard.json', { consumerRoot: root, commonRoot });
+const configPath = join(root, 'config/kneeboard.json');
+const rawConfig = JSON.parse(readFileSync(configPath, 'utf8'));
+
+// The F/A-18C Hornet grip is physically mounted on the MOZA AB9. The old
+// standalone AVA Hornet profile/page is obsolete and must never participate
+// in rendering, even if stale scaffold metadata remains in kneeboard.json.
+const obsoleteProfile = 'ava-base-f18c';
+delete rawConfig.profiles?.[obsoleteProfile];
+rawConfig.pages = (rawConfig.pages || []).filter(
+  (page) => page.deviceId !== obsoleteProfile &&
+    !JSON.stringify(page).includes(`\"profile\":\"${obsoleteProfile}\"`)
+);
+
+const buildConfigDir = join(root, '.build');
+mkdirSync(buildConfigDir, { recursive: true });
+const effectiveConfigPath = join(buildConfigDir, 'kneeboard-effective.json');
+writeFileSync(effectiveConfigPath, `${JSON.stringify(rawConfig, null, 2)}\n`, 'utf8');
+const config = loadProfileDrivenConfig(effectiveConfigPath, { consumerRoot: root, commonRoot });
 
 const aircraftFolder = config.aircraft.replace(/[^a-zA-Z0-9_-]/g, '');
 const svgDir = join(root, 'kneeboard', 'source');
