@@ -1,4 +1,4 @@
-import { mkdirSync, rmSync, writeFileSync, readFileSync } from 'node:fs';
+import { existsSync, mkdirSync, rmSync, writeFileSync, readFileSync } from 'node:fs';
 import { dirname, join, resolve, basename } from 'node:path';
 import { fileURLToPath, pathToFileURL } from 'node:url';
 import sharp from 'sharp';
@@ -19,6 +19,10 @@ const { renderKneeboard } = await import(
 
 const configPath = join(root, 'config/kneeboard.json');
 const rawConfig = JSON.parse(readFileSync(configPath, 'utf8'));
+const summaryConfigPath = join(root, 'config/summary-pages.json');
+if (existsSync(summaryConfigPath)) {
+  rawConfig.summaryPages = JSON.parse(readFileSync(summaryConfigPath, 'utf8'));
+}
 
 // The F/A-18C Hornet grip is physically mounted on the MOZA AB9. The old
 // standalone AVA Hornet profile/page is obsolete and must never participate
