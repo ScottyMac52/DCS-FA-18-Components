@@ -3,7 +3,6 @@
   "aircraft": "FA-18C_hornet",
   "includeUiLayer": true,
   "profiles": {
-    "ava-base-f18c": "src/Config/Input/FA-18C_hornet/joystick/Ava [R] Hornet {F77212B0-00A8-11f1-8001-444553540000}.diff.lua",
     "tm-mfd-1": "src/Config/Input/FA-18C_hornet/joystick/F16 MFD 1 {51FA60C0-CB32-11ed-800B-444553540000}.diff.lua",
     "tm-mfd-2": "src/Config/Input/FA-18C_hornet/joystick/F16 MFD 2 {51FA39B0-CB32-11ed-8008-444553540000}.diff.lua",
     "tm-mfd-3": "src/Config/Input/FA-18C_hornet/joystick/F16 MFD 3 {C5BE49A0-2342-11ee-8001-444553540000}.diff.lua",
@@ -15,57 +14,6 @@
     "winctrl-icp": "src/Config/Input/FA-18C_hornet/joystick/WINCTRL ViperAce ICP {3731E2E0-4D98-11F1-8001-444553540000}.diff.lua"
   },
   "pages": [
-    {
-      "file": "01-AVA-BASE-F18C",
-      "includeUiLayer": true,
-      "deviceId": "ava-base-f18c",
-      "deviceInstance": null,
-      "title": "Ava [R] Hornet",
-      "kicker": "SCAFFOLD DRAFT",
-      "_comment": "labels default to the imported DCS command name and remain editable; deviceLabel contains the canonical DCS-Common hardware label. keep callout IDs in sync with controls. You can also set \"label\" on a controls entry.",
-      "labels": {
-        "hornet-grip-paddle": "Autopilot/Nosewheel Steering Disengage (Paddle) Switch"
-      },
-      "modifierCallouts": {},
-      "layers": [
-        {
-          "id": "base",
-          "controls": {
-            "hornet-grip-paddle": {
-              "profile": "ava-base-f18c",
-              "key": "JOY_BTN4",
-              "command": "d3018pnilu3018cd13vd1vpnilvu0",
-              "label": "Autopilot/Nosewheel Steering Disengage (Paddle) Switch"
-            }
-          },
-          "labels": {
-            "hornet-grip-paddle": "Autopilot/Nosewheel Steering Disengage (Paddle) Switch"
-          }
-        },
-        {
-          "id": "MOZA_F16_F18_BTN3",
-          "file": "01-AVA-BASE-F18C-MOZA-F16-F18-BTN3",
-          "title": "Ava [R] Hornet • MOZA_F16_F18_BTN3",
-          "activators": [
-            "MOZA_F16_F18_BTN3"
-          ],
-          "controls": {
-            "hornet-grip-paddle": {
-              "profile": "ava-base-f18c",
-              "key": "JOY_BTN4",
-              "command": "d3004pnilu3004cd13vd1vpnilvu0",
-              "label": "Nose Wheel Steering (NWS) / Undesignate",
-              "modifiers": [
-                "MOZA_F16_F18_BTN3"
-              ]
-            }
-          },
-          "labels": {
-            "hornet-grip-paddle": "Nose Wheel Steering (NWS) / Undesignate"
-          }
-        }
-      ]
-    },
     {
       "file": "02-TM-MFD-1",
       "includeUiLayer": true,

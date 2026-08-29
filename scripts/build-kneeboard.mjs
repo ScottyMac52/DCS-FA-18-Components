@@ -24,21 +24,7 @@ if (existsSync(summaryConfigPath)) {
   rawConfig.summaryPages = JSON.parse(readFileSync(summaryConfigPath, 'utf8'));
 }
 
-// The F/A-18C Hornet grip is physically mounted on the MOZA AB9. The old
-// standalone AVA Hornet profile/page is obsolete and must never participate
-// in rendering, even if stale scaffold metadata remains in kneeboard.json.
-const obsoleteProfile = 'ava-base-f18c';
-delete rawConfig.profiles?.[obsoleteProfile];
-rawConfig.pages = (rawConfig.pages || []).filter(
-  (page) => page.deviceId !== obsoleteProfile &&
-    !JSON.stringify(page).includes(`\"profile\":\"${obsoleteProfile}\"`)
-);
-
-const buildConfigDir = join(root, '.build');
-mkdirSync(buildConfigDir, { recursive: true });
-const effectiveConfigPath = join(buildConfigDir, 'kneeboard-effective.json');
-writeFileSync(effectiveConfigPath, `${JSON.stringify(rawConfig, null, 2)}\n`, 'utf8');
-const config = loadProfileDrivenConfig(effectiveConfigPath, { consumerRoot: root, commonRoot });
+const config = loadProfileDrivenConfig(configPath, { consumerRoot: root, commonRoot });
 
 const aircraftFolder = config.aircraft.replace(/[^a-zA-Z0-9_-]/g, '');
 const svgDir = join(root, 'kneeboard', 'source');
