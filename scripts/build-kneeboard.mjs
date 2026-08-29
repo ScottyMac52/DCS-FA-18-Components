@@ -1,4 +1,4 @@
-import { existsSync, mkdirSync, rmSync, writeFileSync, readFileSync } from 'node:fs';
+import { mkdirSync, rmSync, writeFileSync, readFileSync } from 'node:fs';
 import { dirname, join, resolve, basename } from 'node:path';
 import { fileURLToPath, pathToFileURL } from 'node:url';
 import sharp from 'sharp';
@@ -17,16 +17,10 @@ const { renderKneeboard } = await import(
   pathToFileURL(join(commonRoot, 'scripts/kneeboard-renderer.mjs'))
 );
 
-const configPath = join(root, 'config/kneeboard.json');
-const rawConfig = JSON.parse(readFileSync(configPath, 'utf8'));
-const summaryConfigPath = join(root, 'config/summary-pages.json');
-if (existsSync(summaryConfigPath)) {
-  rawConfig.summaryPages = JSON.parse(readFileSync(summaryConfigPath, 'utf8'));
-}
+const rawConfig = JSON.parse(readFileSync(join(root, 'config/kneeboard.json'), 'utf8'));
+const config = loadProfileDrivenConfig('config/kneeboard.json', { consumerRoot: root, commonRoot });
 
-const config = loadProfileDrivenConfig(configPath, { consumerRoot: root, commonRoot });
-
-const aircraftFolder = config.aircraft.replace(/[^a-zA-Z0-9_-]/g, '');
+const aircraftFolder = config.aircraft.replace(/[^a-zA-Z0-9-]/g, '');
 const svgDir = join(root, 'kneeboard', 'source');
 const pngDir = join(root, 'kneeboard', aircraftFolder);
 

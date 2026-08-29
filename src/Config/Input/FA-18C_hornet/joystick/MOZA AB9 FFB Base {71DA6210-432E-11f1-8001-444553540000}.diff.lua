@@ -1,5 +1,32 @@
 local diff = {
 	["keyDiffs"] = {
+		["d1587pnilu1587cdnilvd1vpnilvu-1"] = {
+			["added"] = {
+				[1] = {
+					["key"] = "JOY_BTN13",
+					["reformers"] = {
+						[1] = "MOZA_F16_F18_BTN3",
+					},
+				},
+			},
+			["name"] = "Kneeboard glance view",
+		},
+		["d1587pnilunilcdnilvdnilvpnilvunil"] = {
+			["added"] = {
+				[1] = {
+					["key"] = "JOY_BTN12",
+				},
+			},
+			["name"] = "Kneeboard ON/OFF",
+		},
+		["d3001pnilunilcd68vd1vpnilvunil"] = {
+			["added"] = {
+				[1] = {
+					["key"] = "JOY_BTN13",
+				},
+			},
+			["name"] = "Kneeboard Next Page",
+		},
 		["d3002pnilu3002cd13vd1vpnilvu0"] = {
 			["added"] = {
 				[1] = {
@@ -19,6 +46,14 @@ local diff = {
 			},
 			["name"] = "T/O TRIM Button",
 		},
+		["d3002pnilunilcd68vd1vpnilvunil"] = {
+			["added"] = {
+				[1] = {
+					["key"] = "JOY_BTN11",
+				},
+			},
+			["name"] = "Kneeboard Previous Page",
+		},
 		["d3003pnilu3003cd13vd1vpnilvu0"] = {
 			["added"] = {
 				[1] = {
@@ -26,6 +61,17 @@ local diff = {
 				},
 			},
 			["name"] = "Weapon Release Button",
+		},
+		["d3003pnilunilcd68vd1vpnilvunil"] = {
+			["added"] = {
+				[1] = {
+					["key"] = "JOY_BTN12",
+					["reformers"] = {
+						[1] = "MOZA_F16_F18_BTN3",
+					},
+				},
+			},
+			["name"] = "Kneeboard current position mark point",
 		},
 		["d3004pnilu3004cd13vd1vpnilvu0"] = {
 			["added"] = {
