@@ -823,7 +823,7 @@
       "includeUiLayer": true,
       "deviceId": "moza-ab9-hornet-grip",
       "deviceInstance": null,
-      "title": "MOZA AB9 Hornet Grip",
+      "title": "MOZA AB9 FFB Base",
       "kicker": "SCAFFOLD DRAFT",
       "_comment": "labels default to the imported DCS command name and remain editable; deviceLabel contains the canonical DCS-Common hardware label. keep callout IDs in sync with controls. You can also set \"label\" on a controls entry.",
       "labels": {
@@ -996,7 +996,7 @@
         {
           "id": "MOZA_F16_F18_BTN3",
           "file": "04-MOZA-AB9-HORNET-GRIP-MOZA-F16-F18-BTN3",
-          "title": "MOZA AB9 Hornet Grip • MOZA_F16_F18_BTN3",
+          "title": "MOZA AB9 FFB Base • MOZA_F16_F18_BTN3",
           "activators": [
             "MOZA_F16_F18_BTN3"
           ],
