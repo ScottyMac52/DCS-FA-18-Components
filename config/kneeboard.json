@@ -841,7 +841,7 @@
         "hornet-grip-weapon-select-right": "AMRAAM",
         "hornet-grip-weapon-select-aft": "Sidewinder",
         "hornet-grip-weapon-select-left": "NWS / Undesignate",
-        "hornet-grip-paddle": "AP / NWS disconnect",
+        "hornet-grip-paddle": "AP / NWS",
         "hornet-grip-trim-down": "Trimmer Up",
         "hornet-grip-trim-up": "Trimmer Down",
         "hornet-grip-trim-left": "Trimmer LEFT",
@@ -943,7 +943,7 @@
               "profile": "moza-ab9-hornet-grip",
               "key": "JOY_BTN4",
               "command": "d3018pnilu3018cd13vd1vpnilvu0",
-              "label": "AP / NWS disconnect"
+              "label": "AP / NWS"
             },
             "hornet-grip-trim-down": {
               "profile": "moza-ab9-hornet-grip",
@@ -985,7 +985,7 @@
             "hornet-grip-weapon-select-right": "AMRAAM",
             "hornet-grip-weapon-select-aft": "Sidewinder",
             "hornet-grip-weapon-select-left": "NWS / Undesignate",
-            "hornet-grip-paddle": "AP / NWS disconnect",
+            "hornet-grip-paddle": "AP / NWS",
             "hornet-grip-trim-down": "Trimmer Up",
             "hornet-grip-trim-up": "Trimmer Down",
             "hornet-grip-trim-left": "Trimmer LEFT",
@@ -1076,25 +1076,17 @@
       "kicker": "SCAFFOLD DRAFT",
       "_comment": "labels default to the imported DCS command name and remain editable; deviceLabel contains the canonical DCS-Common hardware label. keep callout IDs in sync with controls. You can also set \"label\" on a controls entry.",
       "labels": {
-        "pdcp-to": "ALR-67 POWER",
         "pdcp-cruise": "ALR-67 DISPLAY",
         "pdcp-vdi-awl": "ALQ-165 ECM Mode Switch - CCW",
         "pdcp-steer-man": "ALQ-165 ECM Mode Switch - CW",
         "pdcp-aa": "ALR-67 SPECIAL",
         "pdcp-ag": "ALR-67 OFFSET",
         "pdcp-ldg": "ALR-67 BIT",
-        "pdcp-steer-awl-pcd": "ALR-67 POWER",
         "pdcp-steer-dest": "ALR-67 DMR CCW/Decrease",
         "pdcp-steer-vec": "ALR-67 DMR CW/Increase"
       },
       "modifierCallouts": {},
       "controls": {
-        "pdcp-to": {
-          "profile": "onyourtwelve-pdcp",
-          "key": "JOY_BTN1",
-          "command": "d3001pnilu3001cd53vd1vpnilvu0",
-          "label": "ALR-67 POWER"
-        },
         "pdcp-cruise": {
           "profile": "onyourtwelve-pdcp",
           "key": "JOY_BTN2",
@@ -1130,12 +1122,6 @@
           "key": "JOY_BTN5",
           "command": "d3005pnilu3005cd53vd1vpnilvu0",
           "label": "ALR-67 BIT"
-        },
-        "pdcp-steer-awl-pcd": {
-          "profile": "onyourtwelve-pdcp",
-          "key": "JOY_BTN8",
-          "command": "d3014pnilunilcd53vd1vpnilvunil",
-          "label": "ALR-67 POWER"
         },
         "pdcp-steer-dest": {
           "profile": "onyourtwelve-pdcp",
@@ -1204,11 +1190,13 @@
         "warthog-thr-ap-select-up": "Attitude INS<>AUTO",
         "warthog-thr-engine-operate-left-up": "Engine Crank LEFT",
         "warthog-thr-engine-operate-right-up": "Engine Crank RIGHT",
-        "warthog-thr-engine-operate-left-down": "Engine Crank OFF",
-        "warthog-thr-engine-operate-right-down": "Engine Crank  OFF",
-        "warthog-thr-ap-engage": "NWS / AP",
+        "warthog-thr-engine-operate-left-down": "Eng Crank OFF",
+        "warthog-thr-engine-operate-right-down": "Eng Crank OFF",
+        "warthog-thr-ap-engage": "AP / NWS",
         "warthog-thr-apu-start": "APU ON<>OFF",
         "warthog-thr-slew-push": "TDC DEPRESS",
+        "warthog-thr-coolie-up": "Rdr Elev Up",
+        "warthog-thr-coolie-down": "Rdr Elev Down",
         "warthog-thr-mic-right": "COMM 1",
         "warthog-thr-mic-left": "COMM 2",
         "warthog-thr-china-back": "Cage/Uncage",
@@ -1287,19 +1275,19 @@
               "profile": "tm-warthog-throttle",
               "key": "JOY_BTN18",
               "command": "d3016pnilunilcd12vd-1vpnilvunil",
-              "label": "Engine Crank OFF"
+              "label": "Eng Crank OFF"
             },
             "warthog-thr-engine-operate-right-down": {
               "profile": "tm-warthog-throttle",
               "key": "JOY_BTN19",
               "command": "d3016pnilunilcd12vd-1vpnilvunil",
-              "label": "Engine Crank  OFF"
+              "label": "Eng Crank OFF"
             },
             "warthog-thr-ap-engage": {
               "profile": "tm-warthog-throttle",
               "key": "JOY_BTN26",
               "command": "d3018pnilu3018cd13vd1vpnilvu0",
-              "label": "NWS / AP"
+              "label": "AP / NWS"
             },
             "warthog-thr-apu-start": {
               "profile": "tm-warthog-throttle",
@@ -1312,6 +1300,18 @@
               "key": "JOY_BTN1",
               "command": "d3023pnilu3023cd13vd1vpnilvu0",
               "label": "TDC DEPRESS"
+            },
+            "warthog-thr-coolie-up": {
+              "profile": "tm-warthog-throttle",
+              "key": "JOY_BTN_POV1_U",
+              "command": "d3024pnilu3024cd13vd1vpnilvu0",
+              "label": "Rdr Elev Up"
+            },
+            "warthog-thr-coolie-down": {
+              "profile": "tm-warthog-throttle",
+              "key": "JOY_BTN_POV1_D",
+              "command": "d3025pnilu3025cd13vd1vpnilvu0",
+              "label": "Rdr Elev Down"
             },
             "warthog-thr-mic-right": {
               "profile": "tm-warthog-throttle",
@@ -1408,11 +1408,13 @@
             "warthog-thr-ap-select-up": "Attitude INS<>AUTO",
             "warthog-thr-engine-operate-left-up": "Engine Crank LEFT",
             "warthog-thr-engine-operate-right-up": "Engine Crank RIGHT",
-            "warthog-thr-engine-operate-left-down": "Engine Crank OFF",
-            "warthog-thr-engine-operate-right-down": "Engine Crank  OFF",
-            "warthog-thr-ap-engage": "NWS / AP",
+            "warthog-thr-engine-operate-left-down": "Eng Crank OFF",
+            "warthog-thr-engine-operate-right-down": "Eng Crank OFF",
+            "warthog-thr-ap-engage": "AP / NWS",
             "warthog-thr-apu-start": "APU ON<>OFF",
             "warthog-thr-slew-push": "TDC DEPRESS",
+            "warthog-thr-coolie-up": "Rdr Elev Up",
+            "warthog-thr-coolie-down": "Rdr Elev Down",
             "warthog-thr-mic-right": "COMM 1",
             "warthog-thr-mic-left": "COMM 2",
             "warthog-thr-china-back": "Cage/Uncage",
@@ -1482,6 +1484,7 @@
       "kicker": "SCAFFOLD DRAFT",
       "_comment": "labels default to the imported DCS command name and remain editable; deviceLabel contains the canonical DCS-Common hardware label. keep callout IDs in sync with controls. You can also set \"label\" on a controls entry.",
       "labels": {
+        "pto2-button-1": "Salute",
         "pto2-button-16": "Probe EMERG EXTD",
         "pto2-button-15": "Probe RETRACT",
         "pto2-button-14": "Probe EXTEND",
@@ -1523,6 +1526,12 @@
       },
       "modifierCallouts": {},
       "controls": {
+        "pto2-button-1": {
+          "profile": "winctrl-pto2",
+          "key": "JOY_BTN1",
+          "command": "d238pnilunilcdnilvdnilvpnilvunil",
+          "label": "Salute"
+        },
         "pto2-button-16": {
           "profile": "winctrl-pto2",
           "key": "JOY_BTN16",

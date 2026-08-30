@@ -1,5 +1,13 @@
 local diff = {
 	["keyDiffs"] = {
+		["d238pnilunilcdnilvdnilvpnilvunil"] = {
+			["added"] = {
+				[1] = {
+					["key"] = "JOY_BTN1",
+				},
+			},
+			["name"] = "Pilot Salute",
+		},
 		["d3002pnilunilcd6vd-1vpnilvunil"] = {
 			["added"] = {
 				[1] = {
