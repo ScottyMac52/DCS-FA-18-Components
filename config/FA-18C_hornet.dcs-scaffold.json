@@ -1,0 +1,30 @@
+{
+  "schemaVersion": 1,
+  "name": "FA-18C_hornet",
+  "import": {
+    "target": "consumer",
+    "profilesDirectory": "C:\\Users\\vyper\\Saved Games\\DCS.openbeta\\Config\\Input\\FA-18C_hornet\\joystick",
+    "modifiersPath": "C:\\Users\\vyper\\Saved Games\\DCS.openbeta\\Config\\Input\\FA-18C_hornet\\modifiers.lua",
+    "mozaGrip": "hornet",
+    "commonRoot": "C:\\Users\\vyper\\Source\\repos\\DCS-Common",
+    "outputDirectory": "C:\\Users\\vyper\\Source\\repos\\DCS-FA-18-Components",
+    "displayName": "FA-18C_hornet",
+    "inputModuleId": "FA-18C_hornet",
+    "kneeboardId": "FA-18C_hornet"
+  },
+  "decisions": {
+    "instanceRoles": {},
+    "semanticModifiers": {
+      "LAlt": "LAlt",
+      "LCtrl": "LCtrl",
+      "LShift": "LShift",
+      "LWin": "LWin",
+      "MOZA_F16_F18_BTN3": "MOZA_F16_F18_BTN3",
+      "RAlt": "RAlt",
+      "RCtrl": "RCtrl",
+      "RShift": "RShift",
+      "RWin": "RWin"
+    },
+    "removedProfiles": []
+  }
+}

@@ -1,228 +1,237 @@
+-- F16 MFD 3 (MPCD/AMPCD) - F/A-18C Hornet
+-- TM Cougar MFD 3 mapped as MPCD (Multipurpose Color Display, cd37).
+-- Pushbuttons 1-20 plus AMPCD-specific Night/Day and Contrast/Gain/Brightness controls.
+-- Shifted (MOZA_F16_F18_BTN3) buttons access page shortcuts.
+-- Axis bindings are removed to prevent conflicts.
 local diff = {
+	["axisDiffs"] = {
+		["a2001cdnil"] = {
+			["name"] = "Pitch",
+			["removed"] = {
+				[1] = {
+					["key"] = "JOY_Y",
+				},
+			},
+		},
+		["a2002cdnil"] = {
+			["name"] = "Roll",
+			["removed"] = {
+				[1] = {
+					["key"] = "JOY_X",
+				},
+			},
+		},
+	},
 	["keyDiffs"] = {
-		["d3002pnilu3002cd37vd1vpnilvu0"] = {
-			["added"] = {
-				[1] = {
-					["key"] = "JOY_BTN25",
-				},
-			},
-			["name"] = "AMPCD Night/Day Brightness Selector - DAY",
-		},
-		["d3003pnilu3003cd37vd-1vpnilvu0"] = {
-			["added"] = {
-				[1] = {
-					["key"] = "JOY_BTN26",
-				},
-			},
-			["name"] = "AMPCD Night/Day Brightness Selector - NGT",
-		},
-		["d3006pnilu3006cd37vd1vpnilvu0"] = {
-			["added"] = {
-				[1] = {
-					["key"] = "JOY_BTN23",
-				},
-			},
-			["name"] = "AMPCD Contrast Control Switch - UP",
-		},
-		["d3007pnilu3007cd37vd-1vpnilvu0"] = {
-			["added"] = {
-				[1] = {
-					["key"] = "JOY_BTN24",
-				},
-			},
-			["name"] = "AMPCD Contrast Control Switch - DOWN",
-		},
-		["d3008pnilu3008cd37vd1vpnilvu0"] = {
-			["added"] = {
-				[1] = {
-					["key"] = "JOY_BTN27",
-				},
-			},
-			["name"] = "AMPCD Gain Control Switch - UP",
-		},
-		["d3009pnilu3009cd37vd-1vpnilvu0"] = {
-			["added"] = {
-				[1] = {
-					["key"] = "JOY_BTN28",
-				},
-			},
-			["name"] = "AMPCD Gain Control Switch - DOWN",
-		},
+		-- MPCD PB 1-20 (unshifted)
 		["d3011pnilu3011cd37vd1vpnilvu0"] = {
 			["added"] = {
-				[1] = {
-					["key"] = "JOY_BTN16",
-				},
+				[1] = { ["key"] = "JOY_BTN1" },
 			},
-			["name"] = "AMPCD PB 1",
+			["name"] = "MPCD Pushbutton 01",
 		},
 		["d3012pnilu3012cd37vd1vpnilvu0"] = {
 			["added"] = {
-				[1] = {
-					["key"] = "JOY_BTN17",
-				},
+				[1] = { ["key"] = "JOY_BTN2" },
 			},
-			["name"] = "AMPCD PB 2",
+			["name"] = "MPCD Pushbutton 02",
 		},
 		["d3013pnilu3013cd37vd1vpnilvu0"] = {
 			["added"] = {
-				[1] = {
-					["key"] = "JOY_BTN18",
-				},
+				[1] = { ["key"] = "JOY_BTN3" },
 			},
-			["name"] = "AMPCD PB 3",
+			["name"] = "MPCD Pushbutton 03",
 		},
 		["d3014pnilu3014cd37vd1vpnilvu0"] = {
 			["added"] = {
-				[1] = {
-					["key"] = "JOY_BTN19",
-				},
+				[1] = { ["key"] = "JOY_BTN4" },
 			},
-			["name"] = "AMPCD PB 4",
+			["name"] = "MPCD Pushbutton 04",
 		},
 		["d3015pnilu3015cd37vd1vpnilvu0"] = {
 			["added"] = {
-				[1] = {
-					["key"] = "JOY_BTN20",
-				},
+				[1] = { ["key"] = "JOY_BTN5" },
 			},
-			["name"] = "AMPCD PB 5",
+			["name"] = "MPCD Pushbutton 05",
 		},
 		["d3016pnilu3016cd37vd1vpnilvu0"] = {
 			["added"] = {
-				[1] = {
-					["key"] = "JOY_BTN1",
-				},
+				[1] = { ["key"] = "JOY_BTN6" },
 			},
-			["name"] = "AMPCD PB 6",
+			["name"] = "MPCD Pushbutton 06",
 		},
 		["d3017pnilu3017cd37vd1vpnilvu0"] = {
 			["added"] = {
-				[1] = {
-					["key"] = "JOY_BTN2",
-				},
+				[1] = { ["key"] = "JOY_BTN7" },
 			},
-			["name"] = "AMPCD PB 7",
+			["name"] = "MPCD Pushbutton 07",
 		},
 		["d3018pnilu3018cd37vd1vpnilvu0"] = {
 			["added"] = {
-				[1] = {
-					["key"] = "JOY_BTN3",
-				},
+				[1] = { ["key"] = "JOY_BTN8" },
 			},
-			["name"] = "AMPCD PB 8",
+			["name"] = "MPCD Pushbutton 08",
 		},
 		["d3019pnilu3019cd37vd1vpnilvu0"] = {
 			["added"] = {
-				[1] = {
-					["key"] = "JOY_BTN4",
-				},
+				[1] = { ["key"] = "JOY_BTN9" },
 			},
-			["name"] = "AMPCD PB 9",
+			["name"] = "MPCD Pushbutton 09",
 		},
 		["d3020pnilu3020cd37vd1vpnilvu0"] = {
 			["added"] = {
-				[1] = {
-					["key"] = "JOY_BTN5",
-				},
+				[1] = { ["key"] = "JOY_BTN10" },
 			},
-			["name"] = "AMPCD PB 10",
+			["name"] = "MPCD Pushbutton 10",
 		},
 		["d3021pnilu3021cd37vd1vpnilvu0"] = {
 			["added"] = {
-				[1] = {
-					["key"] = "JOY_BTN6",
-				},
+				[1] = { ["key"] = "JOY_BTN11" },
 			},
-			["name"] = "AMPCD PB 11",
+			["name"] = "MPCD Pushbutton 11",
 		},
 		["d3022pnilu3022cd37vd1vpnilvu0"] = {
 			["added"] = {
-				[1] = {
-					["key"] = "JOY_BTN7",
-				},
+				[1] = { ["key"] = "JOY_BTN12" },
 			},
-			["name"] = "AMPCD PB 12",
+			["name"] = "MPCD Pushbutton 12",
 		},
 		["d3023pnilu3023cd37vd1vpnilvu0"] = {
 			["added"] = {
-				[1] = {
-					["key"] = "JOY_BTN8",
-				},
+				[1] = { ["key"] = "JOY_BTN13" },
 			},
-			["name"] = "AMPCD PB 13",
+			["name"] = "MPCD Pushbutton 13",
 		},
 		["d3024pnilu3024cd37vd1vpnilvu0"] = {
 			["added"] = {
-				[1] = {
-					["key"] = "JOY_BTN9",
-				},
+				[1] = { ["key"] = "JOY_BTN14" },
 			},
-			["name"] = "AMPCD PB 14",
+			["name"] = "MPCD Pushbutton 14",
 		},
 		["d3025pnilu3025cd37vd1vpnilvu0"] = {
 			["added"] = {
-				[1] = {
-					["key"] = "JOY_BTN10",
-				},
+				[1] = { ["key"] = "JOY_BTN15" },
 			},
-			["name"] = "AMPCD PB 15",
+			["name"] = "MPCD Pushbutton 15",
 		},
 		["d3026pnilu3026cd37vd1vpnilvu0"] = {
 			["added"] = {
-				[1] = {
-					["key"] = "JOY_BTN11",
-				},
+				[1] = { ["key"] = "JOY_BTN16" },
 			},
-			["name"] = "AMPCD PB 16",
+			["name"] = "MPCD Pushbutton 16",
 		},
 		["d3027pnilu3027cd37vd1vpnilvu0"] = {
 			["added"] = {
-				[1] = {
-					["key"] = "JOY_BTN12",
-				},
+				[1] = { ["key"] = "JOY_BTN17" },
 			},
-			["name"] = "AMPCD PB 17",
+			["name"] = "MPCD Pushbutton 17",
 		},
 		["d3028pnilu3028cd37vd1vpnilvu0"] = {
 			["added"] = {
-				[1] = {
-					["key"] = "JOY_BTN13",
-				},
+				[1] = { ["key"] = "JOY_BTN18" },
 			},
-			["name"] = "AMPCD PB 18",
+			["name"] = "MPCD Pushbutton 18",
 		},
 		["d3029pnilu3029cd37vd1vpnilvu0"] = {
 			["added"] = {
-				[1] = {
-					["key"] = "JOY_BTN14",
-				},
+				[1] = { ["key"] = "JOY_BTN19" },
 			},
-			["name"] = "AMPCD PB 19",
+			["name"] = "MPCD Pushbutton 19",
 		},
 		["d3030pnilu3030cd37vd1vpnilvu0"] = {
 			["added"] = {
-				[1] = {
-					["key"] = "JOY_BTN15",
-				},
+				[1] = { ["key"] = "JOY_BTN20" },
 			},
-			["name"] = "AMPCD PB 20",
+			["name"] = "MPCD Pushbutton 20",
 		},
-		["dnilp3041unilcd37vdnilvp-0.5vunil"] = {
+		-- AMPCD Night/Day mode
+		["d3002pnilu3002cd37vd1vpnilvu0"] = {
+			["added"] = {
+				[1] = { ["key"] = "JOY_BTN21" },
+			},
+			["name"] = "MPCD Day Mode",
+		},
+		["d3003pnilu3003cd37vd1vpnilvu0"] = {
+			["added"] = {
+				[1] = { ["key"] = "JOY_BTN22" },
+			},
+			["name"] = "MPCD Night Mode",
+		},
+		-- AMPCD Brightness/Contrast adjust
+		["dnilp3041u3041cd37vdnilvp1vu0"] = {
+			["added"] = {
+				[1] = { ["key"] = "JOY_BTN23" },
+			},
+			["name"] = "MPCD Brightness Knob - INC",
+		},
+		["dnilp3041u3041cd37vdnilvp-1vu0"] = {
+			["added"] = {
+				[1] = { ["key"] = "JOY_BTN24" },
+			},
+			["name"] = "MPCD Brightness Knob - DEC",
+		},
+		-- =========================================================
+		-- SHIFTED (MOZA_F16_F18_BTN3) - MPCD page shortcuts
+		-- =========================================================
+		-- PB1 + modifier = CHECKLIST
+		["d3011pnilu3011cd37vd1vpnilvu0MOZA_F16_F18_BTN3"] = {
 			["added"] = {
 				[1] = {
-					["key"] = "JOY_BTN22",
+					["key"] = "JOY_BTN1",
+					["reformers"] = {
+						[1] = "MOZA_F16_F18_BTN3",
+					},
 				},
 			},
-			["name"] = "AMPCD Off/Brightness Control Knob - CCW/Decrease",
+			["name"] = "MPCD PB1 (Shifted) - CHECKLIST",
 		},
-		["dnilp3041unilcd37vdnilvp0.5vunil"] = {
+		-- PB2 + modifier = FCS (Flight Control System)
+		["d3012pnilu3012cd37vd1vpnilvu0MOZA_F16_F18_BTN3"] = {
 			["added"] = {
 				[1] = {
-					["key"] = "JOY_BTN21",
+					["key"] = "JOY_BTN2",
+					["reformers"] = {
+						[1] = "MOZA_F16_F18_BTN3",
+					},
 				},
 			},
-			["name"] = "AMPCD Off/Brightness Control Knob - CW/Increase",
+			["name"] = "MPCD PB2 (Shifted) - FCS",
+		},
+		-- PB3 + modifier = FUEL
+		["d3013pnilu3013cd37vd1vpnilvu0MOZA_F16_F18_BTN3"] = {
+			["added"] = {
+				[1] = {
+					["key"] = "JOY_BTN3",
+					["reformers"] = {
+						[1] = "MOZA_F16_F18_BTN3",
+					},
+				},
+			},
+			["name"] = "MPCD PB3 (Shifted) - FUEL",
+		},
+		-- PB4 + modifier = Stores Management (SMS)
+		["d3014pnilu3014cd37vd1vpnilvu0MOZA_F16_F18_BTN3"] = {
+			["added"] = {
+				[1] = {
+					["key"] = "JOY_BTN4",
+					["reformers"] = {
+						[1] = "MOZA_F16_F18_BTN3",
+					},
+				},
+			},
+			["name"] = "MPCD PB4 (Shifted) - SMS",
+		},
+		-- PB5 + modifier = MENU
+		["d3015pnilu3015cd37vd1vpnilvu0MOZA_F16_F18_BTN3"] = {
+			["added"] = {
+				[1] = {
+					["key"] = "JOY_BTN5",
+					["reformers"] = {
+						[1] = "MOZA_F16_F18_BTN3",
+					},
+				},
+			},
+			["name"] = "MPCD PB5 (Shifted) - MENU",
 		},
 	},
 }

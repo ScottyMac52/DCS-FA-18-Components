@@ -1,132 +1,114 @@
+-- OnYourTwelve F-14 PDCP - F/A-18C Hornet
+-- The PDCP maps the ALR-67 radar warning receiver (cd53)
+-- and the ALQ-165 ASPJ electronic countermeasures (cd66).
+-- These are the same device categories as in the F-16C, making this panel
+-- directly applicable to the F/A-18C without modification.
 local diff = {
 	["keyDiffs"] = {
+		-- =========================================================
+		-- ALR-67 (RWR) - cd53
+		-- =========================================================
+		["d3001pnilu3001cd53vd1vpnilvu0"] = {
+			["added"] = {
+				[1] = { ["key"] = "JOY_BTN1" },
+			},
+			["name"] = "ALR-67 RWR - Power ON/OFF",
+		},
 		["d3002pnilu3002cd53vd1vpnilvu0"] = {
 			["added"] = {
-				[1] = {
-					["key"] = "JOY_BTN2",
-				},
+				[1] = { ["key"] = "JOY_BTN2" },
 			},
-			["name"] = "ALR-67 DISPLAY Pushbutton",
-		},
-		["d3002pnilunilcd66vd-1vpnilvunil"] = {
-			["added"] = {
-				[1] = {
-					["key"] = "JOY_BTN6",
-				},
-			},
-			["name"] = "ALQ-165 ECM Mode Switch - CCW",
-		},
-		["d3002pnilunilcd66vd1vpnilvunil"] = {
-			["added"] = {
-				[1] = {
-					["key"] = "JOY_BTN10",
-				},
-			},
-			["name"] = "ALQ-165 ECM Mode Switch - CW",
+			["name"] = "ALR-67 RWR - Display Type",
 		},
 		["d3003pnilu3003cd53vd1vpnilvu0"] = {
 			["added"] = {
-				[1] = {
-					["key"] = "JOY_BTN3",
-				},
+				[1] = { ["key"] = "JOY_BTN3" },
 			},
-			["name"] = "ALR-67 SPECIAL Pushbutton",
+			["name"] = "ALR-67 RWR - Limit",
 		},
 		["d3004pnilu3004cd53vd1vpnilvu0"] = {
 			["added"] = {
-				[1] = {
-					["key"] = "JOY_BTN4",
-				},
+				[1] = { ["key"] = "JOY_BTN4" },
 			},
-			["name"] = "ALR-67 OFFSET Pushbutton",
+			["name"] = "ALR-67 RWR - Mode",
 		},
 		["d3005pnilu3005cd53vd1vpnilvu0"] = {
 			["added"] = {
-				[1] = {
-					["key"] = "JOY_BTN5",
-				},
+				[1] = { ["key"] = "JOY_BTN5" },
 			},
-			["name"] = "ALR-67 BIT Pushbutton",
+			["name"] = "ALR-67 RWR - Offset Toggle",
 		},
-		["dnilp210u214cdnilvdnilvpnilvunil"] = {
-			["name"] = "View Up Right slow",
-			["removed"] = {
-				[1] = {
-					["key"] = "JOY_BTN_POV1_UR",
-				},
-			},
-		},
-		["dnilp211u214cdnilvdnilvpnilvunil"] = {
-			["name"] = "View Down Right slow",
-			["removed"] = {
-				[1] = {
-					["key"] = "JOY_BTN_POV1_DR",
-				},
-			},
-		},
-		["dnilp212u214cdnilvdnilvpnilvunil"] = {
-			["name"] = "View Down Left slow",
-			["removed"] = {
-				[1] = {
-					["key"] = "JOY_BTN_POV1_DL",
-				},
-			},
-		},
-		["dnilp213u214cdnilvdnilvpnilvunil"] = {
-			["name"] = "View Up Left slow",
-			["removed"] = {
-				[1] = {
-					["key"] = "JOY_BTN_POV1_UL",
-				},
-			},
-		},
-		["dnilp3009unilcd53vdnilvp-0.5vunil"] = {
+		["d3006pnilu3006cd53vd1vpnilvu0"] = {
 			["added"] = {
-				[1] = {
-					["key"] = "JOY_BTN7",
-				},
+				[1] = { ["key"] = "JOY_BTN6" },
 			},
-			["name"] = "ALR-67 DMR Control Knob - CCW/Decrease",
+			["name"] = "ALR-67 RWR - Enable/Disable",
 		},
-		["dnilp3009unilcd53vdnilvp0.5vunil"] = {
+		["d3007pnilu3007cd53vd1vpnilvu0"] = {
 			["added"] = {
-				[1] = {
-					["key"] = "JOY_BTN9",
-				},
+				[1] = { ["key"] = "JOY_BTN7" },
 			},
-			["name"] = "ALR-67 DMR Control Knob - CW/Increase",
+			["name"] = "ALR-67 RWR - Special",
 		},
-		["dnilp32u214cdnilvdnilvpnilvunil"] = {
-			["name"] = "View Left slow",
-			["removed"] = {
-				[1] = {
-					["key"] = "JOY_BTN_POV1_L",
-				},
+		["d3008pnilu3008cd53vd1vpnilvu0"] = {
+			["added"] = {
+				[1] = { ["key"] = "JOY_BTN8" },
 			},
+			["name"] = "ALR-67 RWR - Overhead",
 		},
-		["dnilp33u214cdnilvdnilvpnilvunil"] = {
-			["name"] = "View Right slow",
-			["removed"] = {
-				[1] = {
-					["key"] = "JOY_BTN_POV1_R",
-				},
+		["d3009pnilu3009cd53vd1vpnilvu0"] = {
+			["added"] = {
+				[1] = { ["key"] = "JOY_BTN9" },
 			},
+			["name"] = "ALR-67 RWR - Test",
 		},
-		["dnilp34u214cdnilvdnilvpnilvunil"] = {
-			["name"] = "View Up slow",
-			["removed"] = {
-				[1] = {
-					["key"] = "JOY_BTN_POV1_U",
-				},
+		["d3010pnilu3010cd53vd1vpnilvu0"] = {
+			["added"] = {
+				[1] = { ["key"] = "JOY_BTN10" },
 			},
+			["name"] = "ALR-67 RWR - BIT",
 		},
-		["dnilp35u214cdnilvdnilvpnilvunil"] = {
-			["name"] = "View Down slow",
-			["removed"] = {
-				[1] = {
-					["key"] = "JOY_BTN_POV1_D",
-				},
+		-- =========================================================
+		-- ALQ-165 (ASPJ ECM) - cd66
+		-- =========================================================
+		["d3001pnilu3001cd66vd1vpnilvu0"] = {
+			["added"] = {
+				[1] = { ["key"] = "JOY_BTN11" },
 			},
+			["name"] = "ALQ-165 ASPJ - Power ON/OFF",
+		},
+		["d3002pnilu3002cd66vd1vpnilvu0"] = {
+			["added"] = {
+				[1] = { ["key"] = "JOY_BTN12" },
+			},
+			["name"] = "ALQ-165 ASPJ - Standby",
+		},
+		["d3003pnilu3003cd66vd1vpnilvu0"] = {
+			["added"] = {
+				[1] = { ["key"] = "JOY_BTN13" },
+			},
+			["name"] = "ALQ-165 ASPJ - Active",
+		},
+		["d3004pnilu3004cd66vd1vpnilvu0"] = {
+			["added"] = {
+				[1] = { ["key"] = "JOY_BTN14" },
+			},
+			["name"] = "ALQ-165 ASPJ - Transmit",
+		},
+		["d3005pnilu3005cd66vd1vpnilvu0"] = {
+			["added"] = {
+				[1] = { ["key"] = "JOY_BTN15" },
+			},
+			["name"] = "ALQ-165 ASPJ - Test",
+		},
+		-- =========================================================
+		-- Pilot Salute (boresight/ack signal)
+		-- =========================================================
+		["d238pnilu238cdnilvd1vpnilvu0"] = {
+			["added"] = {
+				[1] = { ["key"] = "JOY_BTN16" },
+			},
+			["name"] = "Pilot Salute",
 		},
 	},
 }

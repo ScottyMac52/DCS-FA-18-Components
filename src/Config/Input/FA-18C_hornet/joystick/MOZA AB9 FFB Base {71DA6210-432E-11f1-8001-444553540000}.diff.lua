@@ -1,59 +1,27 @@
+-- MOZA AB9 FFB Base with TM F/A-18C Hornet Grip
+-- Physical buttons: JOY_BTN1-19 (grip), JOY_BTN_POV1 hat (trim), JOY_X/Y (axes)
+-- JOY_BTN3 (NWS/Undesignate) is used as the MOZA_F16_F18_BTN3 modifier.
 local diff = {
 	["keyDiffs"] = {
-		["d1587pnilu1587cdnilvd1vpnilvu-1"] = {
+		-- Gun Trigger - First Stage
+		["d3001pnilu3001cd13vd1vpnilvu0"] = {
 			["added"] = {
 				[1] = {
-					["key"] = "JOY_BTN13",
-					["reformers"] = {
-						[1] = "MOZA_F16_F18_BTN3",
-					},
+					["key"] = "JOY_BTN1",
 				},
 			},
-			["name"] = "Kneeboard glance view",
+			["name"] = "Gun Trigger - First Stage",
 		},
-		["d1587pnilunilcdnilvdnilvpnilvunil"] = {
-			["added"] = {
-				[1] = {
-					["key"] = "JOY_BTN12",
-				},
-			},
-			["name"] = "Kneeboard ON/OFF",
-		},
-		["d3001pnilunilcd68vd1vpnilvunil"] = {
-			["added"] = {
-				[1] = {
-					["key"] = "JOY_BTN13",
-				},
-			},
-			["name"] = "Kneeboard Next Page",
-		},
+		-- Gun Trigger - Second Stage (Fire)
 		["d3002pnilu3002cd13vd1vpnilvu0"] = {
 			["added"] = {
 				[1] = {
 					["key"] = "JOY_BTN6",
 				},
 			},
-			["name"] = "Gun Trigger - SECOND DETENT (Press to shoot)",
+			["name"] = "Gun Trigger - Second Stage",
 		},
-		["d3002pnilu3002cd2vd1vpnilvu0"] = {
-			["added"] = {
-				[1] = {
-					["key"] = "JOY_BTN5",
-					["reformers"] = {
-						[1] = "MOZA_F16_F18_BTN3",
-					},
-				},
-			},
-			["name"] = "T/O TRIM Button",
-		},
-		["d3002pnilunilcd68vd1vpnilvunil"] = {
-			["added"] = {
-				[1] = {
-					["key"] = "JOY_BTN11",
-				},
-			},
-			["name"] = "Kneeboard Previous Page",
-		},
+		-- Weapon Release (Pickle)
 		["d3003pnilu3003cd13vd1vpnilvu0"] = {
 			["added"] = {
 				[1] = {
@@ -62,17 +30,7 @@ local diff = {
 			},
 			["name"] = "Weapon Release Button",
 		},
-		["d3003pnilunilcd68vd1vpnilvunil"] = {
-			["added"] = {
-				[1] = {
-					["key"] = "JOY_BTN12",
-					["reformers"] = {
-						[1] = "MOZA_F16_F18_BTN3",
-					},
-				},
-			},
-			["name"] = "Kneeboard current position mark point",
-		},
+		-- NWS / Undesignate (shifted via MOZA_F16_F18_BTN3 — hold BTN3, press Trigger BTN1)
 		["d3004pnilu3004cd13vd1vpnilvu0"] = {
 			["added"] = {
 				[1] = {
@@ -82,8 +40,9 @@ local diff = {
 					},
 				},
 			},
-			["name"] = "RECCE Event Mark Switch",
+			["name"] = "Nose Wheel Steering (NWS) / Undesignate",
 		},
+		-- Sensor Control Switch - Forward (Up)
 		["d3005pnilu3005cd13vd1vpnilvu0"] = {
 			["added"] = {
 				[1] = {
@@ -92,6 +51,7 @@ local diff = {
 			},
 			["name"] = "Sensor Control Switch - Fwd",
 		},
+		-- Sensor Control Switch - Aft (Down)
 		["d3006pnilu3006cd13vd1vpnilvu0"] = {
 			["added"] = {
 				[1] = {
@@ -100,62 +60,88 @@ local diff = {
 			},
 			["name"] = "Sensor Control Switch - Aft",
 		},
+		-- Sensor Control Switch - Right
 		["d3007pnilu3007cd13vd1vpnilvu0"] = {
 			["added"] = {
 				[1] = {
 					["key"] = "JOY_BTN8",
 				},
 			},
-			["name"] = "Sensor Control Switch - Left",
+			["name"] = "Sensor Control Switch - Right",
 		},
+		-- Sensor Control Switch - Left
 		["d3008pnilu3008cd13vd1vpnilvu0"] = {
 			["added"] = {
 				[1] = {
 					["key"] = "JOY_BTN10",
 				},
 			},
-			["name"] = "Sensor Control Switch - Right",
+			["name"] = "Sensor Control Switch - Left",
 		},
+		-- Sensor Control Switch - Depress
 		["d3009pnilu3009cd13vd1vpnilvu0"] = {
 			["added"] = {
 				[1] = {
 					["key"] = "JOY_BTN14",
 				},
 			},
-			["name"] = "Select Sparrow",
+			["name"] = "Sensor Control Switch - Depress",
 		},
+		-- Weapon Select Switch - Forward
 		["d3010pnilu3010cd13vd1vpnilvu0"] = {
 			["added"] = {
 				[1] = {
 					["key"] = "JOY_BTN15",
 				},
 			},
-			["name"] = "Select Gun",
+			["name"] = "Weapon Select Switch - Fwd",
 		},
+		-- Weapon Select Switch - Right
 		["d3011pnilu3011cd13vd1vpnilvu0"] = {
 			["added"] = {
 				[1] = {
 					["key"] = "JOY_BTN16",
 				},
 			},
-			["name"] = "Select AMRAAM",
+			["name"] = "Weapon Select Switch - Right",
 		},
+		-- Weapon Select Switch - Aft
 		["d3012pnilu3012cd13vd1vpnilvu0"] = {
 			["added"] = {
 				[1] = {
 					["key"] = "JOY_BTN17",
 				},
 			},
-			["name"] = "Select Sidewinder",
+			["name"] = "Weapon Select Switch - Aft",
 		},
+		-- Weapon Select Switch - Left
 		["d3013pnilu3013cd13vd1vpnilvu0"] = {
 			["added"] = {
 				[1] = {
 					["key"] = "JOY_BTN18",
 				},
 			},
-			["name"] = "Undesignate/Nose Wheel Steer Switch",
+			["name"] = "Weapon Select Switch - Left",
 		},
+		-- Weapon Select Switch - Depress (Push)
+		["d3014pnilu3014cd13vd1vpnilvu0"] = {
+			["added"] = {
+				[1] = {
+					["key"] = "JOY_BTN19",
+				},
+			},
+			["name"] = "Weapon Select Switch - Depress",
+		},
+		-- RECCE Event Mark Switch
+		["d3015pnilu3015cd13vd1vpnilvu0"] = {
+			["added"] = {
+				[1] = {
+					["key"] = "JOY_BTN5",
+				},
+			},
+			["name"] = "RECCE Event Mark Switch",
+		},
+		-- Autopilot / NWS Disengage (Paddle Switch)
 		["d3018pnilu3018cd13vd1vpnilvu0"] = {
 			["added"] = {
 				[1] = {
@@ -164,77 +150,26 @@ local diff = {
 			},
 			["name"] = "Autopilot/Nosewheel Steering Disengage (Paddle) Switch",
 		},
-		["dnilp210u214cdnilvdnilvpnilvunil"] = {
-			["name"] = "View Up Right slow",
-			["removed"] = {
-				[1] = {
-					["key"] = "JOY_BTN_POV1_UR",
-				},
-			},
-		},
-		["dnilp211u214cdnilvdnilvpnilvunil"] = {
-			["name"] = "View Down Right slow",
-			["removed"] = {
-				[1] = {
-					["key"] = "JOY_BTN_POV1_DR",
-				},
-			},
-		},
-		["dnilp212u214cdnilvdnilvpnilvunil"] = {
-			["name"] = "View Down Left slow",
-			["removed"] = {
-				[1] = {
-					["key"] = "JOY_BTN_POV1_DL",
-				},
-			},
-		},
-		["dnilp213u214cdnilvdnilvpnilvunil"] = {
-			["name"] = "View Up Left slow",
-			["removed"] = {
-				[1] = {
-					["key"] = "JOY_BTN_POV1_UL",
-				},
-			},
-		},
-		["dnilp3013unilcd2vdnilvp-1vunil"] = {
-			["added"] = {
-				[1] = {
-					["key"] = "JOY_BTN18",
-					["reformers"] = {
-						[1] = "MOZA_F16_F18_BTN3",
-					},
-				},
-			},
-			["name"] = "RUD TRIM Control - CCW/Left",
-		},
-		["dnilp3013unilcd2vdnilvp1vunil"] = {
-			["added"] = {
-				[1] = {
-					["key"] = "JOY_BTN16",
-					["reformers"] = {
-						[1] = "MOZA_F16_F18_BTN3",
-					},
-				},
-			},
-			["name"] = "RUD TRIM Control - CW/Right",
-		},
-		["dnilp3014u3014cd13vdnilvp1vu0"] = {
+		-- Trimmer Switch - Nose Up (hat down = pull back = nose up)
+		["dnilp3016u3016cd13vdnilvp1vu0"] = {
 			["added"] = {
 				[1] = {
 					["key"] = "JOY_BTN_POV1_D",
 				},
 			},
-			["name"] = "Trimmer Switch - PULL(CLIMB)",
+			["name"] = "Trimmer Switch - NOSE UP",
 		},
-		["dnilp3015u3015cd13vdnilvp1vu0"] = {
+		-- Trimmer Switch - Nose Down (hat up = push forward = nose down)
+		["dnilp3017u3017cd13vdnilvp1vu0"] = {
 			["added"] = {
 				[1] = {
 					["key"] = "JOY_BTN_POV1_U",
 				},
 			},
-			["name"] = "Trimmer Switch - PUSH(DESCEND)",
+			["name"] = "Trimmer Switch - NOSE DOWN",
 		},
-		["dnilp3016u3016cd13vdnilvp1vu0"] = {
+		-- Trimmer Switch - Left Wing Down
+		["dnilp3018u3018cd13vdnilvp1vu0"] = {
 			["added"] = {
 				[1] = {
 					["key"] = "JOY_BTN_POV1_L",
@@ -242,45 +177,14 @@ local diff = {
 			},
 			["name"] = "Trimmer Switch - LEFT WING DOWN",
 		},
-		["dnilp3017u3017cd13vdnilvp1vu0"] = {
+		-- Trimmer Switch - Right Wing Down
+		["dnilp3019u3019cd13vdnilvp1vu0"] = {
 			["added"] = {
 				[1] = {
 					["key"] = "JOY_BTN_POV1_R",
 				},
 			},
 			["name"] = "Trimmer Switch - RIGHT WING DOWN",
-		},
-		["dnilp32u214cdnilvdnilvpnilvunil"] = {
-			["name"] = "View Left slow",
-			["removed"] = {
-				[1] = {
-					["key"] = "JOY_BTN_POV1_L",
-				},
-			},
-		},
-		["dnilp33u214cdnilvdnilvpnilvunil"] = {
-			["name"] = "View Right slow",
-			["removed"] = {
-				[1] = {
-					["key"] = "JOY_BTN_POV1_R",
-				},
-			},
-		},
-		["dnilp34u214cdnilvdnilvpnilvunil"] = {
-			["name"] = "View Up slow",
-			["removed"] = {
-				[1] = {
-					["key"] = "JOY_BTN_POV1_U",
-				},
-			},
-		},
-		["dnilp35u214cdnilvdnilvpnilvunil"] = {
-			["name"] = "View Down slow",
-			["removed"] = {
-				[1] = {
-					["key"] = "JOY_BTN_POV1_D",
-				},
-			},
 		},
 	},
 }
