@@ -2,6 +2,94 @@
   "schemaVersion": 1,
   "aircraft": "FA-18C_hornet",
   "includeUiLayer": true,
+  "summaryPages": [
+    {
+      "type": "summary",
+      "file": "00-FA18C-CONTROL-OVERVIEW",
+      "title": "F/A-18C USED DEVICES",
+      "kicker": "PHYSICAL CONTROLLERS USED BY THIS CONFIGURATION",
+      "items": [
+        {
+          "key": "MFD 1",
+          "text": "Left DDI • OSBs • navigation • radar • FLIR • EW/RWR • stores",
+          "accent": "blue"
+        },
+        {
+          "key": "MFD 2",
+          "text": "Right DDI • OSBs • SA/TSD • HARM • FLIR • weapons • engines",
+          "accent": "blue"
+        },
+        {
+          "key": "MFD 3",
+          "text": "MPCD • OSBs • checklist • FCS • fuel • stores • menu",
+          "accent": "blue"
+        },
+        {
+          "key": "STICK",
+          "text": "MOZA Hornet • flight • trim • weapons • sensor control • AP/NWS",
+          "accent": "red"
+        },
+        {
+          "key": "PDCP",
+          "text": "ALR-67 RWR • ALQ-165 ASPJ • threat display • ECM • VDI",
+          "accent": "purple"
+        },
+        {
+          "key": "PEDALS",
+          "text": "TPR • rudder • left/right wheel brakes",
+          "accent": "blue"
+        },
+        {
+          "key": "THROTTLE",
+          "text": "Warthog • comms • radar elevation • countermeasures • speedbrake • lights",
+          "accent": "blue"
+        },
+        {
+          "key": "PTO2",
+          "text": "CarrierAce • gear • flaps • hook • launch bar • wing fold • refuel • lights",
+          "accent": "cyan"
+        },
+        {
+          "key": "ICP",
+          "text": "ViperAce • keypad • COMM/IFF • A-A/A-G data entry",
+          "accent": "cyan"
+        }
+      ]
+    },
+    {
+      "type": "summary",
+      "file": "01-VAICOM-OVERVIEW",
+      "title": "VAICOM PRO + WARTHOG PTT",
+      "kicker": "AUTOHOTKEY V2 • VOICEATTACK / VAICOM PRO",
+      "items": [
+        {
+          "key": "TX1",
+          "text": "Warthog MIC forward / Joy6 -> VHF AM -> Left Ctrl + Left Alt + Left Shift + 1",
+          "accent": "blue"
+        },
+        {
+          "key": "TX2",
+          "text": "Warthog MIC right / Joy3 -> UHF -> Left Ctrl + Left Alt + Left Shift + 2",
+          "accent": "blue"
+        },
+        {
+          "key": "TX3",
+          "text": "Warthog MIC down / Joy4 -> VHF FM -> Left Ctrl + Left Alt + Left Shift + 3",
+          "accent": "blue"
+        },
+        {
+          "key": "TX4",
+          "text": "Warthog MIC left / Joy5 -> AUTO -> Left Ctrl + Left Alt + Left Shift + 4",
+          "accent": "blue"
+        },
+        {
+          "key": "TX5",
+          "text": "Warthog MIC push / Joy2 -> Interphone -> Left Ctrl + Left Alt + Left Shift + 5",
+          "accent": "blue"
+        }
+      ]
+    }
+  ],
   "profiles": {
     "tm-mfd-1": "src/Config/Input/FA-18C_hornet/joystick/F16 MFD 1 {51FA60C0-CB32-11ed-800B-444553540000}.diff.lua",
     "tm-mfd-2": "src/Config/Input/FA-18C_hornet/joystick/F16 MFD 2 {51FA39B0-CB32-11ed-8008-444553540000}.diff.lua",
