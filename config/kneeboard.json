@@ -10,17 +10,17 @@
       "kicker": "PHYSICAL CONTROLLERS USED BY THIS CONFIGURATION",
       "items": [
         {
-          "key": "MFD 1",
+          "key": "Left DDI",
           "text": "Left DDI • OSBs • navigation • radar • FLIR • EW/RWR • stores",
           "accent": "blue"
         },
         {
-          "key": "MFD 2",
+          "key": "Right MFD",
           "text": "Right DDI • OSBs • SA/TSD • HARM • FLIR • weapons • engines",
           "accent": "blue"
         },
         {
-          "key": "MFD 3",
+          "key": "MPCD",
           "text": "MPCD • OSBs • checklist • FCS • fuel • stores • menu",
           "accent": "blue"
         },
@@ -108,7 +108,7 @@
       "includeUiLayer": true,
       "deviceId": "tm-mfd",
       "deviceInstance": "MFD1",
-      "title": "F16 MFD 1",
+      "title": "F/A-18 LEFT DDI",
       "kicker": "INSTANCE 1",
       "_comment": "binding labels are stored once in the root labels dictionary; page labels are reserved for non-binding callouts. keep callout IDs in sync with controls.",
       "modifierCallouts": {},
@@ -271,7 +271,7 @@
         {
           "id": "MOZA_F16_F18_BTN3",
           "file": "01-TM-MFD-1-MOZA-F16-F18-BTN3",
-          "title": "F16 MFD 1 • MOZA_F16_F18_BTN3",
+          "title": "F/A-18 LEFT DDI • MOZA_F16_F18_BTN3",
           "activators": [
             "MOZA_F16_F18_BTN3"
           ],
@@ -331,7 +331,7 @@
       "includeUiLayer": true,
       "deviceId": "tm-mfd",
       "deviceInstance": "MFD2",
-      "title": "F16 MFD 2",
+      "title": "F/A-18 RIGHT DDI",
       "kicker": "INSTANCE 2",
       "_comment": "binding labels are stored once in the root labels dictionary; page labels are reserved for non-binding callouts. keep callout IDs in sync with controls.",
       "modifierCallouts": {},
@@ -494,7 +494,7 @@
         {
           "id": "MOZA_F16_F18_BTN3",
           "file": "02-TM-MFD-2-MOZA-F16-F18-BTN3",
-          "title": "F16 MFD 2 • MOZA_F16_F18_BTN3",
+          "title": "F/A-18 RIGHT DDI • MOZA_F16_F18_BTN3",
           "activators": [
             "MOZA_F16_F18_BTN3"
           ],
@@ -554,7 +554,7 @@
       "includeUiLayer": true,
       "deviceId": "tm-mfd",
       "deviceInstance": "MFD3",
-      "title": "F16 MFD 3",
+      "title": "F/A-18 MPCD",
       "kicker": "INSTANCE 3",
       "_comment": "binding labels are stored once in the root labels dictionary; page labels are reserved for non-binding callouts. keep callout IDs in sync with controls.",
       "modifierCallouts": {},
@@ -717,7 +717,7 @@
         {
           "id": "MOZA_F16_F18_BTN3",
           "file": "03-TM-MFD-3-MOZA-F16-F18-BTN3",
-          "title": "F16 MFD 3 • MOZA_F16_F18_BTN3",
+          "title": "F/A-18 MPCD • MOZA_F16_F18_BTN3",
           "activators": [
             "MOZA_F16_F18_BTN3"
           ],
@@ -777,7 +777,7 @@
       "includeUiLayer": true,
       "deviceId": "moza-ab9-hornet-grip",
       "deviceInstance": null,
-      "title": "MOZA AB9 FFB Base",
+      "title": "MOZA AB9 FFB Base with Hornet grip",
       "kicker": "SCAFFOLD DRAFT",
       "_comment": "binding labels are stored once in the root labels dictionary; page labels are reserved for non-binding callouts. keep callout IDs in sync with controls.",
       "modifierCallouts": {
@@ -909,7 +909,7 @@
         {
           "id": "MOZA_F16_F18_BTN3",
           "file": "04-MOZA-AB9-HORNET-GRIP-MOZA-F16-F18-BTN3",
-          "title": "MOZA AB9 FFB Base • MOZA_F16_F18_BTN3",
+          "title": "MOZA AB9 FFB Base with Hornet Grip • MOZA_F16_F18_BTN3",
           "activators": [
             "MOZA_F16_F18_BTN3"
           ],
