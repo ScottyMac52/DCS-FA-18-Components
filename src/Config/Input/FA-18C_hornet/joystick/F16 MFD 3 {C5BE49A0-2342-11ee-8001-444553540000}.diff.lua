@@ -3,30 +3,35 @@ local diff = {
     ["d3011pnilu3011cd37vd1vpnilvu0"] = {
       ["added"] = {
         [1] = { ["key"] = "JOY_BTN1" },
+        [2] = { ["key"] = "JOY_BTN1", ["reformers"] = { [1] = "MOZA_F16_F18_BTN3" } },
       },
       ["name"] = "MPCD Pushbutton 01",
     },
     ["d3012pnilu3012cd37vd1vpnilvu0"] = {
       ["added"] = {
         [1] = { ["key"] = "JOY_BTN2" },
+        [2] = { ["key"] = "JOY_BTN2", ["reformers"] = { [1] = "MOZA_F16_F18_BTN3" } },
       },
       ["name"] = "MPCD Pushbutton 02",
     },
     ["d3013pnilu3013cd37vd1vpnilvu0"] = {
       ["added"] = {
         [1] = { ["key"] = "JOY_BTN3" },
+        [2] = { ["key"] = "JOY_BTN3", ["reformers"] = { [1] = "MOZA_F16_F18_BTN3" } },
       },
       ["name"] = "MPCD Pushbutton 03",
     },
     ["d3014pnilu3014cd37vd1vpnilvu0"] = {
       ["added"] = {
         [1] = { ["key"] = "JOY_BTN4" },
+        [2] = { ["key"] = "JOY_BTN4", ["reformers"] = { [1] = "MOZA_F16_F18_BTN3" } },
       },
       ["name"] = "MPCD Pushbutton 04",
     },
     ["d3015pnilu3015cd37vd1vpnilvu0"] = {
       ["added"] = {
         [1] = { ["key"] = "JOY_BTN5" },
+        [2] = { ["key"] = "JOY_BTN5", ["reformers"] = { [1] = "MOZA_F16_F18_BTN3" } },
       },
       ["name"] = "MPCD Pushbutton 05",
     },
@@ -131,36 +136,6 @@ local diff = {
         [1] = { ["key"] = "JOY_BTN22" },
       },
       ["name"] = "MPCD Night Mode",
-    },
-    ["d3011pnilu3011cd37vd1vpnilvu0MOZA_F16_F18_BTN3"] = {
-      ["added"] = {
-        [1] = { ["key"] = "JOY_BTN1", ["reformers"] = { [1] = "MOZA_F16_F18_BTN3" } },
-      },
-      ["name"] = "MPCD PB1 (Shifted) - CHECKLIST",
-    },
-    ["d3012pnilu3012cd37vd1vpnilvu0MOZA_F16_F18_BTN3"] = {
-      ["added"] = {
-        [1] = { ["key"] = "JOY_BTN2", ["reformers"] = { [1] = "MOZA_F16_F18_BTN3" } },
-      },
-      ["name"] = "MPCD PB2 (Shifted) - FCS",
-    },
-    ["d3013pnilu3013cd37vd1vpnilvu0MOZA_F16_F18_BTN3"] = {
-      ["added"] = {
-        [1] = { ["key"] = "JOY_BTN3", ["reformers"] = { [1] = "MOZA_F16_F18_BTN3" } },
-      },
-      ["name"] = "MPCD PB3 (Shifted) - FUEL",
-    },
-    ["d3014pnilu3014cd37vd1vpnilvu0MOZA_F16_F18_BTN3"] = {
-      ["added"] = {
-        [1] = { ["key"] = "JOY_BTN4", ["reformers"] = { [1] = "MOZA_F16_F18_BTN3" } },
-      },
-      ["name"] = "MPCD PB4 (Shifted) - SMS",
-    },
-    ["d3015pnilu3015cd37vd1vpnilvu0MOZA_F16_F18_BTN3"] = {
-      ["added"] = {
-        [1] = { ["key"] = "JOY_BTN5", ["reformers"] = { [1] = "MOZA_F16_F18_BTN3" } },
-      },
-      ["name"] = "MPCD PB5 (Shifted) - MENU",
     },
     ["d3008pnilu3008cd37vd1vpnilvu0"] = {
       ["added"] = {

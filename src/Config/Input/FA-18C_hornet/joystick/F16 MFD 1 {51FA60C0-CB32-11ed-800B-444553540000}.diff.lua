@@ -3,30 +3,35 @@ local diff = {
     ["d3011pnilu3011cd35vd1vpnilvu0"] = {
       ["added"] = {
         [1] = { ["key"] = "JOY_BTN1" },
+        [2] = { ["key"] = "JOY_BTN1", ["reformers"] = { [1] = "MOZA_F16_F18_BTN3" } },
       },
       ["name"] = "Left DDI Pushbutton 01",
     },
     ["d3012pnilu3012cd35vd1vpnilvu0"] = {
       ["added"] = {
         [1] = { ["key"] = "JOY_BTN2" },
+        [2] = { ["key"] = "JOY_BTN2", ["reformers"] = { [1] = "MOZA_F16_F18_BTN3" } },
       },
       ["name"] = "Left DDI Pushbutton 02",
     },
     ["d3013pnilu3013cd35vd1vpnilvu0"] = {
       ["added"] = {
         [1] = { ["key"] = "JOY_BTN3" },
+        [2] = { ["key"] = "JOY_BTN3", ["reformers"] = { [1] = "MOZA_F16_F18_BTN3" } },
       },
       ["name"] = "Left DDI Pushbutton 03",
     },
     ["d3014pnilu3014cd35vd1vpnilvu0"] = {
       ["added"] = {
         [1] = { ["key"] = "JOY_BTN4" },
+        [2] = { ["key"] = "JOY_BTN4", ["reformers"] = { [1] = "MOZA_F16_F18_BTN3" } },
       },
       ["name"] = "Left DDI Pushbutton 04",
     },
     ["d3015pnilu3015cd35vd1vpnilvu0"] = {
       ["added"] = {
         [1] = { ["key"] = "JOY_BTN5" },
+        [2] = { ["key"] = "JOY_BTN5", ["reformers"] = { [1] = "MOZA_F16_F18_BTN3" } },
       },
       ["name"] = "Left DDI Pushbutton 05",
     },
@@ -119,36 +124,6 @@ local diff = {
         [1] = { ["key"] = "JOY_BTN20" },
       },
       ["name"] = "Left DDI Pushbutton 20",
-    },
-    ["d3011pnilu3011cd35vd1vpnilvu0MOZA_F16_F18_BTN3"] = {
-      ["added"] = {
-        [1] = { ["key"] = "JOY_BTN1", ["reformers"] = { [1] = "MOZA_F16_F18_BTN3" } },
-      },
-      ["name"] = "Left DDI PB1 (Shifted) - NAV/HSI",
-    },
-    ["d3012pnilu3012cd35vd1vpnilvu0MOZA_F16_F18_BTN3"] = {
-      ["added"] = {
-        [1] = { ["key"] = "JOY_BTN2", ["reformers"] = { [1] = "MOZA_F16_F18_BTN3" } },
-      },
-      ["name"] = "Left DDI PB2 (Shifted) - FLIR",
-    },
-    ["d3013pnilu3013cd35vd1vpnilvu0MOZA_F16_F18_BTN3"] = {
-      ["added"] = {
-        [1] = { ["key"] = "JOY_BTN3", ["reformers"] = { [1] = "MOZA_F16_F18_BTN3" } },
-      },
-      ["name"] = "Left DDI PB3 (Shifted) - RADAR",
-    },
-    ["d3014pnilu3014cd35vd1vpnilvu0MOZA_F16_F18_BTN3"] = {
-      ["added"] = {
-        [1] = { ["key"] = "JOY_BTN4", ["reformers"] = { [1] = "MOZA_F16_F18_BTN3" } },
-      },
-      ["name"] = "Left DDI PB4 (Shifted) - EW/RWR",
-    },
-    ["d3015pnilu3015cd35vd1vpnilvu0MOZA_F16_F18_BTN3"] = {
-      ["added"] = {
-        [1] = { ["key"] = "JOY_BTN5", ["reformers"] = { [1] = "MOZA_F16_F18_BTN3" } },
-      },
-      ["name"] = "Left DDI PB5 (Shifted) - SMS",
     },
     ["d3001pnilunilcd35vd0.2vpnilvunil"] = {
       ["added"] = {

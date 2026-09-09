@@ -3,30 +3,35 @@ local diff = {
     ["d3011pnilu3011cd36vd1vpnilvu0"] = {
       ["added"] = {
         [1] = { ["key"] = "JOY_BTN1" },
+        [2] = { ["key"] = "JOY_BTN1", ["reformers"] = { [1] = "MOZA_F16_F18_BTN3" } },
       },
       ["name"] = "Right DDI Pushbutton 01",
     },
     ["d3012pnilu3012cd36vd1vpnilvu0"] = {
       ["added"] = {
         [1] = { ["key"] = "JOY_BTN2" },
+        [2] = { ["key"] = "JOY_BTN2", ["reformers"] = { [1] = "MOZA_F16_F18_BTN3" } },
       },
       ["name"] = "Right DDI Pushbutton 02",
     },
     ["d3013pnilu3013cd36vd1vpnilvu0"] = {
       ["added"] = {
         [1] = { ["key"] = "JOY_BTN3" },
+        [2] = { ["key"] = "JOY_BTN3", ["reformers"] = { [1] = "MOZA_F16_F18_BTN3" } },
       },
       ["name"] = "Right DDI Pushbutton 03",
     },
     ["d3014pnilu3014cd36vd1vpnilvu0"] = {
       ["added"] = {
         [1] = { ["key"] = "JOY_BTN4" },
+        [2] = { ["key"] = "JOY_BTN4", ["reformers"] = { [1] = "MOZA_F16_F18_BTN3" } },
       },
       ["name"] = "Right DDI Pushbutton 04",
     },
     ["d3015pnilu3015cd36vd1vpnilvu0"] = {
       ["added"] = {
         [1] = { ["key"] = "JOY_BTN5" },
+        [2] = { ["key"] = "JOY_BTN5", ["reformers"] = { [1] = "MOZA_F16_F18_BTN3" } },
       },
       ["name"] = "Right DDI Pushbutton 05",
     },
@@ -119,36 +124,6 @@ local diff = {
         [1] = { ["key"] = "JOY_BTN20" },
       },
       ["name"] = "Right DDI Pushbutton 20",
-    },
-    ["d3011pnilu3011cd36vd1vpnilvu0MOZA_F16_F18_BTN3"] = {
-      ["added"] = {
-        [1] = { ["key"] = "JOY_BTN1", ["reformers"] = { [1] = "MOZA_F16_F18_BTN3" } },
-      },
-      ["name"] = "Right DDI PB1 (Shifted) - SA/TSD",
-    },
-    ["d3012pnilu3012cd36vd1vpnilvu0MOZA_F16_F18_BTN3"] = {
-      ["added"] = {
-        [1] = { ["key"] = "JOY_BTN2", ["reformers"] = { [1] = "MOZA_F16_F18_BTN3" } },
-      },
-      ["name"] = "Right DDI PB2 (Shifted) - HARM",
-    },
-    ["d3013pnilu3013cd36vd1vpnilvu0MOZA_F16_F18_BTN3"] = {
-      ["added"] = {
-        [1] = { ["key"] = "JOY_BTN3", ["reformers"] = { [1] = "MOZA_F16_F18_BTN3" } },
-      },
-      ["name"] = "Right DDI PB3 (Shifted) - ATFLIR/FLIR",
-    },
-    ["d3014pnilu3014cd36vd1vpnilvu0MOZA_F16_F18_BTN3"] = {
-      ["added"] = {
-        [1] = { ["key"] = "JOY_BTN4", ["reformers"] = { [1] = "MOZA_F16_F18_BTN3" } },
-      },
-      ["name"] = "Right DDI PB4 (Shifted) - Weapons",
-    },
-    ["d3015pnilu3015cd36vd1vpnilvu0MOZA_F16_F18_BTN3"] = {
-      ["added"] = {
-        [1] = { ["key"] = "JOY_BTN5", ["reformers"] = { [1] = "MOZA_F16_F18_BTN3" } },
-      },
-      ["name"] = "Right DDI PB5 (Shifted) - ENG",
     },
     ["d3001pnilunilcd35vd0.2vpnilvunil"] = {
       ["added"] = {
