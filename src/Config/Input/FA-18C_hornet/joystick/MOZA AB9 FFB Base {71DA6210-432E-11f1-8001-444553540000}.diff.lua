@@ -139,5 +139,19 @@ local diff = {
       ["name"] = "LST/NFLR Switch (special) - ON/OFF",
     },
   },
+  ["axisDiffs"] = {
+    ["a2002cdnil"] = {
+      ["added"] = {
+        [1] = { ["key"] = "JOY_X" },
+      },
+      ["name"] = "Roll",
+    },
+    ["a2001cdnil"] = {
+      ["added"] = {
+        [1] = { ["key"] = "JOY_Y" },
+      },
+      ["name"] = "Pitch",
+    },
+  },
 }
 return diff

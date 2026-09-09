@@ -193,6 +193,18 @@ local diff = {
       },
       ["name"] = "Left MDI Contrast Control Knob - CW/Increase",
     },
+    ["d238pnilunilcdnilvdnilvpnilvunil"] = {
+      ["added"] = {
+        [1] = { ["key"] = "JOY_BTN13", ["reformers"] = { [1] = "MOZA_F16_F18_BTN3" } },
+      },
+      ["name"] = "Pilot Salute",
+    },
+    ["d3041pnilunilcd40vd1vpnilvunil"] = {
+      ["added"] = {
+        [1] = { ["key"] = "JOY_BTN25", ["reformers"] = { [1] = "MOZA_F16_F18_BTN3" } },
+      },
+      ["name"] = "Hornet Ball",
+    },
   },
 }
 return diff

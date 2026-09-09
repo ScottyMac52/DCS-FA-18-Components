@@ -216,6 +216,72 @@ local diff = {
       },
       ["name"] = "GAIN Switch Cover - CLOSE",
     },
+    ["d3007pnilu3007cd35vd-1vpnilvu0"] = {
+      ["added"] = {
+        [1] = { ["key"] = "JOY_BTN20", ["reformers"] = { [1] = "MOZA_F16_F18_BTN3" } },
+      },
+      ["name"] = "Course Set Switch - Left",
+    },
+    ["d3006pnilu3006cd35vd1vpnilvu0"] = {
+      ["added"] = {
+        [1] = { ["key"] = "JOY_BTN6", ["reformers"] = { [1] = "MOZA_F16_F18_BTN3" } },
+      },
+      ["name"] = "Course Set Switch - Right",
+    },
+    ["d3005pnilu3005cd35vd-1vpnilvu0"] = {
+      ["added"] = {
+        [1] = { ["key"] = "JOY_BTN19", ["reformers"] = { [1] = "MOZA_F16_F18_BTN3" } },
+      },
+      ["name"] = "Heading Set Switch - Left",
+    },
+    ["d3004pnilu3004cd35vd1vpnilvu0"] = {
+      ["added"] = {
+        [1] = { ["key"] = "JOY_BTN7", ["reformers"] = { [1] = "MOZA_F16_F18_BTN3" } },
+      },
+      ["name"] = "Heading Set Switch - Right",
+    },
+    ["d3003pnilunilcd10vd0vpnilvunil"] = {
+      ["added"] = {
+        [1] = { ["key"] = "JOY_BTN18", ["reformers"] = { [1] = "MOZA_F16_F18_BTN3" } },
+      },
+      ["name"] = "OBOGS Control Switch - ON/OFF",
+    },
+    ["dnilp3023unilcd40vdnilvp0.5vunil"] = {
+      ["added"] = {
+        [1] = { ["key"] = "JOY_BTN25", ["reformers"] = { [1] = "MOZA_F16_F18_BTN3" } },
+      },
+      ["name"] = "RWR Volume Control Knob - CW/Increase",
+    },
+    ["dnilp3023unilcd40vdnilvp-0.5vunil"] = {
+      ["added"] = {
+        [1] = { ["key"] = "JOY_BTN26", ["reformers"] = { [1] = "MOZA_F16_F18_BTN3" } },
+      },
+      ["name"] = "RWR Volume Control Knob - CCW/Decrease",
+    },
+    ["dnilp3031unilcd40vdnilvp-0.5vunil"] = {
+      ["added"] = {
+        [1] = { ["key"] = "JOY_BTN24", ["reformers"] = { [1] = "MOZA_F16_F18_BTN3" } },
+      },
+      ["name"] = "TACAN Volume Control Knob - CCW/Decrease",
+    },
+    ["dnilp3031unilcd40vdnilvp0.5vunil"] = {
+      ["added"] = {
+        [1] = { ["key"] = "JOY_BTN23", ["reformers"] = { [1] = "MOZA_F16_F18_BTN3" } },
+      },
+      ["name"] = "TACAN Volume Control Knob - CW/Increase",
+    },
+    ["d238pnilunilcdnilvdnilvpnilvunil"] = {
+      ["added"] = {
+        [1] = { ["key"] = "JOY_BTN13", ["reformers"] = { [1] = "MOZA_F16_F18_BTN3" } },
+      },
+      ["name"] = "Pilot Salute",
+    },
+    ["d3041pnilunilcd40vd1vpnilvunil"] = {
+      ["added"] = {
+        [1] = { ["key"] = "JOY_BTN21", ["reformers"] = { [1] = "MOZA_F16_F18_BTN3" } },
+      },
+      ["name"] = "Hornet Ball",
+    },
   },
 }
 return diff
