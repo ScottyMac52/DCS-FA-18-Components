@@ -137,13 +137,6 @@ local diff = {
       },
       ["name"] = "Left MDI Brightness Selector Knob - NIGHT",
     },
-    ["d3001pnilunilcd35vd0vpnilvunil"] = {
-      ["added"] = {
-        [1] = { ["key"] = "JOY_BTN22", ["reformers"] = { [1] = "MOZA_F16_F18_BTN3" } },
-        [2] = { ["key"] = "JOY_BTN26", ["reformers"] = { [1] = "MOZA_F16_F18_BTN3" } },
-      },
-      ["name"] = "Left MDI Brightness Selector Knob - OFF",
-    },
     ["dnilp3042unilcd35vdnilvp0.5vunil"] = {
       ["added"] = {
         [1] = { ["key"] = "JOY_BTN25" },
@@ -174,11 +167,137 @@ local diff = {
       },
       ["name"] = "Pilot Salute",
     },
-    ["d3041pnilunilcd40vd1vpnilvunil"] = {
+    ["d3011pnilunilcd40vd1vpnilvunil"] = {
+      ["added"] = {
+        [1] = { ["key"] = "JOY_BTN20", ["reformers"] = { [1] = "MOZA_F16_F18_BTN3" } },
+      },
+      ["name"] = "COMM G XMT Switch - COMM 1",
+    },
+    ["dnilp3021unilcd40vdnilvp0.5vunil"] = {
+      ["added"] = {
+        [1] = { ["key"] = "JOY_BTN27", ["reformers"] = { [1] = "MOZA_F16_F18_BTN3" } },
+      },
+      ["name"] = "ICS Volume Control Knob - CW/Increase",
+    },
+    ["dnilp3021unilcd40vdnilvp-0.5vunil"] = {
+      ["added"] = {
+        [1] = { ["key"] = "JOY_BTN28", ["reformers"] = { [1] = "MOZA_F16_F18_BTN3" } },
+      },
+      ["name"] = "ICS Volume Control Knob - CCW/Decrease",
+    },
+    ["d3040pnilunilcd40vd1vpnilvunil"] = {
+      ["added"] = {
+        [1] = { ["key"] = "JOY_BTN23", ["reformers"] = { [1] = "MOZA_F16_F18_BTN3" } },
+      },
+      ["name"] = "ILS Channel Selector Switch - CW/Increase",
+    },
+    ["d3040pnilunilcd40vd-1vpnilvunil"] = {
+      ["added"] = {
+        [1] = { ["key"] = "JOY_BTN24", ["reformers"] = { [1] = "MOZA_F16_F18_BTN3" } },
+      },
+      ["name"] = "ILS Channel Selector Switch - CCW/Decrease",
+    },
+    ["dnilp3025unilcd40vdnilvp0.5vunil"] = {
       ["added"] = {
         [1] = { ["key"] = "JOY_BTN25", ["reformers"] = { [1] = "MOZA_F16_F18_BTN3" } },
       },
-      ["name"] = "Hornet Ball",
+      ["name"] = "WPN Volume Control Knob - CW/Increase",
+    },
+    ["dnilp3025unilcd40vdnilvp-0.5vunil"] = {
+      ["added"] = {
+        [1] = { ["key"] = "JOY_BTN26", ["reformers"] = { [1] = "MOZA_F16_F18_BTN3" } },
+      },
+      ["name"] = "WPN Volume Control Knob - CCW/Decrease",
+    },
+    ["dnilp3031unilcd40vdnilvp0.5vunil"] = {
+      ["added"] = {
+        [1] = { ["key"] = "JOY_BTN21", ["reformers"] = { [1] = "MOZA_F16_F18_BTN3" } },
+      },
+      ["name"] = "TACAN Volume Control Knob - CW/Increase",
+    },
+    ["dnilp3031unilcd40vdnilvp-0.5vunil"] = {
+      ["added"] = {
+        [1] = { ["key"] = "JOY_BTN22", ["reformers"] = { [1] = "MOZA_F16_F18_BTN3" } },
+      },
+      ["name"] = "TACAN Volume Control Knob - CCW/Decrease",
+    },
+    ["dnilp3019unilcd40vdnilvp0.5vunil"] = {
+      ["added"] = {
+        [1] = { ["key"] = "JOY_BTN12", ["reformers"] = { [1] = "MOZA_F16_F18_BTN3" } },
+      },
+      ["name"] = "VOX Volume Control Knob - CW/Increase",
+    },
+    ["dnilp3019unilcd40vdnilvp-0.5vunil"] = {
+      ["added"] = {
+        [1] = { ["key"] = "JOY_BTN11", ["reformers"] = { [1] = "MOZA_F16_F18_BTN3" } },
+      },
+      ["name"] = "VOX Volume Control Knob - CCW/Decrease",
+    },
+    ["dnilp3023unilcd40vdnilvp-0.5vunil"] = {
+      ["added"] = {
+        [1] = { ["key"] = "JOY_BTN14", ["reformers"] = { [1] = "MOZA_F16_F18_BTN3" } },
+      },
+      ["name"] = "RWR Volume Control Knob - CCW/Decrease",
+    },
+    ["dnilp3023unilcd40vdnilvp0.5vunil"] = {
+      ["added"] = {
+        [1] = { ["key"] = "JOY_BTN15", ["reformers"] = { [1] = "MOZA_F16_F18_BTN3" } },
+      },
+      ["name"] = "RWR Volume Control Knob - CW/Increase",
+    },
+    ["d3011pnilunilcd40vd-1vpnilvunil"] = {
+      ["added"] = {
+        [1] = { ["key"] = "JOY_BTN6", ["reformers"] = { [1] = "MOZA_F16_F18_BTN3" } },
+      },
+      ["name"] = "COMM G XMT Switch - COMM 2",
+    },
+    ["dnilp3036unilcd25vdnilvp0.5vunil"] = {
+      ["added"] = {
+        [1] = { ["key"] = "JOY_BTN19", ["reformers"] = { [1] = "MOZA_F16_F18_BTN3" } },
+      },
+      ["name"] = "UFC COMM 1 Volume Control Knob - CW/Increase",
+    },
+    ["dnilp3036unilcd25vdnilvp-0.5vunil"] = {
+      ["added"] = {
+        [1] = { ["key"] = "JOY_BTN18", ["reformers"] = { [1] = "MOZA_F16_F18_BTN3" } },
+      },
+      ["name"] = "UFC COMM 1 Volume Control Knob - CCW/Decrease",
+    },
+    ["dnilp3038unilcd25vdnilvp0.5vunil"] = {
+      ["added"] = {
+        [1] = { ["key"] = "JOY_BTN7", ["reformers"] = { [1] = "MOZA_F16_F18_BTN3" } },
+      },
+      ["name"] = "UFC COMM 2 Volume Control Knob - CW/Increase",
+    },
+    ["dnilp3038unilcd25vdnilvp-0.5vunil"] = {
+      ["added"] = {
+        [1] = { ["key"] = "JOY_BTN8", ["reformers"] = { [1] = "MOZA_F16_F18_BTN3" } },
+      },
+      ["name"] = "UFC COMM 2 Volume Control Knob - CCW/Decrease",
+    },
+    ["dnilp3033unilcd40vdnilvp0.5vunil"] = {
+      ["added"] = {
+        [1] = { ["key"] = "JOY_BTN17", ["reformers"] = { [1] = "MOZA_F16_F18_BTN3" } },
+      },
+      ["name"] = "AUX Volume Control Knob - CW/Increase",
+    },
+    ["dnilp3033unilcd40vdnilvp-0.5vunil"] = {
+      ["added"] = {
+        [1] = { ["key"] = "JOY_BTN16", ["reformers"] = { [1] = "MOZA_F16_F18_BTN3" } },
+      },
+      ["name"] = "AUX Volume Control Knob - CCW/Decrease",
+    },
+    ["dnilp3009unilcd41vdnilvp0.5vunil"] = {
+      ["added"] = {
+        [1] = { ["key"] = "JOY_BTN9", ["reformers"] = { [1] = "MOZA_F16_F18_BTN3" } },
+      },
+      ["name"] = "KY-58 Volume Control Knob - CW/Increase",
+    },
+    ["dnilp3009unilcd41vdnilvp-0.5vunil"] = {
+      ["added"] = {
+        [1] = { ["key"] = "JOY_BTN10", ["reformers"] = { [1] = "MOZA_F16_F18_BTN3" } },
+      },
+      ["name"] = "KY-58 Volume Control Knob - CCW/Decrease",
     },
   },
 }

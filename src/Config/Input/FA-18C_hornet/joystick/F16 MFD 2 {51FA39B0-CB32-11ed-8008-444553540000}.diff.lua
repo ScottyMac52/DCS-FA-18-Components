@@ -125,48 +125,6 @@ local diff = {
       },
       ["name"] = "Right DDI Pushbutton 20",
     },
-    ["d3001pnilunilcd35vd0.2vpnilvunil"] = {
-      ["added"] = {
-        [1] = { ["key"] = "JOY_BTN21" },
-      },
-      ["name"] = "Left MDI Brightness Selector Knob - DAY",
-    },
-    ["d3001pnilunilcd35vd0.1vpnilvunil"] = {
-      ["added"] = {
-        [1] = { ["key"] = "JOY_BTN22" },
-      },
-      ["name"] = "Left MDI Brightness Selector Knob - NIGHT",
-    },
-    ["d3001pnilunilcd35vd0vpnilvunil"] = {
-      ["added"] = {
-        [1] = { ["key"] = "JOY_BTN22", ["reformers"] = { [1] = "MOZA_F16_F18_BTN3" } },
-      },
-      ["name"] = "Left MDI Brightness Selector Knob - OFF",
-    },
-    ["dnilp3042unilcd35vdnilvp-0.5vunil"] = {
-      ["added"] = {
-        [1] = { ["key"] = "JOY_BTN26" },
-      },
-      ["name"] = "Left MDI Brightness Control Knob - CCW/Decrease",
-    },
-    ["dnilp3042unilcd35vdnilvp0.5vunil"] = {
-      ["added"] = {
-        [1] = { ["key"] = "JOY_BTN25" },
-      },
-      ["name"] = "Left MDI Brightness Control Knob - CW/Increase",
-    },
-    ["dnilp3044unilcd35vdnilvp-0.5vunil"] = {
-      ["added"] = {
-        [1] = { ["key"] = "JOY_BTN24" },
-      },
-      ["name"] = "Left MDI Contrast Control Knob - CCW/Decrease",
-    },
-    ["dnilp3044unilcd35vdnilvp0.5vunil"] = {
-      ["added"] = {
-        [1] = { ["key"] = "JOY_BTN23" },
-      },
-      ["name"] = "Left MDI Contrast Control Knob - CW/Increase",
-    },
     ["d3006pnilunilcd2vd0vpnilvunil"] = {
       ["added"] = {
         [1] = { ["key"] = "JOY_BTN27" },
@@ -221,30 +179,6 @@ local diff = {
       },
       ["name"] = "OBOGS Control Switch - ON/OFF",
     },
-    ["dnilp3023unilcd40vdnilvp0.5vunil"] = {
-      ["added"] = {
-        [1] = { ["key"] = "JOY_BTN25", ["reformers"] = { [1] = "MOZA_F16_F18_BTN3" } },
-      },
-      ["name"] = "RWR Volume Control Knob - CW/Increase",
-    },
-    ["dnilp3023unilcd40vdnilvp-0.5vunil"] = {
-      ["added"] = {
-        [1] = { ["key"] = "JOY_BTN26", ["reformers"] = { [1] = "MOZA_F16_F18_BTN3" } },
-      },
-      ["name"] = "RWR Volume Control Knob - CCW/Decrease",
-    },
-    ["dnilp3031unilcd40vdnilvp-0.5vunil"] = {
-      ["added"] = {
-        [1] = { ["key"] = "JOY_BTN24", ["reformers"] = { [1] = "MOZA_F16_F18_BTN3" } },
-      },
-      ["name"] = "TACAN Volume Control Knob - CCW/Decrease",
-    },
-    ["dnilp3031unilcd40vdnilvp0.5vunil"] = {
-      ["added"] = {
-        [1] = { ["key"] = "JOY_BTN23", ["reformers"] = { [1] = "MOZA_F16_F18_BTN3" } },
-      },
-      ["name"] = "TACAN Volume Control Knob - CW/Increase",
-    },
     ["d238pnilunilcdnilvdnilvpnilvunil"] = {
       ["added"] = {
         [1] = { ["key"] = "JOY_BTN13", ["reformers"] = { [1] = "MOZA_F16_F18_BTN3" } },
@@ -256,6 +190,126 @@ local diff = {
         [1] = { ["key"] = "JOY_BTN21", ["reformers"] = { [1] = "MOZA_F16_F18_BTN3" } },
       },
       ["name"] = "Hornet Ball",
+    },
+    ["dnilp3042unilcd36vdnilvp0.5vunil"] = {
+      ["added"] = {
+        [1] = { ["key"] = "JOY_BTN25" },
+      },
+      ["name"] = "Right MDI Brightness Control Knob - CW/Increase",
+    },
+    ["dnilp3042unilcd36vdnilvp-0.5vunil"] = {
+      ["added"] = {
+        [1] = { ["key"] = "JOY_BTN26" },
+      },
+      ["name"] = "Right MDI Brightness Control Knob - CCW/Decrease",
+    },
+    ["d3001pnilunilcd36vd0.2vpnilvunil"] = {
+      ["added"] = {
+        [1] = { ["key"] = "JOY_BTN21" },
+      },
+      ["name"] = "Right MDI Brightness Selector Knob - DAY",
+    },
+    ["d3001pnilunilcd36vd0.1vpnilvunil"] = {
+      ["added"] = {
+        [1] = { ["key"] = "JOY_BTN22" },
+      },
+      ["name"] = "Right MDI Brightness Selector Knob - NIGHT",
+    },
+    ["d3001pnilunilcd36vd0vpnilvunil"] = {
+      ["added"] = {
+        [1] = { ["key"] = "JOY_BTN22", ["reformers"] = { [1] = "MOZA_F16_F18_BTN3" } },
+      },
+      ["name"] = "Right MDI Brightness Selector Knob - OFF",
+    },
+    ["dnilp3044unilcd36vdnilvp-0.5vunil"] = {
+      ["added"] = {
+        [1] = { ["key"] = "JOY_BTN24" },
+      },
+      ["name"] = "Right MDI Contrast Control Knob - CCW/Decrease",
+    },
+    ["dnilp3044unilcd36vdnilvp0.5vunil"] = {
+      ["added"] = {
+        [1] = { ["key"] = "JOY_BTN23" },
+      },
+      ["name"] = "Right MDI Contrast Control Knob - CW/Increase",
+    },
+    ["dnilp3027unilcd40vdnilvp0.5vunil"] = {
+      ["added"] = {
+        [1] = { ["key"] = "JOY_BTN25", ["reformers"] = { [1] = "MOZA_F16_F18_BTN3" } },
+      },
+      ["name"] = "MIDS A Volume Control Knob - CW/Increase",
+    },
+    ["dnilp3027unilcd40vdnilvp-0.5vunil"] = {
+      ["added"] = {
+        [1] = { ["key"] = "JOY_BTN26", ["reformers"] = { [1] = "MOZA_F16_F18_BTN3" } },
+      },
+      ["name"] = "MIDS A Volume Control Knob - CCW/Decrease",
+    },
+    ["dnilp3029unilcd40vdnilvp-0.5vunil"] = {
+      ["added"] = {
+        [1] = { ["key"] = "JOY_BTN24", ["reformers"] = { [1] = "MOZA_F16_F18_BTN3" } },
+      },
+      ["name"] = "MIDS B Volume Control Knob - CCW/Decrease",
+    },
+    ["dnilp3029unilcd40vdnilvp0.5vunil"] = {
+      ["added"] = {
+        [1] = { ["key"] = "JOY_BTN23", ["reformers"] = { [1] = "MOZA_F16_F18_BTN3" } },
+      },
+      ["name"] = "MIDS B Volume Control Knob - CW/Increase",
+    },
+    ["d3001pnilu3001cd7vd1vpnilvu0"] = {
+      ["added"] = {
+        [1] = { ["key"] = "JOY_BTN17", ["reformers"] = { [1] = "MOZA_F16_F18_BTN3" } },
+      },
+      ["name"] = "Canopy Control Switch - OPEN",
+    },
+    ["d3002pnilu3002cd7vd-1vpnilvu0"] = {
+      ["added"] = {
+        [1] = { ["key"] = "JOY_BTN16", ["reformers"] = { [1] = "MOZA_F16_F18_BTN3" } },
+      },
+      ["name"] = "Canopy Control Switch - CLOSE",
+    },
+    ["d3004pnilu3004cd2vd1vpnilvu0"] = {
+      ["added"] = {
+        [1] = { ["key"] = "JOY_BTN8", ["reformers"] = { [1] = "MOZA_F16_F18_BTN3" } },
+      },
+      ["name"] = "FCS BIT Switch",
+    },
+    ["d3002pnilunilcd44vd-1vpnilvunil"] = {
+      ["added"] = {
+        [1] = { ["key"] = "JOY_BTN9", ["reformers"] = { [1] = "MOZA_F16_F18_BTN3" } },
+      },
+      ["name"] = "INS Switch - CCW",
+    },
+    ["d3002pnilunilcd44vd1vpnilvunil"] = {
+      ["added"] = {
+        [1] = { ["key"] = "JOY_BTN10", ["reformers"] = { [1] = "MOZA_F16_F18_BTN3" } },
+      },
+      ["name"] = "INS Switch - CW",
+    },
+    ["d3003pnilunilcd62vd1vpnilvunil"] = {
+      ["added"] = {
+        [1] = { ["key"] = "JOY_BTN15", ["reformers"] = { [1] = "MOZA_F16_F18_BTN3" } },
+      },
+      ["name"] = "LST/NFLR Switch - ON",
+    },
+    ["d3003pnilunilcd62vd0vpnilvunil"] = {
+      ["added"] = {
+        [1] = { ["key"] = "JOY_BTN14", ["reformers"] = { [1] = "MOZA_F16_F18_BTN3" } },
+      },
+      ["name"] = "LST/NFLR Switch - OFF",
+    },
+    ["d3003pnilunilcd42vd-1vpnilvunil"] = {
+      ["added"] = {
+        [1] = { ["key"] = "JOY_BTN12", ["reformers"] = { [1] = "MOZA_F16_F18_BTN3" } },
+      },
+      ["name"] = "RADAR Switch - CCW",
+    },
+    ["d3003pnilunilcd42vd1vpnilvunil"] = {
+      ["added"] = {
+        [1] = { ["key"] = "JOY_BTN11", ["reformers"] = { [1] = "MOZA_F16_F18_BTN3" } },
+      },
+      ["name"] = "RADAR Switch - CW",
     },
   },
 }

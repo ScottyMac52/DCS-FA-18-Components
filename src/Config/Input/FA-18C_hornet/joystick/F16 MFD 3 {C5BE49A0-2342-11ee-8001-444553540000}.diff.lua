@@ -138,9 +138,7 @@ local diff = {
     ["d3002pnilu3002cd37vd1vpnilvu0"] = {
       ["added"] = {
         [1] = { ["key"] = "JOY_BTN6", ["reformers"] = { [1] = "MOZA_F16_F18_BTN3" } },
-      },
-      ["removed"] = {
-        [1] = { ["key"] = "JOY_BTN21" },
+        [2] = { ["key"] = "JOY_BTN21" },
       },
       ["name"] = "AMPCD Night/Day Brightness Selector - DAY",
     },
@@ -153,29 +151,25 @@ local diff = {
     ["d3008pnilu3008cd37vd1vpnilvu0"] = {
       ["added"] = {
         [1] = { ["key"] = "JOY_BTN20", ["reformers"] = { [1] = "MOZA_F16_F18_BTN3" } },
-      },
-      ["removed"] = {
-        [1] = { ["key"] = "JOY_BTN27" },
+        [2] = { ["key"] = "JOY_BTN27" },
       },
       ["name"] = "AMPCD Gain Control Switch - UP",
     },
     ["d3009pnilu3009cd37vd-1vpnilvu0"] = {
       ["added"] = {
         [1] = { ["key"] = "JOY_BTN19", ["reformers"] = { [1] = "MOZA_F16_F18_BTN3" } },
-      },
-      ["removed"] = {
-        [1] = { ["key"] = "JOY_BTN28" },
+        [2] = { ["key"] = "JOY_BTN28" },
       },
       ["name"] = "AMPCD Gain Control Switch - DOWN",
     },
     ["dnilp3041unilcd37vdnilvp0.5vunil"] = {
-      ["removed"] = {
+      ["added"] = {
         [1] = { ["key"] = "JOY_BTN25" },
       },
       ["name"] = "AMPCD Off/Brightness Control Knob - CW/Increase",
     },
     ["dnilp3041unilcd37vdnilvp-0.5vunil"] = {
-      ["removed"] = {
+      ["added"] = {
         [1] = { ["key"] = "JOY_BTN26" },
       },
       ["name"] = "AMPCD Off/Brightness Control Knob - CCW/Decrease",
@@ -183,22 +177,21 @@ local diff = {
     ["d3007pnilu3007cd37vd-1vpnilvu0"] = {
       ["added"] = {
         [1] = { ["key"] = "JOY_BTN10", ["reformers"] = { [1] = "MOZA_F16_F18_BTN3" } },
-      },
-      ["removed"] = {
-        [1] = { ["key"] = "JOY_BTN24" },
+        [2] = { ["key"] = "JOY_BTN24" },
       },
       ["name"] = "AMPCD Contrast Control Switch - DOWN",
     },
     ["d3006pnilu3006cd37vd1vpnilvu0"] = {
       ["added"] = {
-        [1] = { ["key"] = "JOY_BTN23" },
-        [2] = { ["key"] = "JOY_BTN9", ["reformers"] = { [1] = "MOZA_F16_F18_BTN3" } },
+        [1] = { ["key"] = "JOY_BTN9", ["reformers"] = { [1] = "MOZA_F16_F18_BTN3" } },
+        [2] = { ["key"] = "JOY_BTN23" },
       },
       ["name"] = "AMPCD Contrast Control Switch - UP",
     },
     ["d3003pnilu3003cd37vd-1vpnilvu0"] = {
       ["added"] = {
         [1] = { ["key"] = "JOY_BTN7", ["reformers"] = { [1] = "MOZA_F16_F18_BTN3" } },
+        [2] = { ["key"] = "JOY_BTN22" },
       },
       ["name"] = "AMPCD Night/Day Brightness Selector - NGT",
     },

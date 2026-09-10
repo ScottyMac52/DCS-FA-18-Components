@@ -333,24 +333,6 @@
                 "MOZA_F16_F18_BTN3"
               ]
             },
-            "mfd-rocker-int": {
-              "profile": "tm-mfd-1",
-              "key": "JOY_BTN22",
-              "command": "d3001pnilunilcd35vd0vpnilvunil",
-              "labelId": "binding-bb5ad440df794fc1",
-              "modifiers": [
-                "MOZA_F16_F18_BTN3"
-              ]
-            },
-            "mfd-rocker-brt-down": {
-              "profile": "tm-mfd-1",
-              "key": "JOY_BTN26",
-              "command": "d3001pnilunilcd35vd0vpnilvunil",
-              "labelId": "binding-70b21c6696224c9e",
-              "modifiers": [
-                "MOZA_F16_F18_BTN3"
-              ]
-            },
             "mfd-osb-b3-shifted": {
               "profile": "tm-mfd-1",
               "key": "JOY_BTN13",
@@ -360,11 +342,200 @@
                 "MOZA_F16_F18_BTN3"
               ]
             },
+            "mfd-osb-l1-shifted": {
+              "profile": "tm-mfd-1",
+              "key": "JOY_BTN20",
+              "command": "d3011pnilunilcd40vd1vpnilvunil",
+              "labelId": "binding-7effeaa21f4bc930",
+              "modifiers": [
+                "MOZA_F16_F18_BTN3"
+              ]
+            },
+            "mfd-rocker-gain": {
+              "profile": "tm-mfd-1",
+              "key": "JOY_BTN27",
+              "command": "dnilp3021unilcd40vdnilvp0.5vunil",
+              "labelId": "binding-18daa0492931d296",
+              "modifiers": [
+                "MOZA_F16_F18_BTN3"
+              ]
+            },
+            "mfd-rocker-lvl": {
+              "profile": "tm-mfd-1",
+              "key": "JOY_BTN28",
+              "command": "dnilp3021unilcd40vdnilvp-0.5vunil",
+              "labelId": "binding-b730c01ec0cf387a",
+              "modifiers": [
+                "MOZA_F16_F18_BTN3"
+              ]
+            },
+            "mfd-rocker-con-up": {
+              "profile": "tm-mfd-1",
+              "key": "JOY_BTN23",
+              "command": "d3040pnilunilcd40vd1vpnilvunil",
+              "labelId": "binding-b8b56a3335d5cab8",
+              "modifiers": [
+                "MOZA_F16_F18_BTN3"
+              ]
+            },
+            "mfd-rocker-con-down": {
+              "profile": "tm-mfd-1",
+              "key": "JOY_BTN24",
+              "command": "d3040pnilunilcd40vd-1vpnilvunil",
+              "labelId": "binding-a29b2cf6e02d7da7",
+              "modifiers": [
+                "MOZA_F16_F18_BTN3"
+              ]
+            },
             "mfd-rocker-brt-up": {
               "profile": "tm-mfd-1",
               "key": "JOY_BTN25",
-              "command": "d3041pnilunilcd40vd1vpnilvunil",
-              "labelId": "binding-70c59aaf55ffb38d",
+              "command": "dnilp3025unilcd40vdnilvp0.5vunil",
+              "labelId": "binding-5217949c133b738e",
+              "modifiers": [
+                "MOZA_F16_F18_BTN3"
+              ]
+            },
+            "mfd-rocker-brt-down": {
+              "profile": "tm-mfd-1",
+              "key": "JOY_BTN26",
+              "command": "dnilp3025unilcd40vdnilvp-0.5vunil",
+              "labelId": "binding-3e463cb0cfd9f5bb",
+              "modifiers": [
+                "MOZA_F16_F18_BTN3"
+              ]
+            },
+            "mfd-rocker-sym": {
+              "profile": "tm-mfd-1",
+              "key": "JOY_BTN21",
+              "command": "dnilp3031unilcd40vdnilvp0.5vunil",
+              "labelId": "binding-9dc45d47adba73a3",
+              "modifiers": [
+                "MOZA_F16_F18_BTN3"
+              ]
+            },
+            "mfd-rocker-int": {
+              "profile": "tm-mfd-1",
+              "key": "JOY_BTN22",
+              "command": "dnilp3031unilcd40vdnilvp-0.5vunil",
+              "labelId": "binding-9f9fdf10b42e517e",
+              "modifiers": [
+                "MOZA_F16_F18_BTN3"
+              ]
+            },
+            "mfd-osb-b4-shifted": {
+              "profile": "tm-mfd-1",
+              "key": "JOY_BTN12",
+              "command": "dnilp3019unilcd40vdnilvp0.5vunil",
+              "labelId": "binding-32bcba5f7c19229b",
+              "modifiers": [
+                "MOZA_F16_F18_BTN3"
+              ]
+            },
+            "mfd-osb-b5-shifted": {
+              "profile": "tm-mfd-1",
+              "key": "JOY_BTN11",
+              "command": "dnilp3019unilcd40vdnilvp-0.5vunil",
+              "labelId": "binding-648de6de426806e8",
+              "modifiers": [
+                "MOZA_F16_F18_BTN3"
+              ]
+            },
+            "mfd-osb-b2-shifted": {
+              "profile": "tm-mfd-1",
+              "key": "JOY_BTN14",
+              "command": "dnilp3023unilcd40vdnilvp-0.5vunil",
+              "labelId": "binding-857d08dd45d5acc0",
+              "modifiers": [
+                "MOZA_F16_F18_BTN3"
+              ]
+            },
+            "mfd-osb-b1-shifted": {
+              "profile": "tm-mfd-1",
+              "key": "JOY_BTN15",
+              "command": "dnilp3023unilcd40vdnilvp0.5vunil",
+              "labelId": "binding-0d3ef1a0f6c66c91",
+              "modifiers": [
+                "MOZA_F16_F18_BTN3"
+              ]
+            },
+            "mfd-osb-r1-shifted": {
+              "profile": "tm-mfd-1",
+              "key": "JOY_BTN6",
+              "command": "d3011pnilunilcd40vd-1vpnilvunil",
+              "labelId": "binding-50ce3ac1923cd296",
+              "modifiers": [
+                "MOZA_F16_F18_BTN3"
+              ]
+            },
+            "mfd-osb-l2-shifted": {
+              "profile": "tm-mfd-1",
+              "key": "JOY_BTN19",
+              "command": "dnilp3036unilcd25vdnilvp0.5vunil",
+              "labelId": "binding-ee6a567dba4de0de",
+              "modifiers": [
+                "MOZA_F16_F18_BTN3"
+              ]
+            },
+            "mfd-osb-l3-shifted": {
+              "profile": "tm-mfd-1",
+              "key": "JOY_BTN18",
+              "command": "dnilp3036unilcd25vdnilvp-0.5vunil",
+              "labelId": "binding-10d796d861144d8e",
+              "modifiers": [
+                "MOZA_F16_F18_BTN3"
+              ]
+            },
+            "mfd-osb-r2-shifted": {
+              "profile": "tm-mfd-1",
+              "key": "JOY_BTN7",
+              "command": "dnilp3038unilcd25vdnilvp0.5vunil",
+              "labelId": "binding-a8b02da8a31dd809",
+              "modifiers": [
+                "MOZA_F16_F18_BTN3"
+              ]
+            },
+            "mfd-osb-r3-shifted": {
+              "profile": "tm-mfd-1",
+              "key": "JOY_BTN8",
+              "command": "dnilp3038unilcd25vdnilvp-0.5vunil",
+              "labelId": "binding-297e8e0f2ce938ce",
+              "modifiers": [
+                "MOZA_F16_F18_BTN3"
+              ]
+            },
+            "mfd-osb-l4-shifted": {
+              "profile": "tm-mfd-1",
+              "key": "JOY_BTN17",
+              "command": "dnilp3033unilcd40vdnilvp0.5vunil",
+              "labelId": "binding-b4ef0f479d2bf014",
+              "modifiers": [
+                "MOZA_F16_F18_BTN3"
+              ]
+            },
+            "mfd-osb-l5-shifted": {
+              "profile": "tm-mfd-1",
+              "key": "JOY_BTN16",
+              "command": "dnilp3033unilcd40vdnilvp-0.5vunil",
+              "labelId": "binding-c853b9a3572d45c8",
+              "modifiers": [
+                "MOZA_F16_F18_BTN3"
+              ]
+            },
+            "mfd-osb-r4-shifted": {
+              "profile": "tm-mfd-1",
+              "key": "JOY_BTN9",
+              "command": "dnilp3009unilcd41vdnilvp0.5vunil",
+              "labelId": "binding-3c03109e5488818f",
+              "modifiers": [
+                "MOZA_F16_F18_BTN3"
+              ]
+            },
+            "mfd-osb-r5-shifted": {
+              "profile": "tm-mfd-1",
+              "key": "JOY_BTN10",
+              "command": "dnilp3009unilcd41vdnilvp-0.5vunil",
+              "labelId": "binding-2a3a47d246f4c457",
               "modifiers": [
                 "MOZA_F16_F18_BTN3"
               ]
@@ -513,42 +684,6 @@
               "command": "d3030pnilu3030cd36vd1vpnilvu0",
               "labelId": "binding-e585720e69cdca2d"
             },
-            "mfd-rocker-sym": {
-              "profile": "tm-mfd-2",
-              "key": "JOY_BTN21",
-              "command": "d3001pnilunilcd35vd0.2vpnilvunil",
-              "labelId": "binding-1dc7fb11a3715d9d"
-            },
-            "mfd-rocker-int": {
-              "profile": "tm-mfd-2",
-              "key": "JOY_BTN22",
-              "command": "d3001pnilunilcd35vd0.1vpnilvunil",
-              "labelId": "binding-658f2396e7d5d922"
-            },
-            "mfd-rocker-brt-down": {
-              "profile": "tm-mfd-2",
-              "key": "JOY_BTN26",
-              "command": "dnilp3042unilcd35vdnilvp-0.5vunil",
-              "labelId": "binding-e70daa084a020d4c"
-            },
-            "mfd-rocker-brt-up": {
-              "profile": "tm-mfd-2",
-              "key": "JOY_BTN25",
-              "command": "dnilp3042unilcd35vdnilvp0.5vunil",
-              "labelId": "binding-d058b91fd693de2a"
-            },
-            "mfd-rocker-con-down": {
-              "profile": "tm-mfd-2",
-              "key": "JOY_BTN24",
-              "command": "dnilp3044unilcd35vdnilvp-0.5vunil",
-              "labelId": "binding-6af443f53230e975"
-            },
-            "mfd-rocker-con-up": {
-              "profile": "tm-mfd-2",
-              "key": "JOY_BTN23",
-              "command": "dnilp3044unilcd35vdnilvp0.5vunil",
-              "labelId": "binding-4e268ee0c824693e"
-            },
             "mfd-rocker-gain": {
               "profile": "tm-mfd-2",
               "key": "JOY_BTN27",
@@ -560,6 +695,42 @@
               "key": "JOY_BTN28",
               "command": "d3006pnilunilcd2vd1vpnilvunil",
               "labelId": "binding-6574ae79c9fe3cd8"
+            },
+            "mfd-rocker-brt-up": {
+              "profile": "tm-mfd-2",
+              "key": "JOY_BTN25",
+              "command": "dnilp3042unilcd36vdnilvp0.5vunil",
+              "labelId": "binding-bd7538db31d3c1ce"
+            },
+            "mfd-rocker-brt-down": {
+              "profile": "tm-mfd-2",
+              "key": "JOY_BTN26",
+              "command": "dnilp3042unilcd36vdnilvp-0.5vunil",
+              "labelId": "binding-d14c0e402f95b8fa"
+            },
+            "mfd-rocker-sym": {
+              "profile": "tm-mfd-2",
+              "key": "JOY_BTN21",
+              "command": "d3001pnilunilcd36vd0.2vpnilvunil",
+              "labelId": "binding-97f36a69fc6ddba4"
+            },
+            "mfd-rocker-int": {
+              "profile": "tm-mfd-2",
+              "key": "JOY_BTN22",
+              "command": "d3001pnilunilcd36vd0.1vpnilvunil",
+              "labelId": "binding-2884559e3dc03ead"
+            },
+            "mfd-rocker-con-down": {
+              "profile": "tm-mfd-2",
+              "key": "JOY_BTN24",
+              "command": "dnilp3044unilcd36vdnilvp-0.5vunil",
+              "labelId": "binding-b18e2fd179cd404b"
+            },
+            "mfd-rocker-con-up": {
+              "profile": "tm-mfd-2",
+              "key": "JOY_BTN23",
+              "command": "dnilp3044unilcd36vdnilvp0.5vunil",
+              "labelId": "binding-4ff88ca17030d356"
             }
           }
         },
@@ -612,15 +783,6 @@
               "key": "JOY_BTN5",
               "command": "d3015pnilu3015cd36vd1vpnilvu0",
               "labelId": "binding-9a81ffcc9e712644",
-              "modifiers": [
-                "MOZA_F16_F18_BTN3"
-              ]
-            },
-            "mfd-rocker-int": {
-              "profile": "tm-mfd-2",
-              "key": "JOY_BTN22",
-              "command": "d3001pnilunilcd35vd0vpnilvunil",
-              "labelId": "binding-73daf453e1f5aa52",
               "modifiers": [
                 "MOZA_F16_F18_BTN3"
               ]
@@ -688,42 +850,6 @@
                 "MOZA_F16_F18_BTN3"
               ]
             },
-            "mfd-rocker-brt-up": {
-              "profile": "tm-mfd-2",
-              "key": "JOY_BTN25",
-              "command": "dnilp3023unilcd40vdnilvp0.5vunil",
-              "labelId": "binding-a37ff1c9baf0e8bf",
-              "modifiers": [
-                "MOZA_F16_F18_BTN3"
-              ]
-            },
-            "mfd-rocker-brt-down": {
-              "profile": "tm-mfd-2",
-              "key": "JOY_BTN26",
-              "command": "dnilp3023unilcd40vdnilvp-0.5vunil",
-              "labelId": "binding-5437aa3530d6a4a3",
-              "modifiers": [
-                "MOZA_F16_F18_BTN3"
-              ]
-            },
-            "mfd-rocker-con-down": {
-              "profile": "tm-mfd-2",
-              "key": "JOY_BTN24",
-              "command": "dnilp3031unilcd40vdnilvp-0.5vunil",
-              "labelId": "binding-92afaf266699dc6a",
-              "modifiers": [
-                "MOZA_F16_F18_BTN3"
-              ]
-            },
-            "mfd-rocker-con-up": {
-              "profile": "tm-mfd-2",
-              "key": "JOY_BTN23",
-              "command": "dnilp3031unilcd40vdnilvp0.5vunil",
-              "labelId": "binding-c7ff74f41fcfbead",
-              "modifiers": [
-                "MOZA_F16_F18_BTN3"
-              ]
-            },
             "mfd-osb-b3-shifted": {
               "profile": "tm-mfd-2",
               "key": "JOY_BTN13",
@@ -738,6 +864,132 @@
               "key": "JOY_BTN21",
               "command": "d3041pnilunilcd40vd1vpnilvunil",
               "labelId": "binding-b43396997b4a5747",
+              "modifiers": [
+                "MOZA_F16_F18_BTN3"
+              ]
+            },
+            "mfd-rocker-int": {
+              "profile": "tm-mfd-2",
+              "key": "JOY_BTN22",
+              "command": "d3001pnilunilcd36vd0vpnilvunil",
+              "labelId": "binding-4c0726929665e2a8",
+              "modifiers": [
+                "MOZA_F16_F18_BTN3"
+              ]
+            },
+            "mfd-rocker-brt-up": {
+              "profile": "tm-mfd-2",
+              "key": "JOY_BTN25",
+              "command": "dnilp3027unilcd40vdnilvp0.5vunil",
+              "labelId": "binding-368194e109c0f795",
+              "modifiers": [
+                "MOZA_F16_F18_BTN3"
+              ]
+            },
+            "mfd-rocker-brt-down": {
+              "profile": "tm-mfd-2",
+              "key": "JOY_BTN26",
+              "command": "dnilp3027unilcd40vdnilvp-0.5vunil",
+              "labelId": "binding-6e8d39b38f02852f",
+              "modifiers": [
+                "MOZA_F16_F18_BTN3"
+              ]
+            },
+            "mfd-rocker-con-down": {
+              "profile": "tm-mfd-2",
+              "key": "JOY_BTN24",
+              "command": "dnilp3029unilcd40vdnilvp-0.5vunil",
+              "labelId": "binding-dcb3c935ab41ba3e",
+              "modifiers": [
+                "MOZA_F16_F18_BTN3"
+              ]
+            },
+            "mfd-rocker-con-up": {
+              "profile": "tm-mfd-2",
+              "key": "JOY_BTN23",
+              "command": "dnilp3029unilcd40vdnilvp0.5vunil",
+              "labelId": "binding-d27967d1b0ee70cc",
+              "modifiers": [
+                "MOZA_F16_F18_BTN3"
+              ]
+            },
+            "mfd-osb-l4-shifted": {
+              "profile": "tm-mfd-2",
+              "key": "JOY_BTN17",
+              "command": "d3001pnilu3001cd7vd1vpnilvu0",
+              "labelId": "binding-8323b15a1eb58e5e",
+              "modifiers": [
+                "MOZA_F16_F18_BTN3"
+              ]
+            },
+            "mfd-osb-l5-shifted": {
+              "profile": "tm-mfd-2",
+              "key": "JOY_BTN16",
+              "command": "d3002pnilu3002cd7vd-1vpnilvu0",
+              "labelId": "binding-41e612144e37d789",
+              "modifiers": [
+                "MOZA_F16_F18_BTN3"
+              ]
+            },
+            "mfd-osb-r3-shifted": {
+              "profile": "tm-mfd-2",
+              "key": "JOY_BTN8",
+              "command": "d3004pnilu3004cd2vd1vpnilvu0",
+              "labelId": "binding-ef75d4b6cfae6b0e",
+              "modifiers": [
+                "MOZA_F16_F18_BTN3"
+              ]
+            },
+            "mfd-osb-r4-shifted": {
+              "profile": "tm-mfd-2",
+              "key": "JOY_BTN9",
+              "command": "d3002pnilunilcd44vd-1vpnilvunil",
+              "labelId": "binding-f367ab8140344535",
+              "modifiers": [
+                "MOZA_F16_F18_BTN3"
+              ]
+            },
+            "mfd-osb-r5-shifted": {
+              "profile": "tm-mfd-2",
+              "key": "JOY_BTN10",
+              "command": "d3002pnilunilcd44vd1vpnilvunil",
+              "labelId": "binding-fa96813c03712f82",
+              "modifiers": [
+                "MOZA_F16_F18_BTN3"
+              ]
+            },
+            "mfd-osb-b1-shifted": {
+              "profile": "tm-mfd-2",
+              "key": "JOY_BTN15",
+              "command": "d3003pnilunilcd62vd1vpnilvunil",
+              "labelId": "binding-95c9adc2b59a5436",
+              "modifiers": [
+                "MOZA_F16_F18_BTN3"
+              ]
+            },
+            "mfd-osb-b2-shifted": {
+              "profile": "tm-mfd-2",
+              "key": "JOY_BTN14",
+              "command": "d3003pnilunilcd62vd0vpnilvunil",
+              "labelId": "binding-de55bae72a1c2920",
+              "modifiers": [
+                "MOZA_F16_F18_BTN3"
+              ]
+            },
+            "mfd-osb-b4-shifted": {
+              "profile": "tm-mfd-2",
+              "key": "JOY_BTN12",
+              "command": "d3003pnilunilcd42vd-1vpnilvunil",
+              "labelId": "binding-8b45b2dd4604f678",
+              "modifiers": [
+                "MOZA_F16_F18_BTN3"
+              ]
+            },
+            "mfd-osb-b5-shifted": {
+              "profile": "tm-mfd-2",
+              "key": "JOY_BTN11",
+              "command": "d3003pnilunilcd42vd1vpnilvunil",
+              "labelId": "binding-78f0ece0da75d833",
               "modifiers": [
                 "MOZA_F16_F18_BTN3"
               ]
@@ -886,11 +1138,53 @@
               "command": "d3030pnilu3030cd37vd1vpnilvu0",
               "labelId": "binding-e8a4d2b0029bc3bb"
             },
+            "mfd-rocker-sym": {
+              "profile": "tm-mfd-3",
+              "key": "JOY_BTN21",
+              "command": "d3002pnilu3002cd37vd1vpnilvu0",
+              "labelId": "binding-a2483d93509681c7"
+            },
+            "mfd-rocker-gain": {
+              "profile": "tm-mfd-3",
+              "key": "JOY_BTN27",
+              "command": "d3008pnilu3008cd37vd1vpnilvu0",
+              "labelId": "binding-1cc7f52d5e0eb78e"
+            },
+            "mfd-rocker-lvl": {
+              "profile": "tm-mfd-3",
+              "key": "JOY_BTN28",
+              "command": "d3009pnilu3009cd37vd-1vpnilvu0",
+              "labelId": "binding-234a5027b8bbdc31"
+            },
+            "mfd-rocker-brt-up": {
+              "profile": "tm-mfd-3",
+              "key": "JOY_BTN25",
+              "command": "dnilp3041unilcd37vdnilvp0.5vunil",
+              "labelId": "binding-52a7eeaf1648994f"
+            },
+            "mfd-rocker-brt-down": {
+              "profile": "tm-mfd-3",
+              "key": "JOY_BTN26",
+              "command": "dnilp3041unilcd37vdnilvp-0.5vunil",
+              "labelId": "binding-95591b806f2b8bd4"
+            },
+            "mfd-rocker-con-down": {
+              "profile": "tm-mfd-3",
+              "key": "JOY_BTN24",
+              "command": "d3007pnilu3007cd37vd-1vpnilvu0",
+              "labelId": "binding-7f3ed74afa352292"
+            },
             "mfd-rocker-con-up": {
               "profile": "tm-mfd-3",
               "key": "JOY_BTN23",
               "command": "d3006pnilu3006cd37vd1vpnilvu0",
               "labelId": "binding-77d3a80956643a58"
+            },
+            "mfd-rocker-int": {
+              "profile": "tm-mfd-3",
+              "key": "JOY_BTN22",
+              "command": "d3003pnilu3003cd37vd-1vpnilvu0",
+              "labelId": "binding-021851c50a57ab78"
             }
           }
         },
@@ -1470,17 +1764,17 @@
           "command": "a2003cdnil",
           "labelId": "binding-104d7ccea9dc5a5d"
         },
-        "tpr-axis-right-brake": {
-          "profile": "tm-tpr",
-          "key": "JOY_X",
-          "command": "a2112cdnil",
-          "labelId": "binding-83c133c5c7c64bbc"
-        },
         "tpr-axis-left-brake": {
           "profile": "tm-tpr",
           "key": "JOY_Y",
+          "command": "a2112cdnil",
+          "labelId": "binding-9b5b8b6344e58be4"
+        },
+        "tpr-axis-right-brake": {
+          "profile": "tm-tpr",
+          "key": "JOY_X",
           "command": "a2113cdnil",
-          "labelId": "binding-1422dd133bcdf594"
+          "labelId": "binding-317f2235cfc027ca"
         }
       }
     },
@@ -1546,18 +1840,6 @@
               "command": "d3025pnilu3025cd13vd1vpnilvu0",
               "labelId": "binding-cdaab8f8bd6b4052"
             },
-            "warthog-thr-mic-right": {
-              "profile": "tm-warthog-throttle",
-              "key": "JOY_BTN3",
-              "command": "d3027pnilu3027cd13vd0.2vpnilvu0",
-              "labelId": "binding-a54306e8cb9e6da3"
-            },
-            "warthog-thr-mic-left": {
-              "profile": "tm-warthog-throttle",
-              "key": "JOY_BTN5",
-              "command": "d3028pnilu3028cd13vd0.4vpnilvu0",
-              "labelId": "binding-d3e4dac5d4a46a38"
-            },
             "warthog-thr-china-back": {
               "profile": "tm-warthog-throttle",
               "key": "JOY_BTN12",
@@ -1599,12 +1881,6 @@
               "key": "JOY_BTN15",
               "command": "d3037pnilu3037cd13vd1vpnilvu0",
               "labelId": "binding-023fd9e8e802911d"
-            },
-            "warthog-thr-mic-up": {
-              "profile": "tm-warthog-throttle",
-              "key": "JOY_BTN2",
-              "command": "d3041pnilunilcd40vd1vpnilvunil",
-              "labelId": "binding-ce996ac971a969ee"
             },
             "warthog-thr-eac-on": {
               "profile": "tm-warthog-throttle",
@@ -1676,20 +1952,101 @@
             "MOZA_F16_F18_BTN3"
           ],
           "controls": {
-            "warthog-thr-coolie-down": {
-              "profile": "tm-warthog-throttle",
-              "key": "JOY_POV1_D",
-              "command": "d3001pnilunilcd71vd1vpnilvu0",
-              "labelId": "binding-8f820519f86c163e",
-              "modifiers": [
-                "MOZA_F16_F18_BTN3"
-              ]
-            },
             "warthog-thr-fuel-flow-right": {
               "profile": "tm-warthog-throttle",
               "key": "JOY_BTN17",
               "command": "d3003pnilu3003cd6vd1vpnilvu0",
               "labelId": "binding-9fdb27384d68ef24",
+              "modifiers": [
+                "MOZA_F16_F18_BTN3"
+              ]
+            },
+            "warthog-thr-landing-horn-silence": {
+              "profile": "tm-warthog-throttle",
+              "key": "JOY_BTN21",
+              "command": "d120pnilunilcdnilvdnilvpnilvunil",
+              "labelId": "binding-4fe7a7a7604ec525",
+              "modifiers": [
+                "MOZA_F16_F18_BTN3"
+              ]
+            },
+            "warthog-thr-eac-on": {
+              "profile": "tm-warthog-throttle",
+              "key": "JOY_BTN24",
+              "command": "d3018pnilunilcd2vd0vpnilvunil",
+              "labelId": "binding-1714f97546de7f59",
+              "modifiers": [
+                "MOZA_F16_F18_BTN3"
+              ]
+            },
+            "warthog-thr-rdr-alt-normal": {
+              "profile": "tm-warthog-throttle",
+              "key": "JOY_BTN25",
+              "command": "d3019pnilunilcd2vd0vpnilvunil",
+              "labelId": "binding-994c4721ad4948c0",
+              "modifiers": [
+                "MOZA_F16_F18_BTN3"
+              ]
+            },
+            "warthog-thr-ap-engage": {
+              "profile": "tm-warthog-throttle",
+              "key": "JOY_BTN26",
+              "command": "d3014pnilunilcd53vd1vpnilvunil",
+              "labelId": "binding-e3ace6bd8dce092d",
+              "modifiers": [
+                "MOZA_F16_F18_BTN3"
+              ]
+            },
+            "warthog-thr-engine-operate-left-up": {
+              "profile": "tm-warthog-throttle",
+              "key": "JOY_BTN31",
+              "command": "d3002pnilu3002cd12vd-1vpnilvu0",
+              "labelId": "binding-739770439eb26f02",
+              "modifiers": [
+                "MOZA_F16_F18_BTN3"
+              ]
+            },
+            "warthog-thr-engine-operate-right-up": {
+              "profile": "tm-warthog-throttle",
+              "key": "JOY_BTN32",
+              "command": "d3003pnilu3003cd12vd1vpnilvu0",
+              "labelId": "binding-20f21dda9f37134c",
+              "modifiers": [
+                "MOZA_F16_F18_BTN3"
+              ]
+            },
+            "warthog-thr-coolie-down": {
+              "profile": "tm-warthog-throttle",
+              "key": "JOY_POV1_D",
+              "command": "d3020pnilu3020cd13vd1vpnilvu0",
+              "labelId": "binding-45bcd0b513f9223d",
+              "modifiers": [
+                "MOZA_F16_F18_BTN3"
+              ]
+            },
+            "warthog-thr-coolie-right": {
+              "profile": "tm-warthog-throttle",
+              "key": "JOY_POV1_R",
+              "command": "d3021pnilu3021cd13vd1vpnilvu0",
+              "labelId": "binding-008c1b04a4d36009",
+              "modifiers": [
+                "MOZA_F16_F18_BTN3"
+              ]
+            },
+            "warthog-thr-coolie-left": {
+              "profile": "tm-warthog-throttle",
+              "key": "JOY_POV1_L",
+              "command": "d3022pnilu3022cd13vd1vpnilvu0",
+              "labelId": "binding-3e1febfc2007a8e3",
+              "modifiers": [
+                "MOZA_F16_F18_BTN3"
+              ]
+            },
+            "warthog-thr-coolie-up": {
+              "profile": "tm-warthog-throttle",
+              "key": "JOY_POV1_U",
+              "command": "d3019pnilu3019cd13vd1vpnilvu0",
+              "labelId": "binding-05dd6a4f93881447",
               "modifiers": [
                 "MOZA_F16_F18_BTN3"
               ]
@@ -2416,14 +2773,33 @@
     "binding-d1b785359e76ddde": "PB 5",
     "binding-b0c8ce63b1aede6e": "DAY",
     "binding-7bf1795f6306c618": "NIGHT",
-    "binding-bb5ad440df794fc1": "OFF",
-    "binding-70b21c6696224c9e": "OFF",
     "binding-20f7e3ac7752a098": "Bright+",
     "binding-b7eb7807fbf86b34": "Bright-",
     "binding-399bc64a6a41a7fd": "Contrast-",
     "binding-fd20b2bfd4b88bcf": "Contrast+",
     "binding-8bb8727750d07543": "Salute",
-    "binding-70c59aaf55ffb38d": "Ball",
+    "binding-7effeaa21f4bc930": "XMT COMM 1",
+    "binding-18daa0492931d296": "ICS Vol+",
+    "binding-b730c01ec0cf387a": "ICS Vol-",
+    "binding-b8b56a3335d5cab8": "ILS Chnl+",
+    "binding-a29b2cf6e02d7da7": "ILS Chnl-",
+    "binding-5217949c133b738e": "WPN Vol+",
+    "binding-3e463cb0cfd9f5bb": "WPN Vol-",
+    "binding-9dc45d47adba73a3": "TACAN Vol+",
+    "binding-9f9fdf10b42e517e": "TACAN Vol-",
+    "binding-32bcba5f7c19229b": "VOX Vol+",
+    "binding-648de6de426806e8": "VOX Vol-",
+    "binding-857d08dd45d5acc0": "RWR Vol-",
+    "binding-0d3ef1a0f6c66c91": "RWR Vol+",
+    "binding-50ce3ac1923cd296": "XMT COMM 2",
+    "binding-ee6a567dba4de0de": "COMM 1 Vol+",
+    "binding-10d796d861144d8e": "COMM 1 Vol-",
+    "binding-a8b02da8a31dd809": "COMM 2 Vol+",
+    "binding-297e8e0f2ce938ce": "COMM 2 Vol-",
+    "binding-b4ef0f479d2bf014": "AUX Vol+",
+    "binding-c853b9a3572d45c8": "AUX Vol-",
+    "binding-3c03109e5488818f": "KY-58 Vol+",
+    "binding-2a3a47d246f4c457": "KY-58 Vol-",
     "binding-db887fe77348b122": "PB 6",
     "binding-9aa0981de368f4b7": "SA/TSD",
     "binding-7d1d3370c2a8406a": "PB 7",
@@ -2449,13 +2825,6 @@
     "binding-a8015d6e1fd7b315": "PB 3",
     "binding-9cb64a10e2b3c9b1": "PB 4",
     "binding-e585720e69cdca2d": "PB 5",
-    "binding-1dc7fb11a3715d9d": "DAY",
-    "binding-658f2396e7d5d922": "NIGHT",
-    "binding-73daf453e1f5aa52": "OFF",
-    "binding-e70daa084a020d4c": "Bright-",
-    "binding-d058b91fd693de2a": "Bright+",
-    "binding-6af443f53230e975": "Contrast-",
-    "binding-4e268ee0c824693e": "Contrast+",
     "binding-74c6c31ba67afb9c": "GAIN NORM",
     "binding-6574ae79c9fe3cd8": "GAIN ORIDE",
     "binding-348d460890de3664": "GAIN Cover Opn",
@@ -2465,12 +2834,28 @@
     "binding-494801f4456deaf6": "Heading L",
     "binding-d4d0e02de77caf96": "Heading R",
     "binding-b090d1dee70d0954": "OBOGS",
-    "binding-a37ff1c9baf0e8bf": "RWR Vol+",
-    "binding-5437aa3530d6a4a3": "RWR Vol-",
-    "binding-92afaf266699dc6a": "TACAN Vol-",
-    "binding-c7ff74f41fcfbead": "TACAN Vol+",
     "binding-93ca9956b5d75b82": "Salute",
     "binding-b43396997b4a5747": "Ball",
+    "binding-bd7538db31d3c1ce": "Brght+",
+    "binding-d14c0e402f95b8fa": "Brght-",
+    "binding-97f36a69fc6ddba4": "DAY",
+    "binding-2884559e3dc03ead": "NIGHT",
+    "binding-4c0726929665e2a8": "OFF",
+    "binding-b18e2fd179cd404b": "Con-",
+    "binding-4ff88ca17030d356": "Con+",
+    "binding-368194e109c0f795": "MIDS A Vol+",
+    "binding-6e8d39b38f02852f": "MIDS A Vol-",
+    "binding-dcb3c935ab41ba3e": "MIDS B Vol-",
+    "binding-d27967d1b0ee70cc": "MIDS B Vol+",
+    "binding-8323b15a1eb58e5e": "Canopy OPEN",
+    "binding-41e612144e37d789": "Canopy CLOSE",
+    "binding-ef75d4b6cfae6b0e": "FCS BIT",
+    "binding-f367ab8140344535": "INS CCW",
+    "binding-fa96813c03712f82": "INS CW",
+    "binding-95c9adc2b59a5436": "LST/NFLR ON",
+    "binding-de55bae72a1c2920": "LST/NFLR OFF",
+    "binding-8b45b2dd4604f678": "RADAR CCW",
+    "binding-78f0ece0da75d833": "RADAR CW",
     "binding-3ec8ee407aee5794": "PB 6",
     "binding-a7356be9ec6971ee": "PB 7",
     "binding-36a1a41975a58222": "PB 8",
@@ -2492,12 +2877,19 @@
     "binding-014c457792f83b80": "PB 4",
     "binding-e8a4d2b0029bc3bb": "PB 5",
     "binding-0d3255467d1535cd": "AMPCD DAY",
+    "binding-a2483d93509681c7": "DAY",
     "binding-6dc71d45700226fc": "AMPCD Gain+",
+    "binding-1cc7f52d5e0eb78e": "Gain+",
     "binding-fce9a0c8dc79520d": "AMPCD Gain-",
+    "binding-234a5027b8bbdc31": "Gain-",
+    "binding-52a7eeaf1648994f": "Brght+",
+    "binding-95591b806f2b8bd4": "Brght-",
     "binding-8f6edd3a3881cc48": "AMPCD Con-",
-    "binding-77d3a80956643a58": "Contrast+",
+    "binding-7f3ed74afa352292": "Con-",
     "binding-d168565c94be6577": "AMPCD Con+",
+    "binding-77d3a80956643a58": "Con+",
     "binding-0a582c0f6690c27e": "AMPCD NGT",
+    "binding-021851c50a57ab78": "NGT",
     "binding-ea68939812c86110": "AMPCD Sym+",
     "binding-bf43a10f2a316a95": "AMPCD Sym-",
     "binding-9aa260c4e1ea0d23": "Trigger 1",
@@ -2562,8 +2954,8 @@
     "binding-a81897ac8c29d48a": "ALQ-165 ASPJ TST",
     "binding-6a8601a47f98b2dd": "VDI TV",
     "binding-104d7ccea9dc5a5d": "Rudder",
-    "binding-83c133c5c7c64bbc": "Wheel Brake Left",
-    "binding-1422dd133bcdf594": "Wheel Brake Right",
+    "binding-9b5b8b6344e58be4": "WBrake Left",
+    "binding-317f2235cfc027ca": "WBrake Right",
     "binding-02ba64b834372aa6": "APU ON<>OFF",
     "binding-e0e83f8605646983": "FLAP FULL<>HALF",
     "binding-d163d8283501dea5": "FLAP AUTO<>HALF",
@@ -2572,8 +2964,6 @@
     "binding-bacd61cd6b45f9d6": "TDC DEPRESS",
     "binding-d80039167bcca58e": "Rdr Elev Up",
     "binding-cdaab8f8bd6b4052": "Rdr Elv Dwn",
-    "binding-a54306e8cb9e6da3": "COMM 1",
-    "binding-d3e4dac5d4a46a38": "COMM 2",
     "binding-9e11d1ef32a7208d": "Cage/Uncage",
     "binding-06cb7e344bee6ad5": "CHAFF",
     "binding-5f175dfe2f4a7f27": "FLARE",
@@ -2581,8 +2971,6 @@
     "binding-d7d2bbdbef8a6496": "SBrake EXT",
     "binding-95a81a347a2f56e4": "SBrake RET",
     "binding-023fd9e8e802911d": "Autothrottle",
-    "binding-ce996ac971a969ee": "Ball",
-    "binding-8f820519f86c163e": "Open DTC",
     "binding-ff6874ae3b6249c6": "Master Arm",
     "binding-fb48be13734e3cc8": "Crank Lft",
     "binding-df56b5b65331dbd4": "Crank Rgt",
@@ -2591,6 +2979,16 @@
     "binding-5a2dc1882041e196": "Lft Gen ",
     "binding-16147a2ac51a211e": "Rgt Gen",
     "binding-9fdb27384d68ef24": "Fuel Dump",
+    "binding-4fe7a7a7604ec525": "Hook-Up",
+    "binding-1714f97546de7f59": "Spn Rec Cov",
+    "binding-994c4721ad4948c0": "Spin Rec",
+    "binding-e3ace6bd8dce092d": "ALR-67 POWER",
+    "binding-739770439eb26f02": "ECrank Cycl Lft",
+    "binding-20f21dda9f37134c": "ECrank Cycl Rt",
+    "binding-45bcd0b513f9223d": "TDC Down",
+    "binding-008c1b04a4d36009": "TDC Left",
+    "binding-3e1febfc2007a8e3": "TDC Right",
+    "binding-05dd6a4f93881447": "TDC Up",
     "binding-a5e6f6d51eea9272": "TDC X",
     "binding-17b4bb631be84cbb": "TDC Y",
     "binding-cb924963ce01e3f4": "Friction",

@@ -49,13 +49,13 @@ local diff = {
       ["name"] = "Radar Elevation Control - Down",
     },
     ["d3027pnilu3027cd13vd0.2vpnilvu0"] = {
-      ["added"] = {
+      ["removed"] = {
         [1] = { ["key"] = "JOY_BTN3" },
       },
       ["name"] = "COMM Switch - COMM 1 (call radio menu)",
     },
     ["d3028pnilu3028cd13vd0.4vpnilvu0"] = {
-      ["added"] = {
+      ["removed"] = {
         [1] = { ["key"] = "JOY_BTN5" },
       },
       ["name"] = "COMM Switch - COMM 2 (call radio menu)",
@@ -115,7 +115,7 @@ local diff = {
       ["name"] = "Exterior Lights Switch - ON",
     },
     ["d3041pnilunilcd40vd1vpnilvunil"] = {
-      ["added"] = {
+      ["removed"] = {
         [1] = { ["key"] = "JOY_BTN2" },
       },
       ["name"] = "Hornet Ball",
@@ -168,12 +168,6 @@ local diff = {
       },
       ["name"] = "View Down slow",
     },
-    ["d3001pnilunilcd71vd1vpnilvu0"] = {
-      ["added"] = {
-        [1] = { ["key"] = "JOY_POV1_D", ["reformers"] = { [1] = "MOZA_F16_F18_BTN3" } },
-      },
-      ["name"] = "Open DTC Interface",
-    },
     ["d3014pnilunilcd23vd1vpnilvunil"] = {
       ["added"] = {
         [1] = { ["key"] = "JOY_BTN24" },
@@ -216,6 +210,66 @@ local diff = {
         [1] = { ["key"] = "JOY_BTN17", ["reformers"] = { [1] = "MOZA_F16_F18_BTN3" } },
       },
       ["name"] = "Fuel Dump Switch - ON/OFF",
+    },
+    ["d120pnilunilcdnilvdnilvpnilvunil"] = {
+      ["added"] = {
+        [1] = { ["key"] = "JOY_BTN21", ["reformers"] = { [1] = "MOZA_F16_F18_BTN3" } },
+      },
+      ["name"] = "Catapult Hook-Up",
+    },
+    ["d3018pnilunilcd2vd0vpnilvunil"] = {
+      ["added"] = {
+        [1] = { ["key"] = "JOY_BTN24", ["reformers"] = { [1] = "MOZA_F16_F18_BTN3" } },
+      },
+      ["name"] = "Spin Recovery Switch Cover - OPEN/CLOSE",
+    },
+    ["d3019pnilunilcd2vd0vpnilvunil"] = {
+      ["added"] = {
+        [1] = { ["key"] = "JOY_BTN25", ["reformers"] = { [1] = "MOZA_F16_F18_BTN3" } },
+      },
+      ["name"] = "Spin Recovery Switch - RCVY/NORM",
+    },
+    ["d3014pnilunilcd53vd1vpnilvunil"] = {
+      ["added"] = {
+        [1] = { ["key"] = "JOY_BTN26", ["reformers"] = { [1] = "MOZA_F16_F18_BTN3" } },
+      },
+      ["name"] = "ALR-67 POWER Pushbutton - ON/OFF",
+    },
+    ["d3002pnilu3002cd12vd-1vpnilvu0"] = {
+      ["added"] = {
+        [1] = { ["key"] = "JOY_BTN31", ["reformers"] = { [1] = "MOZA_F16_F18_BTN3" } },
+      },
+      ["name"] = "Engine Crank Switch - Cycle Left",
+    },
+    ["d3003pnilu3003cd12vd1vpnilvu0"] = {
+      ["added"] = {
+        [1] = { ["key"] = "JOY_BTN32", ["reformers"] = { [1] = "MOZA_F16_F18_BTN3" } },
+      },
+      ["name"] = "Engine Crank Switch - Cycle Right",
+    },
+    ["d3020pnilu3020cd13vd1vpnilvu0"] = {
+      ["added"] = {
+        [1] = { ["key"] = "JOY_POV1_D", ["reformers"] = { [1] = "MOZA_F16_F18_BTN3" } },
+      },
+      ["name"] = "Throttle Designator Controller - Down",
+    },
+    ["d3021pnilu3021cd13vd1vpnilvu0"] = {
+      ["added"] = {
+        [1] = { ["key"] = "JOY_POV1_R", ["reformers"] = { [1] = "MOZA_F16_F18_BTN3" } },
+      },
+      ["name"] = "Throttle Designator Controller - Left",
+    },
+    ["d3022pnilu3022cd13vd1vpnilvu0"] = {
+      ["added"] = {
+        [1] = { ["key"] = "JOY_POV1_L", ["reformers"] = { [1] = "MOZA_F16_F18_BTN3" } },
+      },
+      ["name"] = "Throttle Designator Controller - Right",
+    },
+    ["d3019pnilu3019cd13vd1vpnilvu0"] = {
+      ["added"] = {
+        [1] = { ["key"] = "JOY_POV1_U", ["reformers"] = { [1] = "MOZA_F16_F18_BTN3" } },
+      },
+      ["name"] = "Throttle Designator Controller - Up",
     },
   },
   ["axisDiffs"] = {
