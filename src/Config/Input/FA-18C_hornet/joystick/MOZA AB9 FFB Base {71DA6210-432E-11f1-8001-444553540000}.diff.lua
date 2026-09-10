@@ -138,6 +138,114 @@ local diff = {
       },
       ["name"] = "LST/NFLR Switch (special) - ON/OFF",
     },
+    ["d3034pnilu3034cd13vd1vpnilvu0"] = {
+      ["added"] = {
+        [1] = { ["key"] = "JOY_BTN17", ["reformers"] = { [1] = "MOZA_F16_F18_BTN3" } },
+      },
+      ["name"] = "RAID/FLIR FOV Select Button",
+    },
+    ["d3001pnilunilcd62vd1vpnilvunil"] = {
+      ["added"] = {
+        [1] = { ["key"] = "JOY_BTN18", ["reformers"] = { [1] = "MOZA_F16_F18_BTN3" } },
+      },
+      ["name"] = "FLIR Switch - ON",
+    },
+    ["d3001pnilunilcd62vd-1vpnilvunil"] = {
+      ["added"] = {
+        [1] = { ["key"] = "JOY_BTN16", ["reformers"] = { [1] = "MOZA_F16_F18_BTN3" } },
+      },
+      ["name"] = "FLIR Switch - OFF",
+    },
+    ["dnilp212u214cdnilvdnilvpnilvunil"] = {
+      ["added"] = {
+        [1] = { ["key"] = "JOY_POV1_DL", ["reformers"] = { [1] = "MOZA_F16_F18_BTN3" } },
+      },
+      ["name"] = "View Down Left slow",
+    },
+    ["dnilp211u214cdnilvdnilvpnilvunil"] = {
+      ["added"] = {
+        [1] = { ["key"] = "JOY_POV1_DR", ["reformers"] = { [1] = "MOZA_F16_F18_BTN3" } },
+      },
+      ["name"] = "View Down Right slow",
+    },
+    ["dnilp35u214cdnilvdnilvpnilvunil"] = {
+      ["added"] = {
+        [1] = { ["key"] = "JOY_POV1_D", ["reformers"] = { [1] = "MOZA_F16_F18_BTN3" } },
+      },
+      ["name"] = "View Down slow",
+    },
+    ["dnilp32u214cdnilvdnilvpnilvunil"] = {
+      ["added"] = {
+        [1] = { ["key"] = "JOY_POV1_L", ["reformers"] = { [1] = "MOZA_F16_F18_BTN3" } },
+      },
+      ["name"] = "View Left slow",
+    },
+    ["dnilp33u214cdnilvdnilvpnilvunil"] = {
+      ["added"] = {
+        [1] = { ["key"] = "JOY_POV1_R", ["reformers"] = { [1] = "MOZA_F16_F18_BTN3" } },
+      },
+      ["name"] = "View Right slow",
+    },
+    ["dnilp213u214cdnilvdnilvpnilvunil"] = {
+      ["added"] = {
+        [1] = { ["key"] = "JOY_POV1_UL", ["reformers"] = { [1] = "MOZA_F16_F18_BTN3" } },
+      },
+      ["name"] = "View Up Left slow",
+    },
+    ["dnilp210u214cdnilvdnilvpnilvunil"] = {
+      ["added"] = {
+        [1] = { ["key"] = "JOY_POV1_UR", ["reformers"] = { [1] = "MOZA_F16_F18_BTN3" } },
+      },
+      ["name"] = "View Up Right slow",
+    },
+    ["dnilp34u214cdnilvdnilvpnilvunil"] = {
+      ["added"] = {
+        [1] = { ["key"] = "JOY_POV1_U", ["reformers"] = { [1] = "MOZA_F16_F18_BTN3" } },
+      },
+      ["name"] = "View Up slow",
+    },
+    ["d7pnilunilcdnilvdnilvpnilvunil"] = {
+      ["added"] = {
+        [1] = { ["key"] = "JOY_BTN14", ["reformers"] = { [1] = "MOZA_F16_F18_BTN3" } },
+      },
+      ["name"] = "F1 Cockpit view",
+    },
+    ["d14pnilunilcdnilvdnilvpnilvunil"] = {
+      ["added"] = {
+        [1] = { ["key"] = "JOY_BTN7", ["reformers"] = { [1] = "MOZA_F16_F18_BTN3" } },
+      },
+      ["name"] = "F5 nearest AC view",
+    },
+    ["dnilp39u289cdnilvdnilvpnilvunil"] = {
+      ["added"] = {
+        [1] = { ["key"] = "JOY_BTN10", ["reformers"] = { [1] = "MOZA_F16_F18_BTN3" } },
+      },
+      ["name"] = "Zoom in slow",
+    },
+    ["dnilp40u290cdnilvdnilvpnilvunil"] = {
+      ["added"] = {
+        [1] = { ["key"] = "JOY_BTN8", ["reformers"] = { [1] = "MOZA_F16_F18_BTN3" } },
+      },
+      ["name"] = "Zoom out slow",
+    },
+    ["d3003pnilu3003cd8vd1vpnilvu0"] = {
+      ["added"] = {
+        [1] = { ["key"] = "JOY_BTN11", ["reformers"] = { [1] = "MOZA_F16_F18_BTN3" } },
+      },
+      ["name"] = "STROBE Lights Switch - BRT/OFF",
+    },
+    ["d3003pnilu3003cd8vd-1vpnilvu0"] = {
+      ["added"] = {
+        [1] = { ["key"] = "JOY_BTN13", ["reformers"] = { [1] = "MOZA_F16_F18_BTN3" } },
+      },
+      ["name"] = "STROBE Lights Switch - DIM/OFF",
+    },
+    ["d3003pnilu3003cd23vd1vpnilvu0"] = {
+      ["added"] = {
+        [1] = { ["key"] = "JOY_BTN12", ["reformers"] = { [1] = "MOZA_F16_F18_BTN3" } },
+      },
+      ["name"] = "Master Arm Switch (special) - ARM/SAFE",
+    },
   },
   ["axisDiffs"] = {
     ["a2002cdnil"] = {
@@ -151,6 +259,18 @@ local diff = {
         [1] = { ["key"] = "JOY_Y" },
       },
       ["name"] = "Pitch",
+    },
+    ["a3044cd13"] = {
+      ["added"] = {
+        [1] = { ["key"] = "JOY_X", ["reformers"] = { [1] = "MOZA_F16_F18_BTN3" } },
+      },
+      ["name"] = "Throttle Designator Controller - Horizontal Axis",
+    },
+    ["a3043cd13"] = {
+      ["added"] = {
+        [1] = { ["key"] = "JOY_Y", ["reformers"] = { [1] = "MOZA_F16_F18_BTN3" } },
+      },
+      ["name"] = "Throttle Designator Controller - Vertical Axis",
     },
   },
 }

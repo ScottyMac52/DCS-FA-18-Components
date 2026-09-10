@@ -3,35 +3,45 @@ local diff = {
     ["d3011pnilu3011cd37vd1vpnilvu0"] = {
       ["added"] = {
         [1] = { ["key"] = "JOY_BTN1" },
-        [2] = { ["key"] = "JOY_BTN1", ["reformers"] = { [1] = "MOZA_F16_F18_BTN3" } },
+      },
+      ["removed"] = {
+        [1] = { ["key"] = "JOY_BTN1", ["reformers"] = { [1] = "MOZA_F16_F18_BTN3" } },
       },
       ["name"] = "MPCD Pushbutton 01",
     },
     ["d3012pnilu3012cd37vd1vpnilvu0"] = {
       ["added"] = {
         [1] = { ["key"] = "JOY_BTN2" },
-        [2] = { ["key"] = "JOY_BTN2", ["reformers"] = { [1] = "MOZA_F16_F18_BTN3" } },
+      },
+      ["removed"] = {
+        [1] = { ["key"] = "JOY_BTN2", ["reformers"] = { [1] = "MOZA_F16_F18_BTN3" } },
       },
       ["name"] = "MPCD Pushbutton 02",
     },
     ["d3013pnilu3013cd37vd1vpnilvu0"] = {
       ["added"] = {
         [1] = { ["key"] = "JOY_BTN3" },
-        [2] = { ["key"] = "JOY_BTN3", ["reformers"] = { [1] = "MOZA_F16_F18_BTN3" } },
+      },
+      ["removed"] = {
+        [1] = { ["key"] = "JOY_BTN3", ["reformers"] = { [1] = "MOZA_F16_F18_BTN3" } },
       },
       ["name"] = "MPCD Pushbutton 03",
     },
     ["d3014pnilu3014cd37vd1vpnilvu0"] = {
       ["added"] = {
         [1] = { ["key"] = "JOY_BTN4" },
-        [2] = { ["key"] = "JOY_BTN4", ["reformers"] = { [1] = "MOZA_F16_F18_BTN3" } },
+      },
+      ["removed"] = {
+        [1] = { ["key"] = "JOY_BTN4", ["reformers"] = { [1] = "MOZA_F16_F18_BTN3" } },
       },
       ["name"] = "MPCD Pushbutton 04",
     },
     ["d3015pnilu3015cd37vd1vpnilvu0"] = {
       ["added"] = {
         [1] = { ["key"] = "JOY_BTN5" },
-        [2] = { ["key"] = "JOY_BTN5", ["reformers"] = { [1] = "MOZA_F16_F18_BTN3" } },
+      },
+      ["removed"] = {
+        [1] = { ["key"] = "JOY_BTN5", ["reformers"] = { [1] = "MOZA_F16_F18_BTN3" } },
       },
       ["name"] = "MPCD Pushbutton 05",
     },
@@ -127,42 +137,54 @@ local diff = {
     },
     ["d3002pnilu3002cd37vd1vpnilvu0"] = {
       ["added"] = {
+        [1] = { ["key"] = "JOY_BTN6", ["reformers"] = { [1] = "MOZA_F16_F18_BTN3" } },
+      },
+      ["removed"] = {
         [1] = { ["key"] = "JOY_BTN21" },
       },
-      ["name"] = "MPCD Day Mode",
+      ["name"] = "AMPCD Night/Day Brightness Selector - DAY",
     },
     ["d3003pnilu3003cd37vd1vpnilvu0"] = {
-      ["added"] = {
+      ["removed"] = {
         [1] = { ["key"] = "JOY_BTN22" },
       },
       ["name"] = "MPCD Night Mode",
     },
     ["d3008pnilu3008cd37vd1vpnilvu0"] = {
       ["added"] = {
+        [1] = { ["key"] = "JOY_BTN20", ["reformers"] = { [1] = "MOZA_F16_F18_BTN3" } },
+      },
+      ["removed"] = {
         [1] = { ["key"] = "JOY_BTN27" },
       },
       ["name"] = "AMPCD Gain Control Switch - UP",
     },
     ["d3009pnilu3009cd37vd-1vpnilvu0"] = {
       ["added"] = {
+        [1] = { ["key"] = "JOY_BTN19", ["reformers"] = { [1] = "MOZA_F16_F18_BTN3" } },
+      },
+      ["removed"] = {
         [1] = { ["key"] = "JOY_BTN28" },
       },
       ["name"] = "AMPCD Gain Control Switch - DOWN",
     },
     ["dnilp3041unilcd37vdnilvp0.5vunil"] = {
-      ["added"] = {
+      ["removed"] = {
         [1] = { ["key"] = "JOY_BTN25" },
       },
       ["name"] = "AMPCD Off/Brightness Control Knob - CW/Increase",
     },
     ["dnilp3041unilcd37vdnilvp-0.5vunil"] = {
-      ["added"] = {
+      ["removed"] = {
         [1] = { ["key"] = "JOY_BTN26" },
       },
       ["name"] = "AMPCD Off/Brightness Control Knob - CCW/Decrease",
     },
     ["d3007pnilu3007cd37vd-1vpnilvu0"] = {
       ["added"] = {
+        [1] = { ["key"] = "JOY_BTN10", ["reformers"] = { [1] = "MOZA_F16_F18_BTN3" } },
+      },
+      ["removed"] = {
         [1] = { ["key"] = "JOY_BTN24" },
       },
       ["name"] = "AMPCD Contrast Control Switch - DOWN",
@@ -170,8 +192,27 @@ local diff = {
     ["d3006pnilu3006cd37vd1vpnilvu0"] = {
       ["added"] = {
         [1] = { ["key"] = "JOY_BTN23" },
+        [2] = { ["key"] = "JOY_BTN9", ["reformers"] = { [1] = "MOZA_F16_F18_BTN3" } },
       },
       ["name"] = "AMPCD Contrast Control Switch - UP",
+    },
+    ["d3003pnilu3003cd37vd-1vpnilvu0"] = {
+      ["added"] = {
+        [1] = { ["key"] = "JOY_BTN7", ["reformers"] = { [1] = "MOZA_F16_F18_BTN3" } },
+      },
+      ["name"] = "AMPCD Night/Day Brightness Selector - NGT",
+    },
+    ["d3004pnilu3004cd37vd1vpnilvu0"] = {
+      ["added"] = {
+        [1] = { ["key"] = "JOY_BTN17", ["reformers"] = { [1] = "MOZA_F16_F18_BTN3" } },
+      },
+      ["name"] = "AMPCD Symbology Control Switch - UP",
+    },
+    ["d3005pnilu3005cd37vd-1vpnilvu0"] = {
+      ["added"] = {
+        [1] = { ["key"] = "JOY_BTN16", ["reformers"] = { [1] = "MOZA_F16_F18_BTN3" } },
+      },
+      ["name"] = "AMPCD Symbology Control Switch - DOWN",
     },
   },
   ["axisDiffs"] = {

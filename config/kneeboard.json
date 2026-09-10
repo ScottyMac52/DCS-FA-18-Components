@@ -886,48 +886,6 @@
               "command": "d3030pnilu3030cd37vd1vpnilvu0",
               "labelId": "binding-e8a4d2b0029bc3bb"
             },
-            "mfd-rocker-sym": {
-              "profile": "tm-mfd-3",
-              "key": "JOY_BTN21",
-              "command": "d3002pnilu3002cd37vd1vpnilvu0",
-              "labelId": "binding-a2483d93509681c7"
-            },
-            "mfd-rocker-int": {
-              "profile": "tm-mfd-3",
-              "key": "JOY_BTN22",
-              "command": "d3003pnilu3003cd37vd1vpnilvu0",
-              "labelId": "binding-a0452eccb21138fe"
-            },
-            "mfd-rocker-gain": {
-              "profile": "tm-mfd-3",
-              "key": "JOY_BTN27",
-              "command": "d3008pnilu3008cd37vd1vpnilvu0",
-              "labelId": "binding-1cc7f52d5e0eb78e"
-            },
-            "mfd-rocker-lvl": {
-              "profile": "tm-mfd-3",
-              "key": "JOY_BTN28",
-              "command": "d3009pnilu3009cd37vd-1vpnilvu0",
-              "labelId": "binding-234a5027b8bbdc31"
-            },
-            "mfd-rocker-brt-up": {
-              "profile": "tm-mfd-3",
-              "key": "JOY_BTN25",
-              "command": "dnilp3041unilcd37vdnilvp0.5vunil",
-              "labelId": "binding-52a7eeaf1648994f"
-            },
-            "mfd-rocker-brt-down": {
-              "profile": "tm-mfd-3",
-              "key": "JOY_BTN26",
-              "command": "dnilp3041unilcd37vdnilvp-0.5vunil",
-              "labelId": "binding-95591b806f2b8bd4"
-            },
-            "mfd-rocker-con-down": {
-              "profile": "tm-mfd-3",
-              "key": "JOY_BTN24",
-              "command": "d3007pnilu3007cd37vd-1vpnilvu0",
-              "labelId": "binding-7f3ed74afa352292"
-            },
             "mfd-rocker-con-up": {
               "profile": "tm-mfd-3",
               "key": "JOY_BTN23",
@@ -944,47 +902,74 @@
             "MOZA_F16_F18_BTN3"
           ],
           "controls": {
-            "mfd-osb-t1-shifted": {
+            "mfd-osb-r1-shifted": {
               "profile": "tm-mfd-3",
-              "key": "JOY_BTN1",
-              "command": "d3011pnilu3011cd37vd1vpnilvu0",
-              "labelId": "binding-c89f6098af566b05",
+              "key": "JOY_BTN6",
+              "command": "d3002pnilu3002cd37vd1vpnilvu0",
+              "labelId": "binding-0d3255467d1535cd",
               "modifiers": [
                 "MOZA_F16_F18_BTN3"
               ]
             },
-            "mfd-osb-t2-shifted": {
+            "mfd-osb-l1-shifted": {
               "profile": "tm-mfd-3",
-              "key": "JOY_BTN2",
-              "command": "d3012pnilu3012cd37vd1vpnilvu0",
-              "labelId": "binding-37d6a99453f70fe9",
+              "key": "JOY_BTN20",
+              "command": "d3008pnilu3008cd37vd1vpnilvu0",
+              "labelId": "binding-6dc71d45700226fc",
               "modifiers": [
                 "MOZA_F16_F18_BTN3"
               ]
             },
-            "mfd-osb-t3-shifted": {
+            "mfd-osb-l2-shifted": {
               "profile": "tm-mfd-3",
-              "key": "JOY_BTN3",
-              "command": "d3013pnilu3013cd37vd1vpnilvu0",
-              "labelId": "binding-5a9c6f622943c4c7",
+              "key": "JOY_BTN19",
+              "command": "d3009pnilu3009cd37vd-1vpnilvu0",
+              "labelId": "binding-fce9a0c8dc79520d",
               "modifiers": [
                 "MOZA_F16_F18_BTN3"
               ]
             },
-            "mfd-osb-t4-shifted": {
+            "mfd-osb-r5-shifted": {
               "profile": "tm-mfd-3",
-              "key": "JOY_BTN4",
-              "command": "d3014pnilu3014cd37vd1vpnilvu0",
-              "labelId": "binding-34a27ac37c2bf5b2",
+              "key": "JOY_BTN10",
+              "command": "d3007pnilu3007cd37vd-1vpnilvu0",
+              "labelId": "binding-8f6edd3a3881cc48",
               "modifiers": [
                 "MOZA_F16_F18_BTN3"
               ]
             },
-            "mfd-osb-t5-shifted": {
+            "mfd-osb-r4-shifted": {
               "profile": "tm-mfd-3",
-              "key": "JOY_BTN5",
-              "command": "d3015pnilu3015cd37vd1vpnilvu0",
-              "labelId": "binding-1db6fdf6e9524994",
+              "key": "JOY_BTN9",
+              "command": "d3006pnilu3006cd37vd1vpnilvu0",
+              "labelId": "binding-d168565c94be6577",
+              "modifiers": [
+                "MOZA_F16_F18_BTN3"
+              ]
+            },
+            "mfd-osb-r2-shifted": {
+              "profile": "tm-mfd-3",
+              "key": "JOY_BTN7",
+              "command": "d3003pnilu3003cd37vd-1vpnilvu0",
+              "labelId": "binding-0a582c0f6690c27e",
+              "modifiers": [
+                "MOZA_F16_F18_BTN3"
+              ]
+            },
+            "mfd-osb-l4-shifted": {
+              "profile": "tm-mfd-3",
+              "key": "JOY_BTN17",
+              "command": "d3004pnilu3004cd37vd1vpnilvu0",
+              "labelId": "binding-ea68939812c86110",
+              "modifiers": [
+                "MOZA_F16_F18_BTN3"
+              ]
+            },
+            "mfd-osb-l5-shifted": {
+              "profile": "tm-mfd-3",
+              "key": "JOY_BTN16",
+              "command": "d3005pnilu3005cd37vd-1vpnilvu0",
+              "labelId": "binding-bf43a10f2a316a95",
               "modifiers": [
                 "MOZA_F16_F18_BTN3"
               ]
@@ -1171,6 +1156,186 @@
               "key": "JOY_BTN1",
               "command": "d3004pnilu3004cd13vd1vpnilvu0",
               "labelId": "binding-acaa6abb5bba2ced",
+              "modifiers": [
+                "MOZA_F16_F18_BTN3"
+              ]
+            },
+            "hornet-grip-weapon-select-aft": {
+              "profile": "moza-ab9-hornet-grip",
+              "key": "JOY_BTN17",
+              "command": "d3034pnilu3034cd13vd1vpnilvu0",
+              "labelId": "binding-a1d19463719639ae",
+              "modifiers": [
+                "MOZA_F16_F18_BTN3"
+              ]
+            },
+            "hornet-grip-weapon-select-left": {
+              "profile": "moza-ab9-hornet-grip",
+              "key": "JOY_BTN18",
+              "command": "d3001pnilunilcd62vd1vpnilvunil",
+              "labelId": "binding-9083d3f4dcf76cf0",
+              "modifiers": [
+                "MOZA_F16_F18_BTN3"
+              ]
+            },
+            "hornet-grip-weapon-select-right": {
+              "profile": "moza-ab9-hornet-grip",
+              "key": "JOY_BTN16",
+              "command": "d3001pnilunilcd62vd-1vpnilvunil",
+              "labelId": "binding-268c301eadfa52f8",
+              "modifiers": [
+                "MOZA_F16_F18_BTN3"
+              ]
+            },
+            "hornet-grip-trim-down-left": {
+              "profile": "moza-ab9-hornet-grip",
+              "key": "JOY_POV1_DL",
+              "command": "dnilp212u214cdnilvdnilvpnilvunil",
+              "labelId": "binding-1e7cf5d602cb5ca2",
+              "modifiers": [
+                "MOZA_F16_F18_BTN3"
+              ]
+            },
+            "hornet-grip-trim-down-right": {
+              "profile": "moza-ab9-hornet-grip",
+              "key": "JOY_POV1_DR",
+              "command": "dnilp211u214cdnilvdnilvpnilvunil",
+              "labelId": "binding-f10c2e6b26828bea",
+              "modifiers": [
+                "MOZA_F16_F18_BTN3"
+              ]
+            },
+            "hornet-grip-trim-down": {
+              "profile": "moza-ab9-hornet-grip",
+              "key": "JOY_POV1_D",
+              "command": "dnilp35u214cdnilvdnilvpnilvunil",
+              "labelId": "binding-f8889166e3a50194",
+              "modifiers": [
+                "MOZA_F16_F18_BTN3"
+              ]
+            },
+            "hornet-grip-trim-left": {
+              "profile": "moza-ab9-hornet-grip",
+              "key": "JOY_POV1_L",
+              "command": "dnilp32u214cdnilvdnilvpnilvunil",
+              "labelId": "binding-285076443900ed0d",
+              "modifiers": [
+                "MOZA_F16_F18_BTN3"
+              ]
+            },
+            "hornet-grip-trim-right": {
+              "profile": "moza-ab9-hornet-grip",
+              "key": "JOY_POV1_R",
+              "command": "dnilp33u214cdnilvdnilvpnilvunil",
+              "labelId": "binding-a5b4bff97af6925c",
+              "modifiers": [
+                "MOZA_F16_F18_BTN3"
+              ]
+            },
+            "hornet-grip-trim-up-left": {
+              "profile": "moza-ab9-hornet-grip",
+              "key": "JOY_POV1_UL",
+              "command": "dnilp213u214cdnilvdnilvpnilvunil",
+              "labelId": "binding-55afc057fd02cc37",
+              "modifiers": [
+                "MOZA_F16_F18_BTN3"
+              ]
+            },
+            "hornet-grip-trim-up-right": {
+              "profile": "moza-ab9-hornet-grip",
+              "key": "JOY_POV1_UR",
+              "command": "dnilp210u214cdnilvdnilvpnilvunil",
+              "labelId": "binding-a28eacbff1601ad3",
+              "modifiers": [
+                "MOZA_F16_F18_BTN3"
+              ]
+            },
+            "hornet-grip-trim-up": {
+              "profile": "moza-ab9-hornet-grip",
+              "key": "JOY_POV1_U",
+              "command": "dnilp34u214cdnilvdnilvpnilvunil",
+              "labelId": "binding-90dccfeef59c6ff8",
+              "modifiers": [
+                "MOZA_F16_F18_BTN3"
+              ]
+            },
+            "hornet-grip-sensor-push": {
+              "profile": "moza-ab9-hornet-grip",
+              "key": "JOY_BTN14",
+              "command": "d7pnilunilcdnilvdnilvpnilvunil",
+              "labelId": "binding-532da1af8e0aa869",
+              "modifiers": [
+                "MOZA_F16_F18_BTN3"
+              ]
+            },
+            "hornet-grip-sensor-up": {
+              "profile": "moza-ab9-hornet-grip",
+              "key": "JOY_BTN7",
+              "command": "d14pnilunilcdnilvdnilvpnilvunil",
+              "labelId": "binding-f24df2a1ee91658c",
+              "modifiers": [
+                "MOZA_F16_F18_BTN3"
+              ]
+            },
+            "hornet-grip-sensor-left": {
+              "profile": "moza-ab9-hornet-grip",
+              "key": "JOY_BTN10",
+              "command": "dnilp39u289cdnilvdnilvpnilvunil",
+              "labelId": "binding-0c5c5cee8a173fe5",
+              "modifiers": [
+                "MOZA_F16_F18_BTN3"
+              ]
+            },
+            "hornet-grip-sensor-right": {
+              "profile": "moza-ab9-hornet-grip",
+              "key": "JOY_BTN8",
+              "command": "dnilp40u290cdnilvdnilvpnilvunil",
+              "labelId": "binding-46846d8da218bccf",
+              "modifiers": [
+                "MOZA_F16_F18_BTN3"
+              ]
+            },
+            "hornet-grip-vr-up": {
+              "profile": "moza-ab9-hornet-grip",
+              "key": "JOY_BTN11",
+              "command": "d3003pnilu3003cd8vd1vpnilvu0",
+              "labelId": "binding-81ee33f46e008ba4",
+              "modifiers": [
+                "MOZA_F16_F18_BTN3"
+              ]
+            },
+            "hornet-grip-vr-down": {
+              "profile": "moza-ab9-hornet-grip",
+              "key": "JOY_BTN13",
+              "command": "d3003pnilu3003cd8vd-1vpnilvu0",
+              "labelId": "binding-c6d0ac5fe2b17e1b",
+              "modifiers": [
+                "MOZA_F16_F18_BTN3"
+              ]
+            },
+            "hornet-grip-vr-push": {
+              "profile": "moza-ab9-hornet-grip",
+              "key": "JOY_BTN12",
+              "command": "d3003pnilu3003cd23vd1vpnilvu0",
+              "labelId": "binding-8c2fc2d9519559f6",
+              "modifiers": [
+                "MOZA_F16_F18_BTN3"
+              ]
+            },
+            "hornet-grip-roll-axis": {
+              "profile": "moza-ab9-hornet-grip",
+              "key": "JOY_X",
+              "command": "a3044cd13",
+              "labelId": "binding-0103f2d16bb8a71b",
+              "modifiers": [
+                "MOZA_F16_F18_BTN3"
+              ]
+            },
+            "hornet-grip-pitch-axis": {
+              "profile": "moza-ab9-hornet-grip",
+              "key": "JOY_Y",
+              "command": "a3043cd13",
+              "labelId": "binding-e23599314dafeca7",
               "modifiers": [
                 "MOZA_F16_F18_BTN3"
               ]
@@ -1902,6 +2067,48 @@
               "command": "d3029pnilu3029cd25vd1vpnilvu0",
               "labelId": "binding-72223009a40fa373"
             },
+            "winctrl-icp-btn-23": {
+              "profile": "winctrl-icp",
+              "key": "JOY_BTN23",
+              "command": "d3005pnilunilcd68vd1vpnilvunil",
+              "labelId": "binding-309222906f7ad310"
+            },
+            "winctrl-icp-btn-25": {
+              "profile": "winctrl-icp",
+              "key": "JOY_BTN25",
+              "command": "d3005pnilunilcd68vd-1vpnilvunil",
+              "labelId": "binding-2080fcf114bfd945"
+            },
+            "winctrl-icp-btn-22": {
+              "profile": "winctrl-icp",
+              "key": "JOY_BTN22",
+              "command": "d3004pnilunilcd68vd1vpnilvunil",
+              "labelId": "binding-583e4c0ef49aba62"
+            },
+            "winctrl-icp-btn-21": {
+              "profile": "winctrl-icp",
+              "key": "JOY_BTN21",
+              "command": "d1587pnilunilcdnilvdnilvpnilvunil",
+              "labelId": "binding-dc64ad00cfa2e21a"
+            },
+            "winctrl-icp-btn-24": {
+              "profile": "winctrl-icp",
+              "key": "JOY_BTN24",
+              "command": "d3003pnilunilcd68vd1vpnilvunil",
+              "labelId": "binding-3d1f97daba4aaa84"
+            },
+            "winctrl-icp-btn-30": {
+              "profile": "winctrl-icp",
+              "key": "JOY_BTN30",
+              "command": "d3008pnilunilcd34vd1vpnilvunil",
+              "labelId": "binding-9775464294bd1460"
+            },
+            "winctrl-icp-btn-31": {
+              "profile": "winctrl-icp",
+              "key": "JOY_BTN31",
+              "command": "d3008pnilunilcd34vd0vpnilvunil",
+              "labelId": "binding-4ec7263de4d5fd7f"
+            },
             "winctrl-icp-axis-rx": {
               "profile": "winctrl-icp",
               "key": "JOY_RX",
@@ -1936,6 +2143,87 @@
             "MOZA_F16_F18_BTN3"
           ],
           "controls": {
+            "winctrl-icp-btn-04": {
+              "profile": "winctrl-icp",
+              "key": "JOY_BTN4",
+              "command": "d3003pnilu3003cd25vd1vpnilvu0",
+              "labelId": "binding-36e191cc8ca78df3",
+              "modifiers": [
+                "MOZA_F16_F18_BTN3"
+              ]
+            },
+            "winctrl-icp-btn-03": {
+              "profile": "winctrl-icp",
+              "key": "JOY_BTN3",
+              "command": "d3005pnilu3005cd25vd1vpnilvu0",
+              "labelId": "binding-ac96de38397d2f0d",
+              "modifiers": [
+                "MOZA_F16_F18_BTN3"
+              ]
+            },
+            "winctrl-icp-btn-02": {
+              "profile": "winctrl-icp",
+              "key": "JOY_BTN2",
+              "command": "d3006pnilu3006cd25vd1vpnilvu0",
+              "labelId": "binding-063688cf9ecddebc",
+              "modifiers": [
+                "MOZA_F16_F18_BTN3"
+              ]
+            },
+            "winctrl-icp-btn-06": {
+              "profile": "winctrl-icp",
+              "key": "JOY_BTN6",
+              "command": "d3007pnilu3007cd25vd1vpnilvu0",
+              "labelId": "binding-6bca00fd576d38f7",
+              "modifiers": [
+                "MOZA_F16_F18_BTN3"
+              ]
+            },
+            "winctrl-icp-btn-20": {
+              "profile": "winctrl-icp",
+              "key": "JOY_BTN20",
+              "command": "d3005pnilunilcd68vd1vpnilvunil",
+              "labelId": "binding-b15ab419bb90c7f9",
+              "modifiers": [
+                "MOZA_F16_F18_BTN3"
+              ]
+            },
+            "winctrl-icp-btn-19": {
+              "profile": "winctrl-icp",
+              "key": "JOY_BTN19",
+              "command": "d3005pnilunilcd68vd-1vpnilvunil",
+              "labelId": "binding-dada16a88055646b",
+              "modifiers": [
+                "MOZA_F16_F18_BTN3"
+              ]
+            },
+            "winctrl-icp-btn-01": {
+              "profile": "winctrl-icp",
+              "key": "JOY_BTN1",
+              "command": "d3001pnilu3001cd25vd1vpnilvu0",
+              "labelId": "binding-4bbc1a1fed46a23a",
+              "modifiers": [
+                "MOZA_F16_F18_BTN3"
+              ]
+            },
+            "winctrl-icp-btn-05": {
+              "profile": "winctrl-icp",
+              "key": "JOY_BTN5",
+              "command": "d3015pnilu3015cd25vd1vpnilvu0",
+              "labelId": "binding-f7896c8e993d6929",
+              "modifiers": [
+                "MOZA_F16_F18_BTN3"
+              ]
+            },
+            "winctrl-icp-btn-29": {
+              "profile": "winctrl-icp",
+              "key": "JOY_BTN29",
+              "command": "d3001pnilunilcd71vd1vpnilvu0",
+              "labelId": "binding-7614f5ffcd29bb50",
+              "modifiers": [
+                "MOZA_F16_F18_BTN3"
+              ]
+            },
             "winctrl-icp-axis-ry": {
               "profile": "winctrl-icp",
               "key": "JOY_RY",
@@ -2184,15 +2472,10 @@
     "binding-93ca9956b5d75b82": "Salute",
     "binding-b43396997b4a5747": "Ball",
     "binding-3ec8ee407aee5794": "PB 6",
-    "binding-c89f6098af566b05": "CHCKIST",
     "binding-a7356be9ec6971ee": "PB 7",
-    "binding-37d6a99453f70fe9": "FCS",
     "binding-36a1a41975a58222": "PB 8",
-    "binding-5a9c6f622943c4c7": "FUEL",
     "binding-b927ec1d50cbf3f0": "PB 9",
-    "binding-34a27ac37c2bf5b2": "SMS",
     "binding-d440d9fdbd7d551d": "PB 10",
-    "binding-1db6fdf6e9524994": "MNU",
     "binding-9312834a55295aa3": "PB 11",
     "binding-b95ba689aeda05a9": "PB 12",
     "binding-30d34fdcc2623f53": "PB 13",
@@ -2208,14 +2491,15 @@
     "binding-b25a7e118fbab7b5": "PB 3",
     "binding-014c457792f83b80": "PB 4",
     "binding-e8a4d2b0029bc3bb": "PB 5",
-    "binding-a2483d93509681c7": "AMPCD Day",
-    "binding-a0452eccb21138fe": "AMPCD Nght",
-    "binding-1cc7f52d5e0eb78e": "AMPCD Gain+",
-    "binding-234a5027b8bbdc31": "AMPCD Gain-",
-    "binding-52a7eeaf1648994f": "Bright+",
-    "binding-95591b806f2b8bd4": "Bright-",
-    "binding-7f3ed74afa352292": "Contrast-",
+    "binding-0d3255467d1535cd": "AMPCD DAY",
+    "binding-6dc71d45700226fc": "AMPCD Gain+",
+    "binding-fce9a0c8dc79520d": "AMPCD Gain-",
+    "binding-8f6edd3a3881cc48": "AMPCD Con-",
     "binding-77d3a80956643a58": "Contrast+",
+    "binding-d168565c94be6577": "AMPCD Con+",
+    "binding-0a582c0f6690c27e": "AMPCD NGT",
+    "binding-ea68939812c86110": "AMPCD Sym+",
+    "binding-bf43a10f2a316a95": "AMPCD Sym-",
     "binding-9aa260c4e1ea0d23": "Trigger 1",
     "binding-da9ae3bf0146b2ed": "Shoot",
     "binding-95ccbd4b171b6d5e": "Pickle",
@@ -2239,8 +2523,28 @@
     "binding-24b531562387ef3e": "FLIR Switch ON",
     "binding-7d26bdd400cf4e9b": "FLIR Switch - OFF",
     "binding-a9d5a7f6b2d6fe36": "LST/NFLR",
+    "binding-a1d19463719639ae": "FOV",
+    "binding-9083d3f4dcf76cf0": "FLIR ON",
+    "binding-268c301eadfa52f8": "FLIR OFF",
+    "binding-1e7cf5d602cb5ca2": "View Down Left",
+    "binding-f10c2e6b26828bea": "View Down Right",
+    "binding-f8889166e3a50194": "View Down",
+    "binding-285076443900ed0d": "View Left",
+    "binding-a5b4bff97af6925c": "View Right",
+    "binding-55afc057fd02cc37": "View Up Left",
+    "binding-a28eacbff1601ad3": "View Up Right",
+    "binding-90dccfeef59c6ff8": "View Up",
+    "binding-532da1af8e0aa869": "F1 Cockpit view",
+    "binding-f24df2a1ee91658c": "F5 nearest AC view",
+    "binding-0c5c5cee8a173fe5": "Zoom in slow",
+    "binding-46846d8da218bccf": "Zoom out slow",
+    "binding-81ee33f46e008ba4": "STROBE BRT",
+    "binding-c6d0ac5fe2b17e1b": "STROBE DIM",
+    "binding-8c2fc2d9519559f6": "Master Arm",
     "binding-a52bfa0f5bd4a357": "Roll",
     "binding-b0914ba72e92d60d": "Pitch",
+    "binding-0103f2d16bb8a71b": "TDC X",
+    "binding-e23599314dafeca7": "TDC Y",
     "binding-783919bfe4b4d913": "ALR-67 RWR PWR",
     "binding-bd66fe3161b96e8d": "ALR-67 DISP",
     "binding-46c32ab16b688121": "ALR-67 RWR LMT",
@@ -2330,10 +2634,14 @@
     "binding-39f2876fb1a9e4bc": "gear down",
     "binding-dd804980a19bdf7f": "AP/NWS",
     "binding-c55ec624cf31be78": "COMM 1",
+    "binding-36e191cc8ca78df3": "TCN",
     "binding-b1c8856f7add1f68": "COMM 2",
     "binding-b7c8a7b21a9a9aff": "IFF",
+    "binding-ac96de38397d2f0d": "D/L",
     "binding-b434da463bcaf151": "LIST",
+    "binding-063688cf9ecddebc": "BCN",
     "binding-42788cdf72500eda": "A-A",
+    "binding-6bca00fd576d38f7": "ON/OFF",
     "binding-eb220ec8e6f5aa77": "A-G",
     "binding-4e50239c1a279a03": "1",
     "binding-253e48098124f832": "2",
@@ -2347,6 +2655,18 @@
     "binding-7ada06976622cfc6": "8",
     "binding-76866110a2aa097a": "9",
     "binding-72223009a40fa373": "0",
+    "binding-b15ab419bb90c7f9": "KB Nxt SC",
+    "binding-309222906f7ad310": "KB Nxt SC",
+    "binding-dada16a88055646b": "KB Prv SC",
+    "binding-2080fcf114bfd945": "KB Prv SC",
+    "binding-583e4c0ef49aba62": "KB Mk SC",
+    "binding-dc64ad00cfa2e21a": "KB",
+    "binding-3d1f97daba4aaa84": "KB Mk Pt",
+    "binding-9775464294bd1460": "Alt BARO",
+    "binding-4ec7263de4d5fd7f": "Alt RDR",
+    "binding-4bbc1a1fed46a23a": "A/P",
+    "binding-f7896c8e993d6929": "I/P",
+    "binding-7614f5ffcd29bb50": "DTC",
     "binding-6a318f4c1f4146b1": "HMD OFF/BRT",
     "binding-ad1a6fc135030e11": "AMPCD Off/Brightness",
     "binding-3f27743c21400af8": "UFC COMM 1 Vol",

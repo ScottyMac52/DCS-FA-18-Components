@@ -3,8 +3,9 @@ local diff = {
     ["d3003pnilu3003cd25vd1vpnilvu0"] = {
       ["added"] = {
         [1] = { ["key"] = "JOY_BTN1" },
+        [2] = { ["key"] = "JOY_BTN4", ["reformers"] = { [1] = "MOZA_F16_F18_BTN3" } },
       },
-      ["name"] = "UFC COMM 1 Pushbutton",
+      ["name"] = "UFC Function Selector Pushbutton - TCN",
     },
     ["d3004pnilu3004cd25vd1vpnilvu0"] = {
       ["added"] = {
@@ -15,20 +16,23 @@ local diff = {
     ["d3005pnilu3005cd25vd1vpnilvu0"] = {
       ["added"] = {
         [1] = { ["key"] = "JOY_BTN3" },
+        [2] = { ["key"] = "JOY_BTN3", ["reformers"] = { [1] = "MOZA_F16_F18_BTN3" } },
       },
-      ["name"] = "UFC IFF Pushbutton",
+      ["name"] = "UFC Function Selector Pushbutton - D/L",
     },
     ["d3006pnilu3006cd25vd1vpnilvu0"] = {
       ["added"] = {
         [1] = { ["key"] = "JOY_BTN4" },
+        [2] = { ["key"] = "JOY_BTN2", ["reformers"] = { [1] = "MOZA_F16_F18_BTN3" } },
       },
-      ["name"] = "UFC MISC/LIST Pushbutton",
+      ["name"] = "UFC Function Selector Pushbutton - BCN",
     },
     ["d3007pnilu3007cd25vd1vpnilvu0"] = {
       ["added"] = {
         [1] = { ["key"] = "JOY_BTN5" },
+        [2] = { ["key"] = "JOY_BTN6", ["reformers"] = { [1] = "MOZA_F16_F18_BTN3" } },
       },
-      ["name"] = "UFC A/A Pushbutton",
+      ["name"] = "UFC Function Selector Pushbutton - ON/OFF",
     },
     ["d3008pnilu3008cd25vd1vpnilvu0"] = {
       ["added"] = {
@@ -107,6 +111,68 @@ local diff = {
         [1] = { ["key"] = "JOY_BTN18" },
       },
       ["name"] = "UFC ENT (Enter) Pushbutton",
+    },
+    ["d3005pnilunilcd68vd1vpnilvunil"] = {
+      ["added"] = {
+        [1] = { ["key"] = "JOY_BTN20", ["reformers"] = { [1] = "MOZA_F16_F18_BTN3" } },
+        [2] = { ["key"] = "JOY_BTN23" },
+      },
+      ["name"] = "Kneeboard Next Shortcut",
+    },
+    ["d3005pnilunilcd68vd-1vpnilvunil"] = {
+      ["added"] = {
+        [1] = { ["key"] = "JOY_BTN19", ["reformers"] = { [1] = "MOZA_F16_F18_BTN3" } },
+        [2] = { ["key"] = "JOY_BTN25" },
+      },
+      ["name"] = "Kneeboard Previous Shortcut",
+    },
+    ["d3004pnilunilcd68vd1vpnilvunil"] = {
+      ["added"] = {
+        [1] = { ["key"] = "JOY_BTN22" },
+      },
+      ["name"] = "Kneeboard Make Shortcut",
+    },
+    ["d1587pnilunilcdnilvdnilvpnilvunil"] = {
+      ["added"] = {
+        [1] = { ["key"] = "JOY_BTN21" },
+      },
+      ["name"] = "Kneeboard ON/OFF",
+    },
+    ["d3003pnilunilcd68vd1vpnilvunil"] = {
+      ["added"] = {
+        [1] = { ["key"] = "JOY_BTN24" },
+      },
+      ["name"] = "Kneeboard current position mark point",
+    },
+    ["d3008pnilunilcd34vd1vpnilvunil"] = {
+      ["added"] = {
+        [1] = { ["key"] = "JOY_BTN30" },
+      },
+      ["name"] = "Altitude Switch - BARO",
+    },
+    ["d3008pnilunilcd34vd0vpnilvunil"] = {
+      ["added"] = {
+        [1] = { ["key"] = "JOY_BTN31" },
+      },
+      ["name"] = "Altitude Switch - RDR",
+    },
+    ["d3001pnilu3001cd25vd1vpnilvu0"] = {
+      ["added"] = {
+        [1] = { ["key"] = "JOY_BTN1", ["reformers"] = { [1] = "MOZA_F16_F18_BTN3" } },
+      },
+      ["name"] = "UFC Function Selector Pushbutton - A/P",
+    },
+    ["d3015pnilu3015cd25vd1vpnilvu0"] = {
+      ["added"] = {
+        [1] = { ["key"] = "JOY_BTN5", ["reformers"] = { [1] = "MOZA_F16_F18_BTN3" } },
+      },
+      ["name"] = "UFC I/P Pushbutton",
+    },
+    ["d3001pnilunilcd71vd1vpnilvu0"] = {
+      ["added"] = {
+        [1] = { ["key"] = "JOY_BTN29", ["reformers"] = { [1] = "MOZA_F16_F18_BTN3" } },
+      },
+      ["name"] = "Open DTC Interface",
     },
   },
   ["axisDiffs"] = {
