@@ -4,97 +4,31 @@ local diff = {
       ["added"] = {
         [1] = { ["key"] = "JOY_BTN1" },
       },
-      ["name"] = "ALR-67 RWR - Power ON/OFF",
+      ["name"] = "ALR-67 POWER Pushbutton: ONOFF",
     },
     ["d3002pnilu3002cd53vd1vpnilvu0"] = {
       ["added"] = {
         [1] = { ["key"] = "JOY_BTN2" },
       },
-      ["name"] = "ALR-67 RWR - Display Type",
+      ["name"] = "ALR-67 DISPLAY Pushbutton",
     },
     ["d3003pnilu3003cd53vd1vpnilvu0"] = {
       ["added"] = {
         [1] = { ["key"] = "JOY_BTN3" },
       },
-      ["name"] = "ALR-67 RWR - Limit",
+      ["name"] = "ALR-67 SPECIAL Pushbutton",
     },
     ["d3004pnilu3004cd53vd1vpnilvu0"] = {
       ["added"] = {
         [1] = { ["key"] = "JOY_BTN4" },
       },
-      ["name"] = "ALR-67 RWR - Mode",
+      ["name"] = "ALR-67 OFFSET Pushbutton",
     },
     ["d3005pnilu3005cd53vd1vpnilvu0"] = {
       ["added"] = {
         [1] = { ["key"] = "JOY_BTN5" },
       },
-      ["name"] = "ALR-67 RWR - Offset Toggle",
-    },
-    ["d3006pnilu3006cd53vd1vpnilvu0"] = {
-      ["added"] = {
-        [1] = { ["key"] = "JOY_BTN6" },
-      },
-      ["name"] = "ALR-67 RWR - Enable/Disable",
-    },
-    ["d3007pnilu3007cd53vd1vpnilvu0"] = {
-      ["added"] = {
-        [1] = { ["key"] = "JOY_BTN7" },
-      },
-      ["name"] = "ALR-67 RWR - Special",
-    },
-    ["d3008pnilu3008cd53vd1vpnilvu0"] = {
-      ["added"] = {
-        [1] = { ["key"] = "JOY_BTN8" },
-      },
-      ["name"] = "ALR-67 RWR - Overhead",
-    },
-    ["d3009pnilu3009cd53vd1vpnilvu0"] = {
-      ["added"] = {
-        [1] = { ["key"] = "JOY_BTN9" },
-      },
-      ["name"] = "ALR-67 RWR - Test",
-    },
-    ["d3010pnilu3010cd53vd1vpnilvu0"] = {
-      ["added"] = {
-        [1] = { ["key"] = "JOY_BTN10" },
-      },
-      ["name"] = "ALR-67 RWR - BIT",
-    },
-    ["d3001pnilu3001cd66vd1vpnilvu0"] = {
-      ["added"] = {
-        [1] = { ["key"] = "JOY_BTN11" },
-      },
-      ["name"] = "ALQ-165 ASPJ - Power ON/OFF",
-    },
-    ["d3002pnilu3002cd66vd1vpnilvu0"] = {
-      ["added"] = {
-        [1] = { ["key"] = "JOY_BTN12" },
-      },
-      ["name"] = "ALQ-165 ASPJ - Standby",
-    },
-    ["d3003pnilu3003cd66vd1vpnilvu0"] = {
-      ["added"] = {
-        [1] = { ["key"] = "JOY_BTN13" },
-      },
-      ["name"] = "ALQ-165 ASPJ - Active",
-    },
-    ["d3004pnilu3004cd66vd1vpnilvu0"] = {
-      ["added"] = {
-        [1] = { ["key"] = "JOY_BTN14" },
-      },
-      ["name"] = "ALQ-165 ASPJ - Transmit",
-    },
-    ["d3005pnilu3005cd66vd1vpnilvu0"] = {
-      ["added"] = {
-        [1] = { ["key"] = "JOY_BTN15" },
-      },
-      ["name"] = "ALQ-165 ASPJ - Test",
-    },
-    ["d238pnilu238cdnilvd1vpnilvu0"] = {
-      ["added"] = {
-        [1] = { ["key"] = "JOY_BTN16" },
-      },
-      ["name"] = "Pilot Salute",
+      ["name"] = "ALR-67 BIT Pushbutton",
     },
   },
 }
