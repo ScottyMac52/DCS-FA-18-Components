@@ -7,7 +7,7 @@ local diff = {
       ["removed"] = {
         [1] = { ["key"] = "JOY_BTN1", ["reformers"] = { [1] = "MOZA_F16_F18_BTN3" } },
       },
-      ["name"] = "MPCD Pushbutton 01",
+      ["name"] = "AMPCD PB 1",
     },
     ["d3012pnilu3012cd37vd1vpnilvu0"] = {
       ["added"] = {
@@ -16,7 +16,7 @@ local diff = {
       ["removed"] = {
         [1] = { ["key"] = "JOY_BTN2", ["reformers"] = { [1] = "MOZA_F16_F18_BTN3" } },
       },
-      ["name"] = "MPCD Pushbutton 02",
+      ["name"] = "AMPCD PB 2",
     },
     ["d3013pnilu3013cd37vd1vpnilvu0"] = {
       ["added"] = {
@@ -25,7 +25,7 @@ local diff = {
       ["removed"] = {
         [1] = { ["key"] = "JOY_BTN3", ["reformers"] = { [1] = "MOZA_F16_F18_BTN3" } },
       },
-      ["name"] = "MPCD Pushbutton 03",
+      ["name"] = "AMPCD PB 3",
     },
     ["d3014pnilu3014cd37vd1vpnilvu0"] = {
       ["added"] = {
@@ -34,7 +34,7 @@ local diff = {
       ["removed"] = {
         [1] = { ["key"] = "JOY_BTN4", ["reformers"] = { [1] = "MOZA_F16_F18_BTN3" } },
       },
-      ["name"] = "MPCD Pushbutton 04",
+      ["name"] = "AMPCD PB 4",
     },
     ["d3015pnilu3015cd37vd1vpnilvu0"] = {
       ["added"] = {
@@ -43,97 +43,97 @@ local diff = {
       ["removed"] = {
         [1] = { ["key"] = "JOY_BTN5", ["reformers"] = { [1] = "MOZA_F16_F18_BTN3" } },
       },
-      ["name"] = "MPCD Pushbutton 05",
+      ["name"] = "AMPCD PB 5",
     },
     ["d3016pnilu3016cd37vd1vpnilvu0"] = {
       ["added"] = {
         [1] = { ["key"] = "JOY_BTN6" },
       },
-      ["name"] = "MPCD Pushbutton 06",
+      ["name"] = "AMPCD PB 6",
     },
     ["d3017pnilu3017cd37vd1vpnilvu0"] = {
       ["added"] = {
         [1] = { ["key"] = "JOY_BTN7" },
       },
-      ["name"] = "MPCD Pushbutton 07",
+      ["name"] = "AMPCD PB 7",
     },
     ["d3018pnilu3018cd37vd1vpnilvu0"] = {
       ["added"] = {
         [1] = { ["key"] = "JOY_BTN8" },
       },
-      ["name"] = "MPCD Pushbutton 08",
+      ["name"] = "AMPCD PB 8",
     },
     ["d3019pnilu3019cd37vd1vpnilvu0"] = {
       ["added"] = {
         [1] = { ["key"] = "JOY_BTN9" },
       },
-      ["name"] = "MPCD Pushbutton 09",
+      ["name"] = "AMPCD PB 9",
     },
     ["d3020pnilu3020cd37vd1vpnilvu0"] = {
       ["added"] = {
         [1] = { ["key"] = "JOY_BTN10" },
       },
-      ["name"] = "MPCD Pushbutton 10",
+      ["name"] = "AMPCD PB 10",
     },
     ["d3021pnilu3021cd37vd1vpnilvu0"] = {
       ["added"] = {
         [1] = { ["key"] = "JOY_BTN11" },
       },
-      ["name"] = "MPCD Pushbutton 11",
+      ["name"] = "AMPCD PB 11",
     },
     ["d3022pnilu3022cd37vd1vpnilvu0"] = {
       ["added"] = {
         [1] = { ["key"] = "JOY_BTN12" },
       },
-      ["name"] = "MPCD Pushbutton 12",
+      ["name"] = "AMPCD PB 12",
     },
     ["d3023pnilu3023cd37vd1vpnilvu0"] = {
       ["added"] = {
         [1] = { ["key"] = "JOY_BTN13" },
       },
-      ["name"] = "MPCD Pushbutton 13",
+      ["name"] = "AMPCD PB 13",
     },
     ["d3024pnilu3024cd37vd1vpnilvu0"] = {
       ["added"] = {
         [1] = { ["key"] = "JOY_BTN14" },
       },
-      ["name"] = "MPCD Pushbutton 14",
+      ["name"] = "AMPCD PB 14",
     },
     ["d3025pnilu3025cd37vd1vpnilvu0"] = {
       ["added"] = {
         [1] = { ["key"] = "JOY_BTN15" },
       },
-      ["name"] = "MPCD Pushbutton 15",
+      ["name"] = "AMPCD PB 15",
     },
     ["d3026pnilu3026cd37vd1vpnilvu0"] = {
       ["added"] = {
         [1] = { ["key"] = "JOY_BTN16" },
       },
-      ["name"] = "MPCD Pushbutton 16",
+      ["name"] = "AMPCD PB 16",
     },
     ["d3027pnilu3027cd37vd1vpnilvu0"] = {
       ["added"] = {
         [1] = { ["key"] = "JOY_BTN17" },
       },
-      ["name"] = "MPCD Pushbutton 17",
+      ["name"] = "AMPCD PB 17",
     },
     ["d3028pnilu3028cd37vd1vpnilvu0"] = {
       ["added"] = {
         [1] = { ["key"] = "JOY_BTN18" },
       },
-      ["name"] = "MPCD Pushbutton 18",
+      ["name"] = "AMPCD PB 18",
     },
     ["d3029pnilu3029cd37vd1vpnilvu0"] = {
       ["added"] = {
         [1] = { ["key"] = "JOY_BTN19" },
       },
-      ["name"] = "MPCD Pushbutton 19",
+      ["name"] = "AMPCD PB 19",
     },
     ["d3030pnilu3030cd37vd1vpnilvu0"] = {
       ["added"] = {
         [1] = { ["key"] = "JOY_BTN20" },
       },
-      ["name"] = "MPCD Pushbutton 20",
+      ["name"] = "AMPCD PB 20",
     },
     ["d3002pnilu3002cd37vd1vpnilvu0"] = {
       ["added"] = {

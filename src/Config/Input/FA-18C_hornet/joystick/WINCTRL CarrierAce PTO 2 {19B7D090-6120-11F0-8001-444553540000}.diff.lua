@@ -166,7 +166,7 @@ local diff = {
       ["added"] = {
         [1] = { ["key"] = "JOY_BTN7" },
       },
-      ["name"] = "FLAP Switch - FULL",
+      ["name"] = "FLAP Switch - Down",
     },
     ["d3018pnilunilcd23vd0vpnilvunil"] = {
       ["added"] = {

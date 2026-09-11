@@ -10,13 +10,13 @@ local diff = {
       ["added"] = {
         [1] = { ["key"] = "JOY_BTN23" },
       },
-      ["name"] = "FLAP 3-pos Switch: FULL<>HALF",
+      ["name"] = "FLAP 3-pos Switch: FULLHALF",
     },
     ["d3007pnilu3007cd2vd1vpnilvu0"] = {
       ["added"] = {
         [1] = { ["key"] = "JOY_BTN22" },
       },
-      ["name"] = "FLAP 3-pos Switch: AUTO<>HALF",
+      ["name"] = "FLAP 3-pos Switch: AUTOHALF",
     },
     ["d3008pnilu3008cd9vd1vpnilvu0"] = {
       ["added"] = {
@@ -70,13 +70,13 @@ local diff = {
       ["added"] = {
         [1] = { ["key"] = "JOY_BTN9" },
       },
-      ["name"] = "Dispense Switch - Forward (CHAFF) / Center (OFF)",
+      ["name"] = "Dispense Switch - Forward(CHAFF)/Center(OFF)",
     },
     ["d3033pnilu3033cd13vd-1vpnilvu0"] = {
       ["added"] = {
         [1] = { ["key"] = "JOY_BTN10" },
       },
-      ["name"] = "Dispense Switch - Aft (FLARE) / Center (OFF)",
+      ["name"] = "Dispense Switch - Aft(FLARE)/Center(OFF)",
     },
     ["d3034pnilu3034cd13vd1vpnilvu0"] = {
       ["added"] = {
@@ -247,43 +247,19 @@ local diff = {
       },
       ["name"] = "Engine Crank Switch - Cycle Right",
     },
-    ["d3020pnilu3020cd13vd1vpnilvu0"] = {
-      ["added"] = {
-        [1] = { ["key"] = "JOY_POV1_D", ["reformers"] = { [1] = "MOZA_F16_F18_BTN3" } },
-      },
-      ["name"] = "Throttle Designator Controller - Down",
-    },
-    ["d3021pnilu3021cd13vd1vpnilvu0"] = {
-      ["added"] = {
-        [1] = { ["key"] = "JOY_POV1_R", ["reformers"] = { [1] = "MOZA_F16_F18_BTN3" } },
-      },
-      ["name"] = "Throttle Designator Controller - Left",
-    },
-    ["d3022pnilu3022cd13vd1vpnilvu0"] = {
-      ["added"] = {
-        [1] = { ["key"] = "JOY_POV1_L", ["reformers"] = { [1] = "MOZA_F16_F18_BTN3" } },
-      },
-      ["name"] = "Throttle Designator Controller - Right",
-    },
-    ["d3019pnilu3019cd13vd1vpnilvu0"] = {
-      ["added"] = {
-        [1] = { ["key"] = "JOY_POV1_U", ["reformers"] = { [1] = "MOZA_F16_F18_BTN3" } },
-      },
-      ["name"] = "Throttle Designator Controller - Up",
-    },
   },
   ["axisDiffs"] = {
     ["a3044cd13"] = {
       ["added"] = {
         [1] = { ["key"] = "JOY_X" },
       },
-      ["name"] = "Throttle Designator Controller - Horizontal Axis",
+      ["name"] = "Throttle Designator Controller - HORIZONTAL AXIS",
     },
     ["a3043cd13"] = {
       ["added"] = {
         [1] = { ["key"] = "JOY_Y" },
       },
-      ["name"] = "Throttle Designator Controller - Vertical Axis",
+      ["name"] = "Throttle Designator Controller - VERTICAL AXIS",
     },
     ["a3023cd2"] = {
       ["added"] = {

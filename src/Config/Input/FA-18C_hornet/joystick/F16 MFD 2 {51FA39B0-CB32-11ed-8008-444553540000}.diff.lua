@@ -5,125 +5,125 @@ local diff = {
         [1] = { ["key"] = "JOY_BTN1" },
         [2] = { ["key"] = "JOY_BTN1", ["reformers"] = { [1] = "MOZA_F16_F18_BTN3" } },
       },
-      ["name"] = "Right DDI Pushbutton 01",
+      ["name"] = "Right MDI PB 1",
     },
     ["d3012pnilu3012cd36vd1vpnilvu0"] = {
       ["added"] = {
         [1] = { ["key"] = "JOY_BTN2" },
         [2] = { ["key"] = "JOY_BTN2", ["reformers"] = { [1] = "MOZA_F16_F18_BTN3" } },
       },
-      ["name"] = "Right DDI Pushbutton 02",
+      ["name"] = "Right MDI PB 2",
     },
     ["d3013pnilu3013cd36vd1vpnilvu0"] = {
       ["added"] = {
         [1] = { ["key"] = "JOY_BTN3" },
         [2] = { ["key"] = "JOY_BTN3", ["reformers"] = { [1] = "MOZA_F16_F18_BTN3" } },
       },
-      ["name"] = "Right DDI Pushbutton 03",
+      ["name"] = "Right MDI PB 3",
     },
     ["d3014pnilu3014cd36vd1vpnilvu0"] = {
       ["added"] = {
         [1] = { ["key"] = "JOY_BTN4" },
         [2] = { ["key"] = "JOY_BTN4", ["reformers"] = { [1] = "MOZA_F16_F18_BTN3" } },
       },
-      ["name"] = "Right DDI Pushbutton 04",
+      ["name"] = "Right MDI PB 4",
     },
     ["d3015pnilu3015cd36vd1vpnilvu0"] = {
       ["added"] = {
         [1] = { ["key"] = "JOY_BTN5" },
         [2] = { ["key"] = "JOY_BTN5", ["reformers"] = { [1] = "MOZA_F16_F18_BTN3" } },
       },
-      ["name"] = "Right DDI Pushbutton 05",
+      ["name"] = "Right MDI PB 5",
     },
     ["d3016pnilu3016cd36vd1vpnilvu0"] = {
       ["added"] = {
         [1] = { ["key"] = "JOY_BTN6" },
       },
-      ["name"] = "Right DDI Pushbutton 06",
+      ["name"] = "Right MDI PB 6",
     },
     ["d3017pnilu3017cd36vd1vpnilvu0"] = {
       ["added"] = {
         [1] = { ["key"] = "JOY_BTN7" },
       },
-      ["name"] = "Right DDI Pushbutton 07",
+      ["name"] = "Right MDI PB 7",
     },
     ["d3018pnilu3018cd36vd1vpnilvu0"] = {
       ["added"] = {
         [1] = { ["key"] = "JOY_BTN8" },
       },
-      ["name"] = "Right DDI Pushbutton 08",
+      ["name"] = "Right MDI PB 8",
     },
     ["d3019pnilu3019cd36vd1vpnilvu0"] = {
       ["added"] = {
         [1] = { ["key"] = "JOY_BTN9" },
       },
-      ["name"] = "Right DDI Pushbutton 09",
+      ["name"] = "Right MDI PB 9",
     },
     ["d3020pnilu3020cd36vd1vpnilvu0"] = {
       ["added"] = {
         [1] = { ["key"] = "JOY_BTN10" },
       },
-      ["name"] = "Right DDI Pushbutton 10",
+      ["name"] = "Right MDI PB 10",
     },
     ["d3021pnilu3021cd36vd1vpnilvu0"] = {
       ["added"] = {
         [1] = { ["key"] = "JOY_BTN11" },
       },
-      ["name"] = "Right DDI Pushbutton 11",
+      ["name"] = "Right MDI PB 11",
     },
     ["d3022pnilu3022cd36vd1vpnilvu0"] = {
       ["added"] = {
         [1] = { ["key"] = "JOY_BTN12" },
       },
-      ["name"] = "Right DDI Pushbutton 12",
+      ["name"] = "Right MDI PB 12",
     },
     ["d3023pnilu3023cd36vd1vpnilvu0"] = {
       ["added"] = {
         [1] = { ["key"] = "JOY_BTN13" },
       },
-      ["name"] = "Right DDI Pushbutton 13",
+      ["name"] = "Right MDI PB 13",
     },
     ["d3024pnilu3024cd36vd1vpnilvu0"] = {
       ["added"] = {
         [1] = { ["key"] = "JOY_BTN14" },
       },
-      ["name"] = "Right DDI Pushbutton 14",
+      ["name"] = "Right MDI PB 14",
     },
     ["d3025pnilu3025cd36vd1vpnilvu0"] = {
       ["added"] = {
         [1] = { ["key"] = "JOY_BTN15" },
       },
-      ["name"] = "Right DDI Pushbutton 15",
+      ["name"] = "Right MDI PB 15",
     },
     ["d3026pnilu3026cd36vd1vpnilvu0"] = {
       ["added"] = {
         [1] = { ["key"] = "JOY_BTN16" },
       },
-      ["name"] = "Right DDI Pushbutton 16",
+      ["name"] = "Right MDI PB 16",
     },
     ["d3027pnilu3027cd36vd1vpnilvu0"] = {
       ["added"] = {
         [1] = { ["key"] = "JOY_BTN17" },
       },
-      ["name"] = "Right DDI Pushbutton 17",
+      ["name"] = "Right MDI PB 17",
     },
     ["d3028pnilu3028cd36vd1vpnilvu0"] = {
       ["added"] = {
         [1] = { ["key"] = "JOY_BTN18" },
       },
-      ["name"] = "Right DDI Pushbutton 18",
+      ["name"] = "Right MDI PB 18",
     },
     ["d3029pnilu3029cd36vd1vpnilvu0"] = {
       ["added"] = {
         [1] = { ["key"] = "JOY_BTN19" },
       },
-      ["name"] = "Right DDI Pushbutton 19",
+      ["name"] = "Right MDI PB 19",
     },
     ["d3030pnilu3030cd36vd1vpnilvu0"] = {
       ["added"] = {
         [1] = { ["key"] = "JOY_BTN20" },
       },
-      ["name"] = "Right DDI Pushbutton 20",
+      ["name"] = "Right MDI PB 20",
     },
     ["d3006pnilunilcd2vd0vpnilvunil"] = {
       ["added"] = {

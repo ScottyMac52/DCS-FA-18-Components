@@ -1,16 +1,10 @@
 local diff = {
   ["keyDiffs"] = {
-    ["d3001pnilu3001cd13vd1vpnilvu0"] = {
-      ["added"] = {
-        [1] = { ["key"] = "JOY_BTN1" },
-      },
-      ["name"] = "Gun Trigger - First Stage",
-    },
     ["d3002pnilu3002cd13vd1vpnilvu0"] = {
       ["added"] = {
         [1] = { ["key"] = "JOY_BTN6" },
       },
-      ["name"] = "Gun Trigger - Second Stage",
+      ["name"] = "Gun Trigger - SECOND DETENT (Press to shoot)",
     },
     ["d3003pnilu3003cd13vd1vpnilvu0"] = {
       ["added"] = {
@@ -22,7 +16,7 @@ local diff = {
       ["added"] = {
         [1] = { ["key"] = "JOY_BTN1", ["reformers"] = { [1] = "MOZA_F16_F18_BTN3" } },
       },
-      ["name"] = "Nose Wheel Steering (NWS) / Undesignate",
+      ["name"] = "RECCE Event Mark Switch",
     },
     ["d3005pnilu3005cd13vd1vpnilvu0"] = {
       ["added"] = {
@@ -40,55 +34,43 @@ local diff = {
       ["added"] = {
         [1] = { ["key"] = "JOY_BTN8" },
       },
-      ["name"] = "Sensor Control Switch - Right",
+      ["name"] = "Sensor Control Switch - Left",
     },
     ["d3008pnilu3008cd13vd1vpnilvu0"] = {
       ["added"] = {
         [1] = { ["key"] = "JOY_BTN10" },
       },
-      ["name"] = "Sensor Control Switch - Left",
+      ["name"] = "Sensor Control Switch - Right",
     },
     ["d3009pnilu3009cd13vd1vpnilvu0"] = {
       ["added"] = {
         [1] = { ["key"] = "JOY_BTN14" },
       },
-      ["name"] = "Sensor Control Switch - Depress",
+      ["name"] = "Select Sparrow",
     },
     ["d3010pnilu3010cd13vd1vpnilvu0"] = {
       ["added"] = {
         [1] = { ["key"] = "JOY_BTN15" },
       },
-      ["name"] = "Weapon Select Switch - Fwd",
+      ["name"] = "Select Gun",
     },
     ["d3011pnilu3011cd13vd1vpnilvu0"] = {
       ["added"] = {
         [1] = { ["key"] = "JOY_BTN16" },
       },
-      ["name"] = "Weapon Select Switch - Right",
+      ["name"] = "Select AMRAAM",
     },
     ["d3012pnilu3012cd13vd1vpnilvu0"] = {
       ["added"] = {
         [1] = { ["key"] = "JOY_BTN17" },
       },
-      ["name"] = "Weapon Select Switch - Aft",
+      ["name"] = "Select Sidewinder",
     },
     ["d3013pnilu3013cd13vd1vpnilvu0"] = {
       ["added"] = {
         [1] = { ["key"] = "JOY_BTN18" },
       },
-      ["name"] = "Weapon Select Switch - Left",
-    },
-    ["d3014pnilu3014cd13vd1vpnilvu0"] = {
-      ["added"] = {
-        [1] = { ["key"] = "JOY_BTN19" },
-      },
-      ["name"] = "Weapon Select Switch - Depress",
-    },
-    ["d3015pnilu3015cd13vd1vpnilvu0"] = {
-      ["added"] = {
-        [1] = { ["key"] = "JOY_BTN5" },
-      },
-      ["name"] = "RECCE Event Mark Switch",
+      ["name"] = "Undesignate/Nose Wheel Steer Switch",
     },
     ["d3018pnilu3018cd13vd1vpnilvu0"] = {
       ["added"] = {
@@ -100,23 +82,11 @@ local diff = {
       ["added"] = {
         [1] = { ["key"] = "JOY_BTN_POV1_D" },
       },
-      ["name"] = "Trimmer Switch - NOSE UP",
+      ["name"] = "Trimmer Switch - LEFT WING DOWN",
     },
     ["dnilp3017u3017cd13vdnilvp1vu0"] = {
       ["added"] = {
         [1] = { ["key"] = "JOY_BTN_POV1_U" },
-      },
-      ["name"] = "Trimmer Switch - NOSE DOWN",
-    },
-    ["dnilp3018u3018cd13vdnilvp1vu0"] = {
-      ["added"] = {
-        [1] = { ["key"] = "JOY_BTN_POV1_L" },
-      },
-      ["name"] = "Trimmer Switch - LEFT WING DOWN",
-    },
-    ["dnilp3019u3019cd13vdnilvp1vu0"] = {
-      ["added"] = {
-        [1] = { ["key"] = "JOY_BTN_POV1_R" },
       },
       ["name"] = "Trimmer Switch - RIGHT WING DOWN",
     },
@@ -124,19 +94,19 @@ local diff = {
       ["added"] = {
         [1] = { ["key"] = "JOY_BTN11" },
       },
-      ["name"] = "FLIR Switch - ON/STBY",
+      ["name"] = "FLIR 3-pos Switch: ONSTBY",
     },
     ["d3001pnilu3001cd62vd-1vpnilvu0"] = {
       ["added"] = {
         [1] = { ["key"] = "JOY_BTN13" },
       },
-      ["name"] = "FLIR Switch - OFF/STBY",
+      ["name"] = "FLIR 3-pos Switch: OFFSTBY",
     },
     ["d3003pnilu3003cd62vd1vpnilvu0"] = {
       ["added"] = {
         [1] = { ["key"] = "JOY_BTN12" },
       },
-      ["name"] = "LST/NFLR Switch (special) - ON/OFF",
+      ["name"] = "LST/NFLR 3-pos Switch: ONOFF",
     },
     ["d3034pnilu3034cd13vd1vpnilvu0"] = {
       ["added"] = {
@@ -155,54 +125,6 @@ local diff = {
         [1] = { ["key"] = "JOY_BTN16", ["reformers"] = { [1] = "MOZA_F16_F18_BTN3" } },
       },
       ["name"] = "FLIR Switch - OFF",
-    },
-    ["dnilp212u214cdnilvdnilvpnilvunil"] = {
-      ["added"] = {
-        [1] = { ["key"] = "JOY_POV1_DL", ["reformers"] = { [1] = "MOZA_F16_F18_BTN3" } },
-      },
-      ["name"] = "View Down Left slow",
-    },
-    ["dnilp211u214cdnilvdnilvpnilvunil"] = {
-      ["added"] = {
-        [1] = { ["key"] = "JOY_POV1_DR", ["reformers"] = { [1] = "MOZA_F16_F18_BTN3" } },
-      },
-      ["name"] = "View Down Right slow",
-    },
-    ["dnilp35u214cdnilvdnilvpnilvunil"] = {
-      ["added"] = {
-        [1] = { ["key"] = "JOY_POV1_D", ["reformers"] = { [1] = "MOZA_F16_F18_BTN3" } },
-      },
-      ["name"] = "View Down slow",
-    },
-    ["dnilp32u214cdnilvdnilvpnilvunil"] = {
-      ["added"] = {
-        [1] = { ["key"] = "JOY_POV1_L", ["reformers"] = { [1] = "MOZA_F16_F18_BTN3" } },
-      },
-      ["name"] = "View Left slow",
-    },
-    ["dnilp33u214cdnilvdnilvpnilvunil"] = {
-      ["added"] = {
-        [1] = { ["key"] = "JOY_POV1_R", ["reformers"] = { [1] = "MOZA_F16_F18_BTN3" } },
-      },
-      ["name"] = "View Right slow",
-    },
-    ["dnilp213u214cdnilvdnilvpnilvunil"] = {
-      ["added"] = {
-        [1] = { ["key"] = "JOY_POV1_UL", ["reformers"] = { [1] = "MOZA_F16_F18_BTN3" } },
-      },
-      ["name"] = "View Up Left slow",
-    },
-    ["dnilp210u214cdnilvdnilvpnilvunil"] = {
-      ["added"] = {
-        [1] = { ["key"] = "JOY_POV1_UR", ["reformers"] = { [1] = "MOZA_F16_F18_BTN3" } },
-      },
-      ["name"] = "View Up Right slow",
-    },
-    ["dnilp34u214cdnilvdnilvpnilvunil"] = {
-      ["added"] = {
-        [1] = { ["key"] = "JOY_POV1_U", ["reformers"] = { [1] = "MOZA_F16_F18_BTN3" } },
-      },
-      ["name"] = "View Up slow",
     },
     ["d7pnilunilcdnilvdnilvpnilvunil"] = {
       ["added"] = {
@@ -232,19 +154,19 @@ local diff = {
       ["added"] = {
         [1] = { ["key"] = "JOY_BTN11", ["reformers"] = { [1] = "MOZA_F16_F18_BTN3" } },
       },
-      ["name"] = "STROBE Lights Switch - BRT/OFF",
+      ["name"] = "STROBE Lights 3-pos Switch: BRTOFF",
     },
     ["d3003pnilu3003cd8vd-1vpnilvu0"] = {
       ["added"] = {
         [1] = { ["key"] = "JOY_BTN13", ["reformers"] = { [1] = "MOZA_F16_F18_BTN3" } },
       },
-      ["name"] = "STROBE Lights Switch - DIM/OFF",
+      ["name"] = "STROBE Lights 3-pos Switch: DIMOFF",
     },
     ["d3003pnilu3003cd23vd1vpnilvu0"] = {
       ["added"] = {
         [1] = { ["key"] = "JOY_BTN12", ["reformers"] = { [1] = "MOZA_F16_F18_BTN3" } },
       },
-      ["name"] = "Master Arm Switch (special) - ARM/SAFE",
+      ["name"] = "Master Arm Switch: ARMSAFE",
     },
   },
   ["axisDiffs"] = {
@@ -264,13 +186,13 @@ local diff = {
       ["added"] = {
         [1] = { ["key"] = "JOY_X", ["reformers"] = { [1] = "MOZA_F16_F18_BTN3" } },
       },
-      ["name"] = "Throttle Designator Controller - Horizontal Axis",
+      ["name"] = "Throttle Designator Controller - HORIZONTAL AXIS",
     },
     ["a3043cd13"] = {
       ["added"] = {
         [1] = { ["key"] = "JOY_Y", ["reformers"] = { [1] = "MOZA_F16_F18_BTN3" } },
       },
-      ["name"] = "Throttle Designator Controller - Vertical Axis",
+      ["name"] = "Throttle Designator Controller - VERTICAL AXIS",
     },
   },
 }
